@@ -2,6 +2,58 @@
 
 文章、教程、课程、通讯和其他学习资料。
 
+## 2026-08
+
+### [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+- 发现：2026-08-31
+- 一句话：汇集清单、手册、速查表与工具链接的运维与安全学习资源合集。
+- 摘要：仓库把作者日常工作中用到的资料集中整理，涵盖系统与网络管理、DevOps、渗透测试与安全研究等主题。内容包括博客、技巧、单行命令、命令行与网页工具等，并欢迎社区贡献与校对。
+- 标签：`awesome` `运维` `安全` `速查` `学习资源`
+- 来源：GitHub Star
+
+### [Awesome Resume](https://github.com/resumejob/awesome-resume)
+- 发现：2026-08-29
+- 一句话：程序员简历与求职信的中英文例句与模板合集。
+- 摘要：仓库整理专业地道的简历用语，含个人简介、项目经历与 Cover Letter 示例，并提供中英文对照与排版检查清单。面向海外求职场景，可与作者其他面试与算法学习资源配套使用。
+- 标签：`简历` `求职` `例句` `中英文` `程序员`
+- 来源：GitHub Star
+
+### [AI Agents - The Definitive Guide](https://github.com/Nicolepcx/ai-agents-the-definitive-guide)
+- 发现：2026-08-29
+- 一句话：O'Reilly 图书《AI Agents - The Definitive Guide》的配套示例代码仓库。
+- 摘要：仓库按章节组织 Jupyter Notebook，对应从 LLM 到智能体架构、规划推理、生产部署、安全治理与评测等主题。书配有网站测验、Discord 频道与 Amazon 发行信息，代码以 CH 加章节号分文件夹存放。
+- 标签：`教程` `智能体` `O'Reilly` `Jupyter` `书籍配套`
+- 来源：GitHub Star
+
+### [system-design-notes](https://github.com/liquidslr/system-design-notes)
+- 发现：2026-08-29
+- 一句话：基于《System Design Interview》两卷的系统设计面试学习笔记。
+- 摘要：笔记覆盖从零到百万用户、限流、一致性哈希、键值存储、短链、爬虫、消息队列与支付等经典设计题章节。内容托管在 pagefy 站点，仓库标明仍在持续完善中。
+- 标签：`系统设计` `面试` `笔记` `ByteByteGo` `学习资料`
+- 来源：GitHub Star
+
+### [Awesome CLI Coding Agents](https://github.com/bradAGI/awesome-cli-coding-agents)
+- 发现：2026-08-14
+- 一句话：终端原生 AI 编码智能体及其 harness、并行运行与自主循环基础设施的精选清单。
+- 摘要：本仓库 curated 一百三十余个在终端读写仓库并执行命令的 CLI 编码智能体，以及编排、沙箱与扩展它们的 harness 类项目。内容按开源终端智能体、OpenClaw 生态、闭源工具，以及会话管理、编排循环与智能体基础设施等章节组织。适合对照选型与发现相关生态项目。
+- 标签：`awesome` `CLI` `编码智能体` `清单` `harness`
+- 来源：GitHub Star
+
+### [Learning-in-practice](https://github.com/Romantic-Lei/Learning-in-practice)
+- 发现：2026-08-12
+- 一句话：名为 learning 的练习仓库，公开说明很少。
+- 摘要：仓库标题是 Learning-in-practice，描述只有 learning。README 没有写出课程结构、技术栈或学习路线。
+- 标签：`学习` `练习`
+- 来源：GitHub Star
+
+### [前线部署工程师：人工智能时代的客户价值交付秘籍](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer)
+- 发现：2026-08-01
+- 一句话：范冰撰写的 FDE 入门与实践指南，免费公开全文。
+- 摘要：本书围绕前沿部署工程师角色，结合 Palantir 实践、招聘趋势与 MIT GenAI 报告等一手材料，说明 FDE 的定义、在 AI 时代为何升温，以及从找对问题到规模化复制的交付路径。正文按章节在仓库与 fde4.ai 官网同步发布，并附案例索引与资料出处附录。作者声明供免费阅读与非商业分享，商业用途需书面许可。
+- 标签：`FDE` `书籍` `企业AI落地` `范冰`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [Creative Portfolios](https://github.com/iRaul/creative-portfolios)

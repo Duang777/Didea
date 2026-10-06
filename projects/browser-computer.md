@@ -2,6 +2,23 @@
 
 让智能体操作浏览器、桌面或整台电脑的项目。
 
+## 2026-08
+
+### [mobile-use](https://github.com/minitap-ai/mobile-use)
+- 发现：2026-08-14
+- 一句话：开源 AI 智能体，用自然语言操控真实 Android 或 iOS 设备界面完成任务与数据采集。
+- 摘要：mobile-use 理解自然语言指令并基于无障碍树等方式与 App UI 交互，可用于发消息、导航复杂应用或按描述抽取结构化数据。支持配置 OpenAI、Google、xAI、OpenRouter、MiniMax 等多种 LLM 驱动内部智能体。可在本机 Android 或 iOS 设备上运行，并提供 MCP 文档入口。
+- 标签：`移动自动化` `Android` `iOS` `自然语言` `Python`
+- 来源：GitHub Star
+
+### [Moli](https://github.com/lexmount/moli)
+- 发现：2026-08-13
+- 一句话：面向 AI 智能体的生产级 Rust 无头浏览器，轻量高速，支持 CLI、CDP 与 WebDriver。
+- 摘要：Moli 采用按需布局与渲染，在较小资源占用下提供完整浏览器运行时，帮助智能体抓取网页、搜索与自动化浏览任务。支持 Linux、macOS、Windows，可通过 CLI、CDP、WebDriver Classic 或 WebDriver BiDi 使用。仓库内 skills 可指导智能体安装预编译二进制并用 moli-webfetch 拉取页面。
+- 标签：`无头浏览器` `Rust` `网页抓取` `CDP` `智能体`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [AppAgent](https://github.com/TencentQQGYLab/AppAgent)

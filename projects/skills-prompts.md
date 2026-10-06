@@ -2,6 +2,86 @@
 
 可复用的技能、提示词和仓库规则。
 
+## 2026-08
+
+### [skills（emilkowalski）](https://github.com/emilkowalski/skills)
+- 发现：2026-08-30
+- 一句话：面向设计师与工程师的界面与动效技能包，帮助智能体做出更好的 UI 决策。
+- 摘要：仓库收录动画曲线、时长、边框与阴影等界面细节相关的可安装技能，基于作者在 Vercel、Linear 等团队的实践经验。智能体可通过 npx skills 安装，减少动效与视觉选择上的常见失误。
+- 标签：`技能` `UI` `动效` `设计` `前端`
+- 来源：GitHub Star
+
+### [reverse-skill](https://github.com/zhaoxuya520/reverse-skill)
+- 发现：2026-08-30
+- 一句话：面向逆向、授权渗透与安全研究的智能体技能路由与工具链自举包。
+- 摘要：reverse-skill 在智能体遇到 APK、二进制、前端加密或渗透目标时，按规则路由到对应方法论，检查工具并按可重复流程执行。支持 Claude Code、Cursor、Cline 等客户端，含主路由、场景技能与经验库结构。
+- 标签：`安全` `逆向` `渗透` `技能路由` `Claude Code`
+- 来源：GitHub Star
+
+### [Understand Anything](https://github.com/Egonex-AI/Understand-Anything)
+- 发现：2026-08-28
+- 一句话：把代码库或文档变成可探索、可检索、可问答的交互式知识图谱插件。
+- 摘要：Understand Anything 作为 Claude Code 等环境的插件，用多智能体流水线分析项目并构建文件、函数、类与依赖的知识图谱，再提供可视化仪表盘浏览与提问。强调用图谱教学式理解结构，而非仅展示复杂度，并支持业务逻辑视图。
+- 标签：`知识图谱` `代码库分析` `Claude Code` `技能` `开发者工具`
+- 来源：GitHub Star
+
+### [Lieflat Less AI Tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone)
+- 发现：2026-08-23
+- 一句话：基于大规模中文语料统计、用于去除 AI 文风的去 AI 味技能。
+- 摘要：技能以对照语料检验常见 AI 文风特征在生成文本与人类文本中的频率差异，并给出可复算的改写指引。研究覆盖多模型生成样本与人类写作文本，部分特征与流行认知方向相反。可在 MoxtHub 等平台作为技能安装使用。
+- 标签：`技能` `中文写作` `语料研究` `去 AI 味` `文体`
+- 来源：GitHub Star
+
+### [Diagram Design](https://github.com/cathrynlavery/diagram-design)
+- 发现：2026-08-20
+- 一句话：面向 Claude Code、Codex 等宿主的多类型编辑风示意图技能，输出自包含 HTML 与 SVG。
+- 摘要：Diagram Design 提供数十种编辑级示意图类型，避免通用圆角框与粗糙 Mermaid 风格，默认生成静态 HTML 与 SVG。语义模式将行为与版式分离，可将 draw.io、Mermaid 或 Excalidraw 源按指定格式重绘。兼容 Agent Skills 类宿主，可选有序动效说明。
+- 标签：`diagram` `SVG` `技能` `数据可视化` `Claude Code`
+- 来源：GitHub Star
+
+### [video-use](https://github.com/browser-use/video-use)
+- 发现：2026-08-15
+- 一句话：供 Claude Code 等编码智能体使用的开源视频剪辑技能包，用对话把素材文件夹剪成成片。
+- 摘要：video-use 让你把原始素材放入文件夹，通过与 Claude Code 等带 shell 的智能体对话生成 final.mp4。可剪除口头禅与停顿、自动调色、烧录字幕，并通过子智能体并行生成 Remotion、Manim 等动画叠加。安装流程由智能体读取 install.md 与 SKILL.md 完成依赖、ffmpeg 与技能注册。
+- 标签：`视频剪辑` `技能` `Claude Code` `ffmpeg` `开源`
+- 来源：GitHub Star
+
+### [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)
+- 发现：2026-08-15
+- 一句话：面向 Claude Code 与 Codex 的智能体技能，用 Remotion 制作电影感产品宣传视频。
+- 摘要：video-shotcraft 将编码智能体变成动效工作室：指向产品即可分镜、动画与音效设计，基于 Remotion 输出宣传片、发布片或 demo。内置大量镜头配方卡与动效预览，并提供可生产的模板工程。属于面向 narration 的姊妹项目 video-talkcraft 同一系列。
+- 标签：`Remotion` `产品视频` `技能` `动效` `Claude Code`
+- 来源：GitHub Star
+
+### [GC Minimal Zine Poster](https://github.com/LiamGvchi/gc-minimal-zine-poster)
+- 发现：2026-08-15
+- 一句话：Codex 技能：把主题、句子或参考图编译成极简 zine 风竖版海报提示词或图像。
+- 摘要：Minimal Zine Poster 将输入转为稀疏纸质感编辑海报、可生产的图像提示词或可复用视觉系统。默认可视包含 3:5 旧纸画布、大量留白、单一主体与高饱和点缀色，并避免商业广告版式与霓虹等风格。技能包不含脚本或外部 API 密钥，生成质量依赖宿主环境模型。
+- 标签：`Codex` `海报` `图像生成` `zine` `技能`
+- 来源：GitHub Star
+
+### [Lieflat Charts](https://github.com/larashero3-dotcom/lieflat-charts)
+- 发现：2026-08-12
+- 一句话：符合 Agent Skills 格式的数据可视化技能，将数据生成统一视觉语法的可交互 HTML 图表与报告。
+- 摘要：Lieflat Charts 可供 moxt、Claude Code、Codex 等读取 SKILL.md 的宿主使用，默认输出编辑感图表，并在用户明确要求时从中英文整页模板生成 HTML 报告。提供 Lupi、Glance、Basics 等视觉风格与 Mono 或多种彩色色系，强调可数单位、留白与动效一致的版式。在 moxt.ai 制作。
+- 标签：`数据可视化` `技能` `HTML 图表` `Agent Skills` `moxt`
+- 来源：GitHub Star
+
+### [design-dna](https://github.com/zanwei/design-dna)
+- 发现：2026-08-11
+- 一句话：智能体技能：从参考界面截图或 URL 提取可机读的 Design DNA JSON，再按 DNA 生成匹配界面。
+- 摘要：design-dna 在 design tokens、定性风格与视觉特效三个维度结构化视觉身份。工作流包含展示 schema、从参考分析完整 JSON，以及据 DNA 与内容生成自包含 HTML/CSS/JS 界面。可通过 npx skills add 安装到 Cursor、Claude Code 等兼容 Skills CLI 的宿主。
+- 标签：`设计系统` `技能` `design tokens` `UI` `Agent Skills`
+- 来源：GitHub Star
+
+### [拙趣儿童简笔画 · Childlike Sketch Transformation](https://github.com/Zuo1204/childlike-sketch-skill)
+- 发现：2026-08-01
+- 一句话：将产品照片转为幼童视角稚拙黑白线稿的 AI 绘图 skill。
+- 摘要：该 skill 把产品照片转化为 2 至 3 岁幼童视角的黑白线稿，强调纯黑线条与白底、无灰阶，并通过比例失真与手绘抖动模拟稚拙感。README 说明可将 SKILL.md 与产品图一并交给支持自定义 skill 的 AI 绘图 agent 使用。并规定单件或多单元产品应作为完整视觉主体输出，禁止拆成多张局部图。
+- 标签：`skill` `绘图` `线稿` `产品设计`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [Claude Design System Prompt](https://github.com/Trystan-SA/claude-design-system-prompt)

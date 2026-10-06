@@ -11,6 +11,30 @@ UI 组件库、动效和设计工具。
 - 标签：`前端` `React` `动效` `插画` `skills`
 
 
+## 2026-08
+
+### [AgentPrism](https://github.com/evilmartians/agent-prism)
+- 发现：2026-08-31
+- 一句话：用于可视化 AI 智能体追踪数据的 React 组件库。
+- 摘要：AgentPrism 提供开源 React 组件，把智能体追踪中的 JSON 转为分层时间线与可视化界面，便于调试计划、工具调用与重试。可接入 OpenTelemetry 数据，包含 TraceViewer 等开箱组件。库处于 Alpha，API 可能变动。
+- 标签：`React` `可观测性` `追踪可视化` `OpenTelemetry` `UI 组件`
+- 来源：GitHub Star
+
+### [ThreeUI Community](https://github.com/MengTo/threeui)
+- 发现：2026-08-23
+- 一句话：开源 Three.js 交互 UI 组件目录与完整社区版源码。
+- 摘要：ThreeUI Community 是无需登录的 ThreeUI 开源版本，沿用主站的浏览、搜索、主题、组件页、实时渲染器与源码标签等壳层。目录仅含社区免费组件与变体，可本地 npm 安装运行，亦可安装公开的 React 组件包。
+- 标签：`Three.js` `WebGL` `React` `UI 组件` `着色器`
+- 来源：GitHub Star
+
+### [Agent Elements](https://github.com/21st-dev/agent-elements)
+- 发现：2026-08-12
+- 一句话：面向聊天、工具调用与 AI 工作流的即用 React 组件库，兼容 shadcn 注册表与 Vercel AI SDK。
+- 摘要：Agent Elements 提供 AgentChat 外壳、多种工具卡片、澄清问题组件、输入栏与流式 Markdown 等共二十六个组件。基于 React 19、Tailwind v4 与 Vercel AI SDK，可通过 shadcn CLI 从注册表按需拉取到 components/agent-elements。适合快速搭建智能体对话界面与工具渲染。
+- 标签：`React` `组件库` `AI SDK` `聊天 UI` `shadcn`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [Maple Mono](https://github.com/subframe7536/maple-font)

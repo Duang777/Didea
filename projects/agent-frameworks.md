@@ -2,6 +2,128 @@
 
 多智能体框架、编排层和工作流运行时。
 
+## 2026-08
+
+### [OpenHuman](https://github.com/tinyhumansai/openhuman)
+- 发现：2026-08-27
+- 一句话：以 Rust 为核心的开源智能体 harness，轻量模块化并可插接多种大模型。
+- 摘要：OpenHuman 是开源智能体 harness，强调本地优先、隐私与可扩展。提供桌面体验，可接入 MCP，适合作为个人 AI 助手与第二大脑的运行底座。项目自称在效率与成本上针对通用 harness 场景做了优化。
+- 标签：`Rust` `harness` `本地优先` `MCP` `个人 AI`
+- 来源：GitHub Star
+
+### [FrontierAgent](https://github.com/ApodexAI/FrontierAgent)
+- 发现：2026-08-27
+- 一句话：面向长程研究与文件型工作的开源智能体运行时、终端产品与评测套件。
+- 摘要：FrontierAgent 提供 frontier-agent 终端界面，内置 ReAct 单智能体与 Agent Team 协调多子任务两种工作流。同一引擎也用于官方基准评测，框架、工具与工作流层彼此解耦可复用。支持 macOS 与 Linux 一条命令安装。
+- 标签：`智能体框架` `TUI` `ReAct` `多智能体` `评测`
+- 来源：GitHub Star
+
+### [OMA](https://github.com/open-multi-agent/open-multi-agent)
+- 发现：2026-08-25
+- 一句话：可自托管的 TypeScript 智能体运行时，强调持久审批与可离线校验的运行记录。
+- 摘要：OMA 面向组织自托管部署，关键操作需经持久、可防篡改的审批，每次运行留下可字节级离线验证的记录。无遥测与托管控制面，模型可用云端或本地推理。可通过 npm create oma-app 脚手架创建 PR 审查或教学等入门智能体。
+- 标签：`自托管` `审批` `审计` `TypeScript` `企业`
+- 来源：GitHub Star
+
+### [E.D.D.I](https://github.com/labsai/EDDI)
+- 发现：2026-08-25
+- 一句话：用 JSON 配置驱动、面向对话式 AI 的多智能体编排中间件。
+- 摘要：E.D.D.I 是生产级可配置多智能体编排中间件，通过智能路由、持久记忆与 API 编排连接用户、智能体与业务系统而无需手写编排代码。基于 Java 与 Quarkus，内置管理台与聊天界面，支持 MCP、A2A、RAG 与多种 LLM 提供方。
+- 标签：`Java` `多智能体` `对话` `MCP` `Quarkus`
+- 来源：GitHub Star
+
+### [OpenSRE](https://github.com/Tracer-Cloud/opensre)
+- 发现：2026-08-24
+- 一句话：用于自建 AI SRE 智能体的开源工具包与训练评测环境。
+- 摘要：OpenSRE 帮助团队连接现有运维与可观测工具，自定义工作流并在自有基础设施上回答生产问题。提供 CLI 安装与本地启动方式，整合告警、根因分析与事件处理等 SRE 场景能力。项目处于公开 Alpha，API 可能继续演进。
+- 标签：`SRE` `运维` `智能体` `可观测性` `开源`
+- 来源：GitHub Star
+
+### [OpenBot](https://github.com/CopilotKit/OpenBot)
+- 发现：2026-08-23
+- 一句话：可自托管的 AI 同事模板：每位同事拥有独立浏览器、文件与工具，动作事前决策、事后留痕，兼容 AG-UI 智能体。
+- 摘要：OpenBot 形态接近常见聊天助手，但设计为在你自己的基础设施上运行并可深度定制。每位同事拥有真实浏览器、独立登录与受控工具，支持通过 AG-UI 接入任意智能体栈。仓库定位为可克隆改造的起步模板而非托管产品，需在本地自行部署与配置。
+- 标签：`AG-UI` `自托管` `浏览器自动化` `智能体治理` `TypeScript`
+- 来源：GitHub Star
+
+### [QM](https://github.com/yc-software/qm)
+- 发现：2026-08-22
+- 一句话：面向团队协作的多人智能体 harness，支持 Slack 与 Web，可在自有云环境部署并切换多种底层编码智能体。
+- 摘要：QM 为初创团队设计：员工拥有隔离工作区，也可在频道、群聊与项目中与同一智能体协作。每人与每个房间具备独立的作用域记忆、文件、权限、定时任务与持久沙箱。可接入 Pi、OpenCode、Codex、Claude Code 等 harness，组织级可配置可用模型与安全策略。
+- 标签：`Slack` `多人协作` `harness` `自托管` `技能`
+- 来源：GitHub Star
+
+### [AstrBot](https://github.com/AstrBotDevs/AstrBot)
+- 发现：2026-08-18
+- 一句话：开源一体化智能体聊天机器人平台，对接多种即时通讯应用与 LLM，支持插件、MCP 与知识库。
+- 摘要：AstrBot 为个人、开发者与团队提供可扩展的对话式 AI 基础设施，可快速在 IM 工作流中搭建生产级应用。支持多模态对话、Agent、MCP、Skills、知识库、人设与自动上下文压缩。可对接 QQ、企业微信、飞书、钉钉、Telegram、Slack 等多平台，并集成 Dify、阿里云百炼、Coze 等外部智能体平台。
+- 标签：`聊天机器人` `IM` `插件` `MCP` `Python`
+- 来源：GitHub Star
+
+### [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)
+- 发现：2026-08-14
+- 一句话：面向自主 AI 智能体的治理工具包：策略执行、零信任身份、沙箱与可靠性工程，覆盖 OWASP Agentic Top 10。
+- 摘要：Agent Governance Toolkit 通过 pip 安装，可与任意智能体框架配合，回答动作是否允许、哪一智能体执行、以及如何防篡改审计。提供策略引擎、身份与执行沙箱等控制面，而非仅依赖提示词层面的安全请求。当前为公开预览阶段，GA 前可能有破坏性变更。
+- 标签：`治理` `安全` `策略` `Python` `微软`
+- 来源：GitHub Star
+
+### [Mastra](https://github.com/mastra-ai/mastra)
+- 发现：2026-08-13
+- 一句话：现代 TypeScript 框架，用于构建 AI 应用与智能体，含模型路由、工作流、记忆与评测能力。
+- 摘要：Mastra 帮助团队从原型到生产构建可靠的 AI 产品与智能体，可嵌入 React、Next.js、Node 或独立部署。提供统一模型路由、自主智能体、图式工作流、人机协同挂起恢复，以及对话历史、RAG 与 Observational Memory 等上下文管理。集成 MCP、评测与多种前端智能体 UI 库。
+- 标签：`TypeScript` `工作流` `智能体` `评测` `MCP`
+- 来源：GitHub Star
+
+### [Semantica](https://github.com/semantica-agi/semantica)
+- 发现：2026-08-12
+- 一句话：面向上下文与可问责 AI 的图原生基础设施：摄入数据、构建知识图并做确定性推理与溯源。
+- 摘要：Semantica 帮助开发者将企业数据转为上下文图与知识图，并在其上运行图分析与因果推理，强调决策溯源与可解释性。支持多语言图存储、RDF 与 LPG 及 W3C 相关标准，可通过 pip install semantica 使用。定位为开源、可治理的知识基础设施，面向高监管场景。
+- 标签：`知识图谱` `上下文工程` `RAG` `Python` `可解释 AI`
+- 来源：GitHub Star
+
+### [Shepherd](https://github.com/shepherd-agents/shepherd)
+- 发现：2026-08-10
+- 一句话：将智能体执行记录为可逆、可分叉 Git 式追踪的运行时基底，供元智能体观察、回放与回滚。
+- 摘要：Shepherd 为需要检查、可逆与监督的智能体工作提供 durable 执行追踪，并保留工作区产出供审阅后再应用或丢弃。任务体可以是沙箱化智能体，其改动以可审提案形式返回，接受前不写入你的文件。在 macOS 与 Linux 上执行 OS 级权限约束，要求 Python 3.11 以上。
+- 标签：`元智能体` `可逆执行` `沙箱` `追踪` `Python`
+- 来源：GitHub Star
+
+### [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)
+- 发现：2026-08-03
+- 一句话：可用单个 Rust 二进制配置运行的个人 AI 助手智能体运行时。
+- 摘要：ZeroClaw 是智能体运行时，以单个 Rust 二进制形式配置并运行。它连接多家大模型提供商，经 Discord、Telegram、Matrix、邮件、语音、Webhook 与 CLI 等渠道对外交互，并通过 Shell、浏览器、HTTP、硬件与自定义 MCP 等工具执行动作。一切可在本机、使用自有密钥与工作区运行。
+- 标签：`智能体运行时` `Rust` `自托管` `MCP` `多渠道`
+- 来源：GitHub Star
+
+### [GoRaven](https://github.com/8treenet/goraven)
+- 发现：2026-08-02
+- 一句话：面向团队的开源自托管 AI Harness，为成员提供独立智能体工作区。
+- 摘要：GoRaven 为团队每人提供隔离的智能体工作区，智能体可读文件、写代码、跑命令、调 API、检索知识库并交付结果而非仅聊天。支持团队共享项目与技能库，管理员可管控模型配额、工具权限与数据访问。可 Docker 一键自托管，并接入 MCP 工具链与 RAG 知识。
+- 标签：`自托管` `团队` `Harness` `RAG` `技能市场`
+- 来源：GitHub Star
+
+### [NanZi](https://github.com/RandyChen1985/nanzi-ai-agent-platform)
+- 发现：2026-08-02
+- 一句话：面向企业场景的开源多智能体编排与 ChatBI 平台。
+- 摘要：NanZi 智能体平台聚焦企业级对话协作、多 Agent 编排与工具调用，并提供 RAG 知识库、长期记忆与 Redis 会话引擎。平台支持 Local、Docker、K8s、E2B、SSH 等多策略代码沙箱，以及持久化浏览器会话与企业级 ChatBI 数据洞察。同时提供 MCP 双向集成、Embed 挂件与 RBAC 权限管控。
+- 标签：`企业级` `多智能体` `ChatBI` `RAG` `沙箱`
+- 来源：GitHub Star
+
+### [Open Mercato](https://github.com/open-mercato/open-mercato)
+- 发现：2026-08-02
+- 一句话：面向 CRM 与 ERP 的 TypeScript AI 工程基础框架，内置领域模块与智能体技能。
+- 摘要：Open Mercato 解决 AI 代码助手只生成代码却不决定分层与一致性的问题，提供架构感知的 AI harness、随仓库交付的 spec-first 开发，以及面向代码审查与协作流程的技能。它附带可复用的 CRM、ERP 与电商等领域模块，开源可自托管，面向已使用 Cursor 或 Copilot 但仍需工程约束的团队。
+- 标签：`TypeScript` `CRM` `ERP` `AI harness` `spec-first`
+- 来源：GitHub Star
+
+### [Output](https://github.com/growthxai/output)
+- 发现：2026-08-02
+- 一句话：用于构建 AI 工作流与智能体的开源 TypeScript 框架。
+- 摘要：Output 将提示词、评测、追踪、成本统计、编排与凭据管理整合进同一代码库内的 TypeScript 框架，面向 Claude Code 等编码智能体可读写的工作流文件夹结构。它支持版本化的 .prompt 文件、自动追踪 LLM 与 HTTP 步骤，并提供 LLM-as-judge 评测与多提供商统一 API。
+- 标签：`工作流` `TypeScript` `评测` `追踪` `Claude Code`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [HyperFrames](https://github.com/heygen-com/hyperframes)

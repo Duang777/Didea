@@ -2,6 +2,79 @@
 
 给人直接用的完整应用和产品。
 
+## 2026-08
+
+### [CRM](https://github.com/trycompai/crm)
+- 发现：2026-08-22
+- 一句话：面向 AI 智能体优先设计的开源 CRM，智能体在独立部署与队列上持续处理客户相关工作。
+- 摘要：Comp AI CRM 把智能体当作核心而非侧边聊天框：智能体按自己的日程与任务队列运行，决定下一步跟进、预约与调研预算。工具只报告可观测证据而非置信度分数，强证据写入记录、弱证据转为待人工确认的建议。人类关闭浏览器后任务仍可继续执行。
+- 标签：`CRM` `智能体` `开源` `任务队列` `证据账本`
+- 来源：GitHub Star
+
+### [Cumora](https://github.com/yetone/cumora)
+- 发现：2026-08-22
+- 一句话：跨平台团队聊天，AI 智能体与人类同为一线成员，支持云托管或在本机运行 Claude Code、Codex 等引擎。
+- 摘要：Cumora 在名册、私信、群聊、看板与日历中与人类并列参与协作。智能体可持人设与记忆、认领任务、彼此协调，并收发真实邮件。可选用 Cumora Cloud 在托管 Pod 中运行，或通过 BYOA 在本机配对 Claude Code、Codex、Cursor Agent 等，服务端不接触你的提供商密钥。
+- 标签：`团队聊天` `BYOA` `跨平台` `智能体协作` `Electron`
+- 来源：GitHub Star
+
+### [Token 小精灵](https://github.com/shiyubao78/token-sprite)
+- 发现：2026-08-21
+- 一句话：读取本地 Claude Code、Codex 等真实 Token 用量，在桌面养成会进化、复盘学习的小精灵，数据不上传。
+- 摘要：Token 小精灵把真实 AI 工具用量转化为桌面宠物：破壳、五段进化与图鉴收集，并可用本机 AI 复盘每日学习内容。不限于写代码，写 PRD、做 demo、写 skill 等用量同样计入。支持 macOS、Windows、Linux，全程本地读取用量。
+- 标签：`桌面宠物` `Token 用量` `Electron` `游戏化` `本地隐私`
+- 来源：GitHub Star
+
+### [Macro](https://github.com/macro-inc/macro)
+- 发现：2026-08-14
+- 一句话：团队一体化工作区：邮件、聊天、文档、任务、智能体、通话与 CRM 通过 @ 链接与共享 AI 记忆串联。
+- 摘要：Macro 把邮件、消息、文档、任务、智能体与 CRM 收敛到单一快速界面，并提供团队级共享记忆。各功能块针对用途独立设计，后端以双向图存储跨文档、任务与邮件的引用关系。使用 SolidJS 与 Rust 构建，面向小团队作为统一工作操作系统。
+- 标签：`工作区` `CRM` `协作` `Rust` `智能体`
+- 来源：GitHub Star
+
+### [Langfuse](https://github.com/langfuse/langfuse)
+- 发现：2026-08-11
+- 一句话：开源 LLM 工程平台，用于追踪、评测、监控与协作调试 AI 应用。
+- 摘要：Langfuse 帮助团队共同开发、监控、评测与调试大模型应用，可几分钟内自托管部署。提供链路追踪、提示词管理、评测与可观测性等能力，面向生产环境使用。项目采用 ClickHouse 等组件支撑分析型工作负载。
+- 标签：`可观测性` `评测` `LLMops` `自托管` `追踪`
+- 来源：GitHub Star
+
+### [FlowWink](https://github.com/magnusfroste/flowwink)
+- 发现：2026-08-02
+- 一句话：模块化自托管商业操作系统，各模块经 MCP 向智能体暴露能力。
+- 摘要：FlowWink 是自托管 SaaS 形态的商业操作系统，覆盖 CMS、CRM、ERP 等模块，并将各模块能力以 MCP 技能形式暴露。平台可搭配内置 FlowPilot 或 OpenClaw、Claude Desktop 等外部操作者运行，也支持纯人工使用。目标是让任意智能体经开放协议操作企业业务软件。
+- 标签：`商业操作系统` `自托管` `MCP` `CRM` `ERP`
+- 来源：GitHub Star
+
+### [Cindy](https://github.com/makecindy/cindy)
+- 发现：2026-08-02
+- 一句话：开源、开箱即用的桌面与移动端 AI 智能体客户端。
+- 摘要：Cindy 将多种 harness、模型与工具整合为一个能在本地完成真实工作的智能体，使用本机文件与已登录应用。首批支持 Claude Code 与 Codex harness，可混用模型并在任务中切换，同时保持工作区、记忆、技能与工具连续。仓库为 Apache-2.0 开源客户端 monorepo，含桌面与移动应用。
+- 标签：`AI助手` `桌面客户端` `Claude Code` `Codex` `自托管`
+- 来源：GitHub Star
+
+### [Craft Agents](https://github.com/craft-ai-agents/craft-agents-oss)
+- 发现：2026-08-02
+- 一句话：面向文档与多任务协作的桌面智能体工作台，基于 Claude Agent SDK 与 Pi SDK。
+- 摘要：Craft Agents 是 craft.do 团队为高效与智能体协作而构建的工具，强调直观多任务、会话共享，以及偏文档而非纯代码的工作流。它并行使用 Claude Agent SDK 与 Pi SDK，并可用自然语言连接 Linear、Gmail、Slack 等来源及 MCP 配置。项目 Apache 2.0 开源，团队自述仅用 Craft Agents 自身进行定制开发。
+- 标签：`桌面应用` `MCP` `文档工作流` `Claude` `开源`
+- 来源：GitHub Star
+
+### [OpenWork](https://github.com/different-ai/openwork)
+- 发现：2026-08-02
+- 一句话：基于 OpenCode 的开源桌面应用，让 AI 智能体在本机文件上完成真实工作。
+- 摘要：OpenWork 是 Claude Cowork 与 Codex 的免费开源替代，支持 macOS、Windows 与 Linux 桌面运行。可接入 50 余家模型提供商、自有 API Key 或通过 Ollama 使用本地模型，并支持团队共享技能与 MCP 连接。也可向 Codex、Claude Code、Cursor 等智能体添加 OpenWork MCP，复用同一套技能与服务连接。
+- 标签：`桌面应用` `OpenCode` `Cowork` `技能共享` `自托管`
+- 来源：GitHub Star
+
+### [JeecgBoot](https://github.com/jeecgboot/JeecgBoot)
+- 发现：2026-08-01
+- 一句话：企业级 AI 低代码开发平台，支持一句话生成系统并内置 AI 应用能力。
+- 摘要：JeecgBoot 以低代码开发、AI 应用平台与 AI 知识库为核心，可用自然语言生成前后端代码、建表 SQL 与菜单权限并直接运行。平台内置 AI 聊天、知识库、流程编排、MCP 与插件，兼容 ChatGPT、DeepSeek、Ollama 等主流大模型。技术栈为 Vue3 与 Spring Boot 前后端分离，并提供在线表单、流程、报表大屏等企业模块。
+- 标签：`低代码` `Spring Boot` `AI应用` `知识库` `MCP`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [Proma](https://github.com/proma-ai/Proma)

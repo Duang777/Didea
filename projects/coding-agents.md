@@ -2,6 +2,79 @@
 
 写代码、改仓库、跑命令的编码智能体和开发工具。
 
+## 2026-08
+
+### [botmux](https://github.com/deepcoldy/botmux)
+- 发现：2026-08-26
+- 一句话：把飞书消息桥接到 Claude Code、Codex 等编码 CLI，每会话独立进程并流式回传。
+- 摘要：botmux 以守护进程监听飞书，为每个新会话拉起独立 CLI 进程，将输出实时流式写入飞书卡片，并提供可写 Web 终端。不重造 Agent 能力，而是桥接二十余种编码 CLI 与 Agent 适配器，支持多机器人在群内分工协作。
+- 标签：`飞书` `Claude Code` `Codex` `桥接` `CLI`
+- 来源：GitHub Star
+
+### [Wake](https://github.com/iAmCorey/Wake)
+- 发现：2026-08-23
+- 一句话：用 Rust 与 GPUI 打造的本地桌面应用，集中浏览、全文检索并一键恢复各编码智能体会话。
+- 摘要：Wake 把分散在 ~/.claude、~/.codex 等目录里的编码智能体会话只读汇总到同一窗口，支持按智能体与项目分组浏览。内置 SQLite FTS5 全文搜索、逐条消息转录视图，以及一键在终端按原项目目录恢复会话。数据留在本机，并可选用只读 MCP 服务 wake-mcp 供其他客户端检索历史。
+- 标签：`会话管理` `桌面应用` `Rust` `全文搜索` `MCP`
+- 来源：GitHub Star
+
+### [MoAI-ADK](https://github.com/modu-ai/moai-adk)
+- 发现：2026-08-17
+- 一句话：面向 Claude Code 的验证驱动智能体编排 harness，提供 SPEC 计划运行同步、质量门与多模型路由。
+- 摘要：MoAI-ADK 用 Go 单二进制从外部约束 Claude Code 的规格驱动开发、TRUST 5 质量门与模型加 effort 路由。Factory Mode 将工作拆分为领导者会话与多条车道会话，单张卡片在车道内顺序完成 plan、run、sync。支持多语言界面与 Claude 与 GLM 等多 LLM 成本控制。
+- 标签：`Claude Code` `harness` `SPEC` `Go` `多智能体`
+- 来源：GitHub Star
+
+### [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)
+- 发现：2026-08-14
+- 一句话：DeepSeek Harness 的侧边栏插件：可编辑代码、终端、Git、子代理与侧边对话等开箱工作台，并开放扩展注册。
+- 摘要：dsh-better-sidebar 在 DSH 原生右侧栏注册多种 tab，并提供底部工作台与 ctx.betterSidebar 服务供其他插件注册页面与文件预览器。相较官方侧栏增补可编辑 CodeMirror、增强文件树与 Git 面板、子代理拓扑与 Codex 风格侧边线程等能力。要求 DSH 0.2.0-rc.1 及以上版本。
+- 标签：`DSH` `插件` `侧边栏` `Git` `DeepSeek Harness`
+- 来源：GitHub Star
+
+### [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
+- 发现：2026-08-13
+- 一句话：DeepSeek 开源的智能体 harness，基于一切皆插件架构并由 Cordis 驱动，默认提供 Web UI。
+- 摘要：DeepSeek Harness 简称 dsh，采用一切皆插件架构，设计依托 Cordis 时空可组合编程范式。可通过 npx @deepseek-ai/dsh web 启动本地 Web 界面，或从源码构建运行。当前处于开发者预览，可能存在兼容性破坏变更，运行前需阅读安全说明。
+- 标签：`DSH` `插件` `Cordis` `Web UI` `DeepSeek`
+- 来源：GitHub Star
+
+### [herdr](https://github.com/herdrdev/herdr)
+- 发现：2026-08-12
+- 一句话：编码智能体运行的终端运行时：后台保活、多机一窗、状态标记，并通过 CLI 供智能体编排窗格。
+- 摘要：herdr 在关闭客户端或 SSH 断开后仍通过后台服务保持终端与布局，重启后可恢复布局并续跑受支持的智能体会话。支持本地与远程 SSH 机器统一视图，标记每个窗格的工作、阻塞或空闲状态。不包裹 Claude Code、Codex、Cursor 等工具，而是管理其终端，并提供智能体可调用的 socket API。
+- 标签：`终端` `多路复用` `Claude Code` `Rust` `编码智能体`
+- 来源：GitHub Star
+
+### [pigo](https://github.com/smallnest/pigo)
+- 发现：2026-08-11
+- 一句话：用 Go 复刻 pi 的命令行编码智能体，支持无头脚本与交互 REPL、多 Provider 与会话续跑。
+- 摘要：pigo 可读写文件、执行命令、检索代码与抓取网页，通过大模型完成需求到改码闭环。兼容 OpenRouter、Ollama、Anthropic 等多种协议网关，内置 read、write、edit、grep、bash 等工具，并支持技能、插件、项目信任与上下文自动压缩。可作为 SDK 嵌入或独立 CLI 使用。
+- 标签：`Go` `pi` `编码智能体` `REPL` `技能`
+- 来源：GitHub Star
+
+### [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent)
+- 发现：2026-08-08
+- 一句话：面向编码与长时自主任务的自改进 RLM 智能体 harness，含递归语言模型与 Continual Harness 状态。
+- 摘要：Prime Agent 围绕 Recursive Language Model 将上下文视为变量并在持久 REPL 中以子智能体作函数调用，Continual Harness 则把补充提示、记忆与技能描述存为可证据化更新的持久状态。提供一键安装脚本，适用于一般与长时间运行的编码与研究工作流。
+- 标签：`RLM` `编码智能体` `Rust` `长任务` `自改进`
+- 来源：GitHub Star
+
+### [Reasonix](https://github.com/esengine/DeepSeek-Reasonix)
+- 发现：2026-08-03
+- 一句话：面向复杂软件工程任务的可靠开源编码智能体，单 Go 二进制，支持终端、桌面、浏览器与 ACP 编辑器接入。
+- 摘要：Reasonix 提供计划模式、权限、工作区沙箱与按轮检查点，便于阅读与撤销长时自主运行。同一本地引擎可通过终端、桌面应用、浏览器或编辑器 ACP 使用。开源 MIT 许可，亦可作为 DeepSeek Harness 生态相关项目维护。
+- 标签：`编码智能体` `Go` `沙箱` `ACP` `DeepSeek`
+- 来源：GitHub Star
+
+### [cc-haha](https://github.com/NanmiCoder/cc-haha)
+- 发现：2026-08-03
+- 一句话：本地优先的跨平台 Claude Code 桌面工作台，集成多会话、Worktree、Diff、MCP、Computer Use 与 IM 接入。
+- 摘要：cc-haha 在 macOS、Windows、Linux 单一应用中集中多会话与全局搜索、分支或 Worktree 启动、Diff 审阅、浏览器预览与图形化权限审批。支持多模型选择、MCP 与 SubAgent 管理、Agent Teams、Workflow 编排、技能市场、桌面宠物，以及微信、飞书、钉钉、Telegram 等 IM 与 H5 远程访问。macOS 上 Computer Use 可操作其他应用且不占用真实键鼠。
+- 标签：`Claude Code` `Electron` `桌面` `Computer Use` `MCP`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [Cockpit Tools](https://github.com/jlcodes99/cockpit-tools)
