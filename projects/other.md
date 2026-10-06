@@ -2,6 +2,16 @@
 
 现有分类都不合适、又还不必单开一类的条目。
 
+## 2026-10
+
+### [Muse Gadgets](https://github.com/facebookincubator/muse-gadget-sdk)
+- 发现：2026-10-03
+- 一句话：用于自制 Muse gadget 的开源 SDK，支持 ESP32 与 Linux 设备接入 Muse 应用。
+- 摘要：可用现成 ESP32 板或 Raspberry Pi 等设备，通过开源 SDK 连接屏幕、音频、传感器与执行器，并与 iOS、Android 上的 Muse 应用配对。使用前需在 gadgets.muse.ai 获取 SDK token 并阅读条款；在应用设置中开启开发者模式后搜索 MuseGadget 前缀设备。各平台目录含 README 与面向编码智能体的 AGENTS.md。
+- 标签：`Muse` `ESP32` `硬件` `IoT`
+- 来源：GitHub Star
+
+
 ## 2026-09
 
 ### [Hono](https://github.com/honojs/hono)

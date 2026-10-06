@@ -2,6 +2,58 @@
 
 可复用的技能、提示词和仓库规则。
 
+## 2026-10
+
+### [lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video)
+- 发现：2026-10-07
+- 一句话：与供应商无关的 Codex Skill，用脚本和授权人像生成可验收的 AI 主讲讲解视频。
+- 摘要：这是一份符合 Agent Skills 规范的 Skill，引导智能体完成讲解视频全流程制作。主讲路线涵盖脚本、旁白、数字人、口型同步、字幕与动效、剪辑渲染与质检；风格化路线可在九种视觉风格中按场景表演。各阶段以磁盘产物为证据门禁，输出需通过解码与响度检查才会交付。可在 Claude Code、Codex、Cursor 等支持 Agent Skills 的客户端中使用。
+- 标签：`Agent Skill` `讲解视频` `数字人` `Codex`
+- 来源：GitHub Star
+
+### [Answer me with HTML](https://github.com/QingYunA/answer-me-with-html)
+- 发现：2026-10-06
+- 一句话：智能体技能：用一页可离线阅读的 HTML 回答复杂问题，而非长篇纯文本。
+- 摘要：安装后，智能体先写简短 Markdown 草稿，再交给技能自带的 CLI 生成单页 HTML。模型主要写内容而非手写整页结构与样式，从而减少输出 token 并加快响应。支持 ASD-STE100 等可读性约束，并可扩展讲解视频等能力。适用于 Claude Code、Codex、Cursor 等支持 Agent Skills 的环境。
+- 标签：`Agent Skill` `HTML` `可视化` `Claude Code`
+- 来源：GitHub Star
+
+### [Marketing Skills for AI Agents](https://github.com/coreyhaines31/marketingskills)
+- 发现：2026-10-06
+- 一句话：面向营销任务的 AI 智能体技能集，覆盖转化、文案、SEO、分析与增长工程。
+- 摘要：仓库汇集多份符合 Agent Skills 规范的营销向技能，供 Claude Code、Codex、Cursor、Windsurf 等客户端加载。面向懂技术的市场人与创始人，帮助用编码智能体完成落地页优化、文案、SEO 与数据分析等工作。部分工具集成以 Verified Partners 形式披露，核心技能保持中立推荐。
+- 标签：`营销` `Agent Skills` `CRO` `SEO`
+- 来源：GitHub Star
+
+### [Muse 技能库](https://github.com/jasonbitsmith/muse-skills)
+- 发现：2026-10-06
+- 一句话：三百条面向 Meta Muse 的中文技能玩法，每条一句痛点加三步操作说明。
+- 摘要：每条技能用简短「实话」说明能直连还是需本人配合，覆盖生活日常、工作效率、购物省钱、本土服务、健康等类目。用户按三步提示对 Muse 口述即可尝试，例如京东保价、Gmail 管家、日历、快递与账单等场景。仓库以可展开的条目组织，方便按类目浏览与转发。
+- 标签：`Muse` `个人助理` `中文技能` `生活自动化`
+- 来源：GitHub Star
+
+### [Oil UI](https://github.com/oil-oil/oil-ui)
+- 发现：2026-10-03
+- 一句话：供 AI Agent 使用的界面设计 Skill，先并排多种差异明显的方向再按真实页面打磨。
+- 摘要：Skill 会先识别产品品类与调性，把抽象形容词落成字体、留白与配色等可见选择，并保证多个方向在版式、字体、配色与主视觉上足够区分。产出可并排对比的 HTML 小样页，由用户选定后再迭代；完成后会在桌面与手机尺寸截图自检。可通过 npx skills add 或让 Agent 安装 GitHub 仓库使用。
+- 标签：`UI 设计` `Agent Skill` `设计方向` `skills`
+- 来源：GitHub Star
+
+### [su-architecture-first](https://github.com/doublesq97-ui/su-architecture-first)
+- 发现：2026-10-02
+- 一句话：架构优先的轻量 Agent Skill，在改代码前先厘清目标、归属层与验证证据。
+- 摘要：面向用 Codex 等编码智能体做工程变更的场景，帮助定位真实目标、权责层、事实来源、根因与正确变更类型。简单本地任务走轻量预检后可直接实现；反复失败、跨层改动或高风险工作才做完整结构分析。这是决策预检，不是画全系统图，也不替代针对具体技术栈的选型比较。
+- 标签：`架构` `Agent Skill` `编码智能体` `预检`
+- 来源：GitHub Star
+
+### [ljg-skills](https://github.com/lijigang/ljg-skills)
+- 发现：2026-10-01
+- 一句话：作者为 Codex 维护的自定义 Agent Skills 技能集，可用 skills CLI 按需安装。
+- 摘要：仓库 skills 目录下有多项技能，例如概念解剖、论文阅读、内容铸卡、古文精读、盲区扫描与知识地图等。支持用 bunx skills add 全局或项目级安装全部或指定技能，并提供 org-mode 与 Markdown 两种分支格式。ljg-card 技能依赖 Playwright 截图，安装后需在技能目录内额外安装 Chromium。
+- 标签：`Codex` `自定义技能` `中文` `skills CLI`
+- 来源：GitHub Star
+
+
 ## 2026-09
 
 ### [AGENTS.md](https://github.com/agentsmd/agents.md)

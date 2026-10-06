@@ -2,6 +2,23 @@
 
 多智能体框架、编排层和工作流运行时。
 
+## 2026-10
+
+### [Agent Foundation](https://github.com/converge-ai-labs/agent-foundation)
+- 发现：2026-10-01
+- 一句话：开源可自托管的智能体基础库与平台，整合托管智能体、记忆、沙箱、电脑使用与持久执行。
+- 摘要：又称 a13n，通过 Service 用 API 配置智能体并管理权限与执行恢复；Harness 可嵌入运行时并用插件、自定义工具与提供方扩展；Harness UI 提供终端与 Web playground 试模型与工具。Docker Compose 可拉起 Service、Console、PostgreSQL、Redis 等，无需克隆仓库即可运行。当前为 0.x 活跃开发，API 可能变动。
+- 标签：`自托管` `多智能体` `沙箱` `Pydantic AI`
+- 来源：GitHub Star
+
+### [OpenShell](https://github.com/NVIDIA/OpenShell)
+- 发现：2026-10-01
+- 一句话：为自主 AI 智能体舰队提供安全、私有的沙箱运行时，用策略约束文件、系统调用与网络访问。
+- 摘要：每个智能体在隔离沙箱中运行，内核级控制限制可访问文件与系统调用，外连须经策略检查；凭证由 OpenShell 注入到获准端点而非暴露给智能体。策略变更前可用形式化验证预判新增风险访问并等待人工审核。提供 CLI 与本地 gateway，支持 Linux、Apple Silicon macOS 与 WSL2 实验环境，通过安装脚本可创建默认沙箱。
+- 标签：`沙箱` `策略` `自主智能体` `NVIDIA`
+- 来源：GitHub Star
+
+
 ## 2026-09
 
 ### [Raven](https://github.com/EverMind-AI/Raven)

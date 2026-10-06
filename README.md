@@ -7,18 +7,18 @@ jialing 每天把发现的项目丢进来，由 AI 归类并写成中文摘要�
 ## 分类目录
 
 <!-- categories:start -->
-- [智能体框架与编排](projects/agent-frameworks.md)（94）
-- [编码智能体与开发工具](projects/coding-agents.md)（64）
-- [Skills/提示词/规则](projects/skills-prompts.md)（60）
+- [智能体框架与编排](projects/agent-frameworks.md)（96）
+- [编码智能体与开发工具](projects/coding-agents.md)（67）
+- [Skills/提示词/规则](projects/skills-prompts.md)（67）
 - [MCP 与工具集成](projects/mcp-tools.md)（11）
 - [浏览器与电脑操作](projects/browser-computer.md)（26）
 - [评测与基准](projects/benchmarks.md)（1）
 - [论文与研究](projects/papers.md)（6）
 - [模型与推理服务](projects/models-inference.md)（8）
-- [应用与产品](projects/apps-products.md)（82）
-- [前端与设计](projects/frontend-design.md)（19）
-- [博客与学习资料](projects/blogs-learning.md)（104）
-- [其他](projects/other.md)（17）
+- [应用与产品](projects/apps-products.md)（87）
+- [前端与设计](projects/frontend-design.md)（20）
+- [博客与学习资料](projects/blogs-learning.md)（105）
+- [其他](projects/other.md)（18）
 <!-- categories:end -->
 
 ## 最近新增
@@ -26,26 +26,26 @@ jialing 每天把发现的项目丢进来，由 AI 归类并写成中文摘要�
 最多 20 条，跨分类，按发现日期倒序。
 
 <!-- recent:start -->
+- 2026-10-07 [lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video) · [Skills/提示词/规则](projects/skills-prompts.md)：与供应商无关的 Codex Skill，用脚本和授权人像生成可验收的 AI 主讲讲解视频。
 - 2026-10-07 [hairline](https://github.com/lucasmarkes/hairline) · [前端与设计](projects/frontend-design.md)：27 个会跟着指针动的等距线条插画，React 和任何 DOM 页面都能用。
-- 2026-09-30 [Plane](https://github.com/makeplane/plane) · [应用与产品](projects/apps-products.md)：开源现代项目管理平台，用于任务、周期、文档与分流，可自托管或使用 Plane Cloud。
-- 2026-09-29 [Raven](https://github.com/EverMind-AI/Raven) · [智能体框架与编排](projects/agent-frameworks.md)：面向递归自改进的多智能体 Host，用 DAG 编排内置与第三方智能体完成复杂任务。
-- 2026-09-29 [OpenRig](https://github.com/mvschwarz/openrig) · [编码智能体与开发工具](projects/coding-agents.md)：用 YAML 定义 Claude Code、Codex 等编码智能体团队，一键启动持久协作的 rig。
-- 2026-09-29 [AGENTS.md](https://github.com/agentsmd/agents.md) · [Skills/提示词/规则](projects/skills-prompts.md)：面向编码智能体的开放 AGENTS.md 格式，在固定位置提供项目上下文与操作说明。
-- 2026-09-29 [Obscura](https://github.com/h4ckf0r0day/obscura) · [浏览器与电脑操作](projects/browser-computer.md)：Rust 编写的开源无头浏览器，面向 AI 智能体自动化与网页抓取，可替代 headless Chrome。
-- 2026-09-29 [system-design-notes-zh](https://github.com/lukeTheNeuromancer/system-design-notes-zh) · [博客与学习资料](projects/blogs-learning.md)：《系统设计面试》卷一与卷二笔记的中文翻译，按章节整理扩展阅读。
-- 2026-09-29 [Piggery](https://github.com/sting8k/piggery) · [编码智能体与开发工具](projects/coding-agents.md)：用单一 Go 二进制与 SQLite 协调 Pi、Claude Code、Codex 等编码智能体团队的本地农场。
-- 2026-09-29 [Openship](https://github.com/oblien/openship) · [应用与产品](projects/apps-products.md)：可自托管的开源部署平台，内置 CI/CD，从仓库构建、路由并自动 TLS 发布应用。
-- 2026-09-28 [PawBrowse](https://github.com/ItaiZeilig/pawbrowse) · [浏览器与电脑操作](projects/browser-computer.md)：Chrome 扩展加零依赖 MCP 服务，让编码智能体操作你已登录的真实 Chrome 标签页。
-- 2026-09-28 [agentmemory](https://github.com/rohitg00/agentmemory) · [编码智能体与开发工具](projects/coding-agents.md)：面向 Claude Code、Cursor、Codex 等编码智能体的持久记忆层，基于 iii 引擎。
-- 2026-09-27 [magpie](https://github.com/yetone/magpie) · [模型与推理服务](projects/models-inference.md)：菜单栏统一管理多款编码智能体的模型与本地 API 网关。
-- 2026-09-27 [Agentic AI 系统设计入门](https://github.com/lukeTheNeuromancer/agentic-ai-system-design-primer-zh) · [博客与学习资料](projects/blogs-learning.md)：中文 Agentic AI 系统设计学习笔记，涵盖架构、模式、权衡与生产工程实践。
-- 2026-09-27 [ConnectOnion](https://github.com/openonion/connectonion) · [编码智能体与开发工具](projects/coding-agents.md)：智能体 CLI harness：用 co 命令为 AI 智能体接入邮箱、浏览器、文件与聊天等工具。
-- 2026-09-26 [apowerb](https://github.com/apowerb/apowerb) · [智能体框架与编排](projects/agent-frameworks.md)：用于构建、编排与运维生产级 AI 智能体的开源框架。
-- 2026-09-26 [screenpipe](https://github.com/screenpipe/screenpipe) · [浏览器与电脑操作](projects/browser-computer.md)：本地持续采集屏幕与音频，为智能体提供电脑工作上下文。
-- 2026-09-25 [MuseAI-Skills](https://github.com/win4r/MuseAI-Skills) · [Skills/提示词/规则](projects/skills-prompts.md)：muse.ai 技能文档与 Muse/Hatch 运行环境快照的非官方存档。
-- 2026-09-25 [Holon](https://github.com/holon-run/holon) · [智能体框架与编排](projects/agent-frameworks.md)：面向持续性任务的本地智能体工作台，可保存目标并在条件满足时恢复执行。
-- 2026-09-25 [GoLive](https://github.com/mikehasa/golive-skill) · [Skills/提示词/规则](projects/skills-prompts.md)：开源 Agent Skill 与零依赖 CLI，帮智能体把应用部署到自有云账号。
-- 2026-09-25 [Oh My PPT](https://github.com/arcsin1/oh-my-ppt) · [应用与产品](projects/apps-products.md)：本地优先的 AI 演示文稿生成、配图与编辑桌面工具。
+- 2026-10-06 [e2e](https://github.com/tester-army/e2e) · [编码智能体与开发工具](projects/coding-agents.md)：面向 Web 与移动端的下一代端到端测试框架，可用自然语言目标驱动应用并由智能体执行。
+- 2026-10-06 [openGym](https://github.com/DuarteSantos8/openGym) · [应用与产品](projects/apps-products.md)：可自托管的健身房与自重训练记录应用，数据留在你自己的服务器上。
+- 2026-10-06 [Swift Agent Skills](https://github.com/twostraws/Swift-Agent-Skills) · [博客与学习资料](projects/blogs-learning.md)：面向 Swift 与 Apple 平台开发的开放源码 Agent Skills 精选目录与链接合集。
+- 2026-10-06 [Obelisk](https://github.com/tommy0103/obelisk) · [编码智能体与开发工具](projects/coding-agents.md)：把 Claude Code、Codex、Copilot 等历史会话索引进 SQLite，供智能体查询、供人类浏览。
+- 2026-10-06 [Answer me with HTML](https://github.com/QingYunA/answer-me-with-html) · [Skills/提示词/规则](projects/skills-prompts.md)：智能体技能：用一页可离线阅读的 HTML 回答复杂问题，而非长篇纯文本。
+- 2026-10-06 [Marketing Skills for AI Agents](https://github.com/coreyhaines31/marketingskills) · [Skills/提示词/规则](projects/skills-prompts.md)：面向营销任务的 AI 智能体技能集，覆盖转化、文案、SEO、分析与增长工程。
+- 2026-10-06 [Muse 技能库](https://github.com/jasonbitsmith/muse-skills) · [Skills/提示词/规则](projects/skills-prompts.md)：三百条面向 Meta Muse 的中文技能玩法，每条一句痛点加三步操作说明。
+- 2026-10-05 [Open Muse](https://github.com/chyroc/open-muse) · [应用与产品](projects/apps-products.md)：可记住上下文并持续跟进的个人 AI 助手，支持 iPhone、Mac 与云端持续运行。
+- 2026-10-05 [explainroo](https://github.com/vincentsch/explainroo) · [编码智能体与开发工具](projects/coding-agents.md)：开源本地工具链，让编码智能体把脚本与场景代码渲染成带旁白的讲解 MP4。
+- 2026-10-04 [GPUI Kit](https://github.com/longbridge/gpui-kit) · [前端与设计](projects/frontend-design.md)：基于 GPUI 的 Rust 跨平台桌面 UI 组件与框架，含七十余个文档化组件。
+- 2026-10-03 [Muse Gadgets](https://github.com/facebookincubator/muse-gadget-sdk) · [其他](projects/other.md)：用于自制 Muse gadget 的开源 SDK，支持 ESP32 与 Linux 设备接入 Muse 应用。
+- 2026-10-03 [Oil UI](https://github.com/oil-oil/oil-ui) · [Skills/提示词/规则](projects/skills-prompts.md)：供 AI Agent 使用的界面设计 Skill，先并排多种差异明显的方向再按真实页面打磨。
+- 2026-10-02 [OpenDots](https://github.com/CopilotKit/OpenDots) · [应用与产品](projects/apps-products.md)：开源模板：常驻 AI 同事在网页与移动端于文本、通话与 Slack 间协作，各 Dot 自带计算机。
+- 2026-10-02 [su-architecture-first](https://github.com/doublesq97-ui/su-architecture-first) · [Skills/提示词/规则](projects/skills-prompts.md)：架构优先的轻量 Agent Skill，在改代码前先厘清目标、归属层与验证证据。
+- 2026-10-01 [Agent Foundation](https://github.com/converge-ai-labs/agent-foundation) · [智能体框架与编排](projects/agent-frameworks.md)：开源可自托管的智能体基础库与平台，整合托管智能体、记忆、沙箱、电脑使用与持久执行。
+- 2026-10-01 [OpenShell](https://github.com/NVIDIA/OpenShell) · [智能体框架与编排](projects/agent-frameworks.md)：为自主 AI 智能体舰队提供安全、私有的沙箱运行时，用策略约束文件、系统调用与网络访问。
+- 2026-10-01 [Comma](https://github.com/AFK-surf/Comma) · [应用与产品](projects/apps-products.md)：开源无会话边界的个人智能体，以 Task 持久执行，支持浏览器、电脑操作与自托管。
+- 2026-10-01 [Mercury](https://github.com/cosmicstack-labs/mercury-agent) · [应用与产品](projects/apps-products.md)：灵魂驱动的常驻 AI 智能体，带权限加固工具、token 预算与 CLI、Telegram 等多渠道接入。
 <!-- recent:end -->
 
 ## 用法

@@ -2,6 +2,16 @@
 
 文章、教程、课程、通讯和其他学习资料。
 
+## 2026-10
+
+### [Swift Agent Skills](https://github.com/twostraws/Swift-Agent-Skills)
+- 发现：2026-10-06
+- 一句话：面向 Swift 与 Apple 平台开发的开放源码 Agent Skills 精选目录与链接合集。
+- 摘要：本仓库按 SwiftUI、SwiftData、并发、测试、无障碍等主题整理社区维护的技能链接，可与 Claude Code、Codex、Cursor、Windsurf 等工具配合使用。列出前强调需自行阅读并信任第三方技能作者，收录不代表背书。另收录 AGENTS.md 相关资源与更多阅读链接。
+- 标签：`Swift` `技能目录` `Apple 开发` `Agent Skills`
+- 来源：GitHub Star
+
+
 ## 2026-09
 
 ### [system-design-notes-zh](https://github.com/lukeTheNeuromancer/system-design-notes-zh)

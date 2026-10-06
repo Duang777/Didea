@@ -10,6 +10,13 @@ UI 组件库、动效和设计工具。
 - 摘要：npm 包 `@lucasmarkes/hairline`，零依赖、仅 ESM，提供卡片托盘、柱阵、分层窗口、键盘、终端、提交图等 27 个图形，统一用 `intensity` 控制反应强弱，支持明暗主题和 CSS 变量换色，也能用 shadcn 一键安装。它照顾了无障碍、减少动效偏好和服务端渲染（先占位不跳动），全页图形共用一个动画循环、静止时不耗资源。还附带 `hairline-create` 技能，可让 Claude Code、Cursor、Codex 等编码智能体按它的十条规则画出新图形。适合给落地页或产品首页做轻量的交互插画。
 - 标签：`前端` `React` `动效` `插画` `skills`
 
+### [GPUI Kit](https://github.com/longbridge/gpui-kit)
+- 发现：2026-10-04
+- 一句话：基于 GPUI 的 Rust 跨平台桌面 UI 组件与框架，含七十余个文档化组件。
+- 摘要：GPUI Kit 将行为状态基础设施与完整样式 UI 系统组合，应用只需依赖单一 crate 即可获得组件、主题与资源。支持 WebAssembly、AccessKit 无障碍、UI 集成测试与可选 JavaScript 扩展运行时。提供数据表虚拟滚动、虚拟列表、大文件代码编辑器等应用级能力，并用于 Longbridge Pro 等商业桌面产品。
+- 标签：`GPUI` `Rust` `桌面 UI` `组件库`
+- 来源：GitHub Star
+
 
 ## 2026-09
 

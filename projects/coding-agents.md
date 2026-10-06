@@ -2,6 +2,30 @@
 
 写代码、改仓库、跑命令的编码智能体和开发工具。
 
+## 2026-10
+
+### [e2e](https://github.com/tester-army/e2e)
+- 发现：2026-10-06
+- 一句话：面向 Web 与移动端的下一代端到端测试框架，可用自然语言目标驱动应用并由智能体执行。
+- 摘要：e2e 让你在测试中用自然语言描述目标，由 agent 驱动应用到达状态，再用定位器与断言校验结果。带 agent 的步骤会记录操作，下次在应用未变时可回放而无需再调模型；无 agent 步骤的测试可不使用模型。通过 npx e2e init 初始化，支持 Playwright 浏览器引擎与移动端引擎，并可自带模型订阅或 API。
+- 标签：`E2E 测试` `Playwright` `智能体测试` `TypeScript`
+- 来源：GitHub Star
+
+### [Obelisk](https://github.com/tommy0103/obelisk)
+- 发现：2026-10-06
+- 一句话：把 Claude Code、Codex、Copilot 等历史会话索引进 SQLite，供智能体查询、供人类浏览。
+- 摘要：Obelisk 用同一 SQLite 索引服务两侧：CLI 与 agent skill 让编码智能体用本地 JS 查询会话历史；Electron 桌面端供人浏览会话、管理记忆与查看统计。索引覆盖 Claude Code、Codex、GitHub Copilot、Kimi Code、Pi、ZCode 等多来源 transcript，非 Claude 会话 ID 带来源前缀避免冲突。
+- 标签：`会话索引` `编码智能体` `记忆` `SQLite`
+- 来源：GitHub Star
+
+### [explainroo](https://github.com/vincentsch/explainroo)
+- 发现：2026-10-05
+- 一句话：开源本地工具链，让编码智能体把脚本与场景代码渲染成带旁白的讲解 MP4。
+- 摘要：智能体编写 script.md 与 scenes.js，explainroo 用 Kokoro 本地配音、Whisper 对齐词级时间轴，并用 Canvas 在后台 Chrome 绘制画面，再合成背景音乐与音效输出视频。语音、时序与渲染可在本机完成，无需额外语音 API 账号。适合 Claude Code、Codex、Pi 等编码智能体按 AGENTS.md 步骤调用。
+- 标签：`讲解视频` `编码智能体` `本地 TTS` `Canvas`
+- 来源：GitHub Star
+
+
 ## 2026-09
 
 ### [OpenRig](https://github.com/mvschwarz/openrig)

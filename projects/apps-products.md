@@ -2,6 +2,44 @@
 
 给人直接用的完整应用和产品。
 
+## 2026-10
+
+### [openGym](https://github.com/DuarteSantos8/openGym)
+- 发现：2026-10-06
+- 一句话：可自托管的健身房与自重训练记录应用，数据留在你自己的服务器上。
+- 摘要：openGym 让你在自有环境规划周计划、进行引导式训练并记录每组与体重。内置大量带演示的动作库，可按肌群浏览，并支持从 FitNotes、Strong、Hevy 等导入。提供 PWA、通行密钥登录、离线可用与多设备同步；用 docker compose 即可自托管。
+- 标签：`健身` `自托管` `PWA` `训练记录`
+- 来源：GitHub Star
+
+### [Open Muse](https://github.com/chyroc/open-muse)
+- 发现：2026-10-05
+- 一句话：可记住上下文并持续跟进的个人 AI 助手，支持 iPhone、Mac 与云端持续运行。
+- 摘要：Open Muse 在聊天中给出计划并追问以贴合你的需求，支持长按回复、收藏到资料库、预设 Ideas 与 Goals。可连接 Apple 健康、日历、提醒、通讯录与 Lark 等；具备可编辑的记忆与 SOUL、审批后再使用 Mac、个人 Feed 与快捷对话等能力。关闭应用后云端环境仍可继续处理任务。
+- 标签：`个人助手` `iOS` `macOS` `记忆`
+- 来源：GitHub Star
+
+### [OpenDots](https://github.com/CopilotKit/OpenDots)
+- 发现：2026-10-02
+- 一句话：开源模板：常驻 AI 同事在网页与移动端于文本、通话与 Slack 间协作，各 Dot 自带计算机。
+- 摘要：OpenDots 是可自托管的智能体工作区起点，每个 Dot 有独立计算机视图与人类审批卡片，可将草稿保存为 Space 页面。Space 是可搜索的文档库，Dot 可被授予多个 Space 访问权。基于 CopilotKit 与 AG-UI 构建，对话能力需 CopilotKit Intelligence 托管、本地 Docker 评估或自托管部署。
+- 标签：`AI 同事` `CopilotKit` `自托管` `Slack`
+- 来源：GitHub Star
+
+### [Comma](https://github.com/AFK-surf/Comma)
+- 发现：2026-10-01
+- 一句话：开源无会话边界的个人智能体，以 Task 持久执行，支持浏览器、电脑操作与自托管。
+- 摘要：Comma 让记忆与上下文在电脑、手机、云环境与已连接设备间连续；把目标拆成 Task，通过智能体循环规划、执行与验证直到完成。可调用或注册 Codex、Claude Code 等现有智能体为 Worker；长任务在云端运行，敏感身份与支付可留在本机设备。可使用 comma.surf 托管服务或从仓库自建实例。
+- 标签：`个人智能体` `Task` `自托管` `多设备`
+- 来源：GitHub Star
+
+### [Mercury](https://github.com/cosmicstack-labs/mercury-agent)
+- 发现：2026-10-01
+- 一句话：灵魂驱动的常驻 AI 智能体，带权限加固工具、token 预算与 CLI、Telegram 等多渠道接入。
+- 摘要：Mercury 在执行 shell、读写文件与访问 URL 前会按通道与角色请求许可，并用 SQLite 的 Second Brain 做结构化长期记忆。人格由用户自有的 soul.md、persona.md 等 Markdown 定义；内置约五十种工具，支持 Mercury Code、Bots 舰队、看板与可扩展技能。可通过一键安装脚本或 npm 全局包启动，首次运行有配置向导。
+- 标签：`个人助手` `权限` `多通道` `Second Brain`
+- 来源：GitHub Star
+
+
 ## 2026-09
 
 ### [Plane](https://github.com/makeplane/plane)
