@@ -2,6 +2,23 @@
 
 模型权重、推理引擎和模型 API。
 
+## 2026-09
+
+### [magpie](https://github.com/yetone/magpie)
+- 发现：2026-09-27
+- 一句话：菜单栏统一管理多款编码智能体的模型与本地 API 网关。
+- 摘要：magpie 把多款编码智能体各自的模型配置、密钥与接口地址集中在一处管理，可从菜单栏为单个智能体切换模型。本地网关同时支持多种主流 API 形态，并在流式、工具调用与推理场景下做协议转换。还支持路由组在配额或限流时自动切换后端，并把订阅登录转成各智能体可共用的提供方。
+- 标签：`网关` `编码智能体` `菜单栏` `路由`
+- 来源：GitHub Star
+
+### [CLI Proxy API](https://github.com/router-for-me/CLIProxyAPI)
+- 发现：2026-09-03
+- 一句话：把多款编码 CLI 账号封装成 OpenAI、Gemini、Claude 等兼容 API 的本地代理服务。
+- 摘要：CLIProxyAPI 是面向命令行编码工具的代理服务器，为 CLI 提供 OpenAI、Gemini、Claude、Codex、Grok 等兼容接口。可在本机通过多个 CLI 账号访问 Kimi、OpenAI、Anthropic 等多家模型提供方。也提供 EasyCLIProxyAPI 图形桌面客户端。
+- 标签：`API 网关` `Codex` `Claude Code` `代理` `多模型`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [OmniRoute](https://github.com/diegosouzapw/OmniRoute)

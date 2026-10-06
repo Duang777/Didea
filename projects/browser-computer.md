@@ -2,6 +2,51 @@
 
 让智能体操作浏览器、桌面或整台电脑的项目。
 
+## 2026-09
+
+### [Obscura](https://github.com/h4ckf0r0day/obscura)
+- 发现：2026-09-29
+- 一句话：Rust 编写的开源无头浏览器，面向 AI 智能体自动化与网页抓取，可替代 headless Chrome。
+- 摘要：Obscura 通过 V8 执行真实 JavaScript，支持 Chrome DevTools Protocol，并宣称可作为 Puppeteer 与 Playwright 的 drop-in 替代。内置反检测能力，支持原生渲染截图、录屏与 PDF 导出而无需捆绑 Chromium。开源引擎采用 Apache-2.0，全功能不人为阉割；另规划托管版 Obscura Cloud 提供代理与运维支持。
+- 标签：`无头浏览器` `Rust` `CDP` `网页抓取`
+- 来源：GitHub Star
+
+### [PawBrowse](https://github.com/ItaiZeilig/pawbrowse)
+- 发现：2026-09-28
+- 一句话：Chrome 扩展加零依赖 MCP 服务，让编码智能体操作你已登录的真实 Chrome 标签页。
+- 摘要：PawBrowse 通过 CDP 以元素表形式感知页面，无需远程调试端口、第二套模型或 API Key，由现有智能体做决策。支持 Claude Code、Cursor、VS Code、Claude Desktop 等 MCP 客户端；Claude Code 可用 npx 一行注册 MCP。扩展可从 Chrome Web Store 安装，连接成功后徽章变绿并返回 extension_connected 状态。
+- 标签：`MCP` `Chrome` `浏览器自动化` `Claude Code`
+- 来源：GitHub Star
+
+### [screenpipe](https://github.com/screenpipe/screenpipe)
+- 发现：2026-09-26
+- 一句话：本地持续采集屏幕与音频，为智能体提供电脑工作上下文。
+- 摘要：screenpipe 在本地持续记录公司的电脑工作画面与音频，用于梳理工作流、发现值得自动化的环节，并为智能体补充上下文。默认采用本地优先策略，采集历史可留在本机。还支持用自然语言检索已记录内容。
+- 标签：`屏幕录制` `本地优先` `工作流` `智能体上下文`
+- 来源：GitHub Star
+
+### [Jevry](https://github.com/michaelswissa/jevry)
+- 发现：2026-09-25
+- 一句话：开源桌面浏览器智能体，用自然语言完成网站任务与调研。
+- 摘要：Jevry 是 MIT 许可的开源桌面浏览器，可用自然语言浏览、调研并在支持的网站上执行任务，动作可见且可中止或改向。运行时由 Chromium 执行浏览器动作，文本模型负责规划与语言处理。网站支持范围因站点而异，需自行配置 API 与模型连接。
+- 标签：`浏览器自动化` `桌面应用` `Electron` `调研`
+- 来源：GitHub Star
+
+### [agent-browser](https://github.com/vercel-labs/agent-browser)
+- 发现：2026-09-06
+- 一句话：供 AI 智能体使用的 Rust 原生浏览器自动化 CLI。
+- 摘要：agent-browser 提供打开页面、无障碍树快照、按引用点击与填表、截图与关闭等命令。可通过 npm、Homebrew 或 Cargo 安装，并引导下载 Chrome for Testing 作为自动化浏览器。设计为快速、可脚本化的智能体侧浏览器控制，无需 Playwright 守护进程即可运行核心能力。
+- 标签：`浏览器自动化` `CLI` `Rust` `智能体`
+- 来源：GitHub Star
+
+### [BrowserOS](https://github.com/browseros-ai/BrowserOS)
+- 发现：2026-09-02
+- 一句话：面向 AI 智能体的开源智能浏览器，可并行执行任务并连接 MCP 客户端。
+- 摘要：BrowserOS neo 是专供 AI 智能体使用的第二浏览器，可从 Chrome 一键导入登录态，连接 Claude Code、Codex 或任意 MCP 智能体并交接网页任务。智能体在独立标签页并行运行，用户可实时观看或回放会话。开源且默认在本地运行。
+- 标签：`浏览器` `MCP` `自动化` `Chromium` `智能体`
+- 来源：GitHub Star
+
+
 ## 2026-08
 
 ### [mobile-use](https://github.com/minitap-ai/mobile-use)

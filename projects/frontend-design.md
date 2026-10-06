@@ -11,6 +11,44 @@ UI 组件库、动效和设计工具。
 - 标签：`前端` `React` `动效` `插画` `skills`
 
 
+## 2026-09
+
+### [thinking-orbs](https://github.com/Jakubantalik/thinking-orbs)
+- 发现：2026-09-24
+- 一句话：面向 AI 与智能体界面的点阵思考动效加载组件。
+- 摘要：thinking-orbs 提供九种手工调参的动画状态，每种有两种尺寸，在普通 2D canvas 上渲染，不依赖 WebGL。可作为 npm 包在 React 等项目中使用，通过 state 属性表达搜索、求解、聆听等工作状态。主题支持自动跟随宿主深浅色。
+- 标签：`加载动画` `React` `UI` `智能体界面`
+- 来源：GitHub Star
+
+### [json-render](https://github.com/vercel-labs/json-render)
+- 发现：2026-09-24
+- 一句话：从提示生成受约束 UI 的 Generative UI 框架。
+- 摘要：json-render 让模型在预定义组件与动作目录内生成界面，输出符合 schema 的 JSON，并可流式渐进渲染。支持 React、Vue、Svelte、Solid 等多端，并附带大量预置 shadcn 组件。开发者先定义 catalog，再在安全边界内生成动态界面。
+- 标签：`Generative UI` `schema` `React` `跨端`
+- 来源：GitHub Star
+
+### [Rune Icons](https://github.com/Runeicons/runeicons)
+- 发现：2026-09-12
+- 一句话：每种图标提供五种风格的九百余个开源图标库。
+- 摘要：Rune Icons 为每个字形提供 outline、duotone、fill、pixelated 与 glass 五种样式。可在浏览器中搜索、筛选，并用内置编辑器微调路径后复制 SVG 或 JSX。图标以 Apache 2.0 授权，可商用；站点基于 Next.js 与 React 构建，并提供 manifest 与 sprite 生成脚本。
+- 标签：`图标` `SVG` `React` `设计资源`
+- 来源：GitHub Star
+
+### [whiteboard-animator](https://github.com/masihsultani/whiteboard-animator)
+- 发现：2026-09-12
+- 一句话：把白板风格静态图转成手绘揭示动画视频的 CPU 渲染引擎。
+- 摘要：whiteboard-animator 一条命令即可将白板插图做成逐字书写、描边与填色的手绘动画，并可配合旁白控制节奏。它以 Python 包与 CLI 提供，仅依赖 CPU。该项目也是 Kinoslide 白板格式的渲染引擎，并附带示例图片与完整讲解视频。
+- 标签：`动画` `白板` `视频` `Python`
+- 来源：GitHub Star
+
+### [open-slide](https://github.com/open-slide/open-slide)
+- 发现：2026-09-07
+- 一句话：面向编码智能体的 React 幻灯片框架，固定 1920×1080 画布与演示模式。
+- 摘要：open-slide 让你用自然语言描述 deck，由编码智能体编写 React 页面而非受限 DSL。脚手架内置 create-slide 与 slide-authoring 技能，并处理缩放、导航、热重载与演讲者模式。支持浏览器内元素批注、资源管理与导出 HTML、PDF 或 PPTX。
+- 标签：`幻灯片` `React` `skills` `演示`
+- 来源：GitHub Star
+
+
 ## 2026-08
 
 ### [AgentPrism](https://github.com/evilmartians/agent-prism)

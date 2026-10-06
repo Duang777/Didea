@@ -2,6 +2,121 @@
 
 可复用的技能、提示词和仓库规则。
 
+## 2026-09
+
+### [AGENTS.md](https://github.com/agentsmd/agents.md)
+- 发现：2026-09-29
+- 一句话：面向编码智能体的开放 AGENTS.md 格式，在固定位置提供项目上下文与操作说明。
+- 摘要：AGENTS.md 类似给智能体看的 README，用可预测的结构写明开发环境提示、测试步骤与 PR 规范等。本仓库包含格式说明与示例，并托管 agents.md 介绍站点的 Next.js 源码。团队可在仓库根或约定路径放置 AGENTS.md，帮助 Claude Code 等工具一致理解项目约束。
+- 标签：`AGENTS.md` `编码智能体` `规范` `仓库规则`
+- 来源：GitHub Star
+
+### [MuseAI-Skills](https://github.com/win4r/MuseAI-Skills)
+- 发现：2026-09-25
+- 一句话：muse.ai 技能文档与 Muse/Hatch 运行环境快照的非官方存档。
+- 摘要：本仓库收录 muse.ai 相关技能定义、连接器权限清单、产品说明与部分 Linux 运行环境文件，供结构与工作流设计阅读。它不是完整源码仓库，也不能一键部署为完整产品。随包技能文本描述了触发条件、任务分流、工具使用与交付验收等设计。
+- 标签：`技能包` `存档` `Muse` `工作流`
+- 来源：GitHub Star
+
+### [GoLive](https://github.com/mikehasa/golive-skill)
+- 发现：2026-09-25
+- 一句话：开源 Agent Skill 与零依赖 CLI，帮智能体把应用部署到自有云账号。
+- 摘要：GoLive 面向智能体已搭好的应用，检测托管、数据库、域名、邮件与支付等需求，生成变更计划并在你批准后用自己的账号执行与验证。流程包含检测、计划、批准、应用与校验，并可记录资源、检查漂移或拆除环境。无需 GoLive 账号或托管后端，也不采集产品遥测。
+- 标签：`Agent Skill` `部署` `DevOps` `CLI`
+- 来源：GitHub Star
+
+### [pstack](https://github.com/michael-denyer/pstack-claude)
+- 发现：2026-09-16
+- 一句话：将 Cursor 版 pstack 技能栈移植到 Claude Code、Codex 等多种 harness。
+- 摘要：本仓库跟踪上游 pstack，把 Lauren Tan 的 Cursor 技能栈适配到 Claude Code、Codex、Pi、GitHub Copilot 等环境，并在 forks 清单中声明命名策略分叉。通过 poteto-mode 按目标调用对应工作流，强调简洁、可验证的代码产出。各平台提供插件市场或安装命令接入技能与扩展。
+- 标签：`技能栈` `工作流` `多 harness` `代码质量`
+- 来源：GitHub Star
+
+### [Motion Design Skill](https://github.com/LottieFiles/motion-design-skill)
+- 发现：2026-09-14
+- 一句话：教 AI 智能体按动效导演思路处理 UI 动画时机、缓动与编排的可复用技能包。
+- 摘要：Motion Design Skill 面向 AI 智能体，先讲哲学与原则，再落到任意动画实现。它帮助智能体在写代码前选定节奏、缓动、编排与情绪意图，并兼容 CSS、Framer Motion、GSAP、Lottie 等体系。仓库含核心清单、导演向深度文档、模式配方与参考表，可通过 skills CLI 安装到多种编码智能体。
+- 标签：`skills` `动效` `UI` `Lottie`
+- 来源：GitHub Star
+
+### [gap-trap](https://github.com/pliablepixels/gap-trap)
+- 发现：2026-09-14
+- 一句话：在仓库中生成规则与质量门禁，让 AI 写出代码时不易悄悄劣化。
+- 摘要：gap-trap 面向智能体大量写码却无人逐行审阅的场景。在仓库运行一次后，它会读代码、写出契合项目的规则，并为每条规则配上提交或 CI 中不可跳过的检查。包含契约、可证伪测试、指标棘轮与经验手册，并附带 slop-mop 技能改善文档与提交说明文风。
+- 标签：`skills` `质量门禁` `CI` `编码智能体`
+- 来源：GitHub Star
+
+### [Vibe Workflow](https://github.com/KhazP/vibe-coding-prompt-template)
+- 发现：2026-09-12
+- 一句话：用四段完整提示词把想法做成调研、PRD、技术设计与智能体说明文档的工作流模板。
+- 摘要：Vibe Workflow 提供从创意到落地的分步提示词，可在 ChatGPT、Claude 等工具中完成调研与 MVP 定义，再产出技术设计并配置编码助手说明文件。每步可复制整份提示、附上上一步文档并保存到应用 docs 目录。无需安装 CLI 或技能，适合用对话规划后再交给 AI IDE 实现。
+- 标签：`提示词` `PRD` `MVP` `工作流`
+- 来源：GitHub Star
+
+### [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+- 发现：2026-09-12
+- 一句话：汇集多款 AI 编程与助手产品系统提示词、内部工具与模型信息的公开合集。
+- 摘要：该仓库收集 Cursor、Claude Code、Devin、Windsurf、v0 等多款工具相关的系统提示与内部配置类材料，供研究与对照。维护方在 README 中提醒 AI 初创公司注意提示与模型泄露风险，并链接相关安全服务。内容以仓库目录中的文件为准，持续更新路线图与反馈渠道。
+- 标签：`系统提示词` `合集` `AI 工具`
+- 来源：GitHub Star
+
+### [手绘风格与排版图型提示词库](https://github.com/yang0/handraw-style)
+- 发现：2026-09-12
+- 一句话：按编号选择手绘风格、排版与主题色，生成中英双语 AI 生图提示词的 Skill 与画廊。
+- 摘要：项目整理数百种手绘风格、多种排版图型与经典单色主题，用编号代替冗长画风描述。支持纯图与图文模式、长文配图规划、封面设计与摄影企划等场景，并可通过 Codex 等方式安装为 Skill。官方飞书知识库提供画廊检索与常见问题速查。
+- 标签：`skills` `生图` `提示词` `排版`
+- 来源：GitHub Star
+
+### [Graphify](https://github.com/Graphify-Labs/graphify)
+- 发现：2026-09-10
+- 一句话：把代码库与文档等建成可查询知识图谱的 graphify 技能，依赖本地 AST 解析。
+- 摘要：Graphify 将代码、文档、SQL 模式、配置与 PDF 等转为带可解释边的知识图谱，供 Claude Code、Cursor、Codex 等通过技能查询。它强调本地确定性 AST 解析，不依赖向量库即可追踪关系。适合在大型仓库中做结构化代码搜索与上下文检索。
+- 标签：`skills` `知识图谱` `代码分析` `tree-sitter`
+- 来源：GitHub Star
+
+### [Humanizer](https://github.com/blader/humanizer)
+- 发现：2026-09-08
+- 一句话：基于维基百科 AI 写作征象指南、弱化机器腔而不改含义的智能体写作技能。
+- 摘要：Humanizer 依据维基「AI 写作征象」指南，识别并改写套路化表达、空洞收束与 staged 语气等模式。它面向人类读者润色，而非专门对抗检测器。支持 Claude Code、Codex 等通过 skills 或插件安装，安装后可用斜杠命令调用。
+- 标签：`skills` `写作` `润色` `提示词`
+- 来源：GitHub Star
+
+### [Waza](https://github.com/tw93/Waza)
+- 发现：2026-09-06
+- 一句话：把常见工程习惯封装成 Claude Code 等智能体可执行的八项技能包。
+- 摘要：Waza 为思考、UI、检查、排错、写作、学习、阅读与健康审计等场景各提供一份技能与参考文档。在 Claude Code 中可用斜杠命令触发，Codex 等读取共享 skills 目录的客户端亦可调用。通过 npx skills add 可一次安装到全局 agents 目录并链到多款编码工具。
+- 标签：`skills` `工程习惯` `Claude Code` `Codex`
+- 来源：GitHub Star
+
+### [pi-packages](https://github.com/FradSer/pi-packages)
+- 发现：2026-09-03
+- 一句话：面向 Pi 的可复用技能包、扩展与工作流命令集合。
+- 摘要：仓库提供若干原生 Pi 包，涵盖智能体团队委托与 agent_event 通信、旁路问答、隔离式代码库调研、持续学习与记忆等场景。各包通过 npm 安装，暴露工具、斜杠命令或 Harness 规则，用于扩展 Pi 智能体能力。
+- 标签：`Pi` `技能包` `工作流` `npm` `扩展`
+- 来源：GitHub Star
+
+### [Ponytail](https://github.com/DietrichGebert/ponytail)
+- 发现：2026-09-02
+- 一句话：让编码智能体以极简、少写代码为目标的技能与规则包。
+- 摘要：Ponytail 核心是一份技能提示词，通过插件或规则文件载入 Claude Code、Codex 等多种智能体客户端。主张在可行时少写代码、避免过度工程，仓库提供多客户端安装方式。
+- 标签：`技能` `Claude Code` `YAGNI` `提示词` `编码`
+- 来源：GitHub Star
+
+### [中国专利.skill](https://github.com/handsomestWei/patent-disclosure-skill)
+- 发现：2026-09-02
+- 一句话：面向中国专利交底书编写、检索解读与审查答复的智能体技能包。
+- 摘要：技能覆盖发明、实用新型与外观设计的专利点挖掘、交底书成文与迭代版本管理，支持结构图与外观图理解、查新脱敏与 Word 交付。另含公开专利通俗解读、Obsidian 知识库沉淀与地图探索等子能力。
+- 标签：`专利` `技能` `中文` `Obsidian` `交底书`
+- 来源：GitHub Star
+
+### [Kami](https://github.com/tw93/Kami)
+- 发现：2026-09-02
+- 一句话：为智能体提供文档与落地页模板及排版规则，生成 PDF、PNG 或可编辑幻灯片。
+- 摘要：Kami 向 AI 智能体提供八套文档模板、落地页体系以及内容与版式检查规则。可产出 PDF、PNG，或将幻灯片导出为可编辑的 PowerPoint。与 Kaku、Waza 同属作者的三部曲之一，专注把内容交付到纸上。
+- 标签：`文档` `模板` `技能` `排版` `幻灯片`
+- 来源：GitHub Star
+
+
 ## 2026-08
 
 ### [skills（emilkowalski）](https://github.com/emilkowalski/skills)

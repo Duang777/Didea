@@ -2,6 +2,51 @@
 
 文章、教程、课程、通讯和其他学习资料。
 
+## 2026-09
+
+### [system-design-notes-zh](https://github.com/lukeTheNeuromancer/system-design-notes-zh)
+- 发现：2026-09-29
+- 一句话：《系统设计面试》卷一与卷二笔记的中文翻译，按章节整理扩展阅读。
+- 摘要：笔记基于 Alex Xu 两卷《系统设计面试》内容，对应从零扩展到百万用户、限流器、一致性哈希、短链、消息流与聊天系统等主题。各章以 Markdown 文件组织，并注明原文笔记来源链接。译者标注内容仍在持续完善中。
+- 标签：`系统设计` `面试` `中文翻译` `笔记`
+- 来源：GitHub Star
+
+### [Agentic AI 系统设计入门](https://github.com/lukeTheNeuromancer/agentic-ai-system-design-primer-zh)
+- 发现：2026-09-27
+- 一句话：中文 Agentic AI 系统设计学习笔记，涵盖架构、模式、权衡与生产工程实践。
+- 摘要：材料以智能体 AI 的系统设计入门为定位，讨论自主性与可控性、成本与质量、延迟与准确率等取舍。README 概览面试准备方向，并在 resources 目录提供带代码与决策树的生产级深度章节，涉及 ReAct、多智能体、记忆、RAG、工具可靠性与上下文工程等主题。
+- 标签：`智能体系统` `架构` `中文` `学习笔记`
+- 来源：GitHub Star
+
+### [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise)
+- 发现：2026-09-25
+- 一句话：按公司整理的 AI 工程面试题与答案 cheat sheet。
+- 摘要：仓库汇总多家公司的 AI 工程面试真题，按公司分章组织，并在有材料时附上答案链接。题目覆盖大模型内部机制、推理与 GPU、检索增强、智能体与工具调用、微调与对齐、评测与安全等主题。适合准备 AI 工程师、LLM 工程师与智能体相关岗位面试时查阅。
+- 标签：`面试题` `AI 工程` `学习资料` `公司向`
+- 来源：GitHub Star
+
+### [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+- 发现：2026-09-16
+- 一句话：用图示和通俗语言讲解复杂系统，并帮助准备系统设计面试的学习资料库。
+- 摘要：System Design 101 用可视化与简单术语解释复杂系统原理。无论你是备战系统设计面试，还是想理解系统底层如何运作，仓库中的指南与目录都可作为查阅入口。内容覆盖 API、网络、架构与常见系统设计主题。
+- 标签：`系统设计` `面试` `教程` `架构`
+- 来源：GitHub Star
+
+### [awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot)
+- 发现：2026-09-03
+- 一句话：Grok Bot 公开 x.ai/bot 分享链接的中英双语目录与可检索站点。
+- 摘要：本仓库不是 Grok Bot 安装器或源码，而是公开 bot 配置的索引，可在 x.ai 预览并一键加入账号。条目含链接状态检查、来源归因、JSON 结构与持续同步，并提供静态可搜索网站。
+- 标签：`Grok Bot` `awesome` `目录` `双语` `x.ai`
+- 来源：GitHub Star
+
+### [100 Days 100 IoT Projects](https://github.com/kritishmohapatra/100_Days_100_IoT_Projects)
+- 发现：2026-09-02
+- 一句话：以 ESP32 与树莓派 Pico 等平台逐日实战的百天物联网与嵌入式学习仓库。
+- 摘要：仓库记录作者用 ESP32、ESP8266、树莓派 Pico 与 MicroPython 学习物联网与嵌入式系统的百天项目。每天一个传感器或模块示例，附完整代码、电路说明与讲解，主题从基础读写延伸到 Wi-Fi、Web 服务与数据可视化。
+- 标签：`物联网` `MicroPython` `ESP32` `教程` `嵌入式`
+- 来源：GitHub Star
+
+
 ## 2026-08
 
 ### [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)

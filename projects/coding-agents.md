@@ -2,6 +2,149 @@
 
 写代码、改仓库、跑命令的编码智能体和开发工具。
 
+## 2026-09
+
+### [OpenRig](https://github.com/mvschwarz/openrig)
+- 发现：2026-09-29
+- 一句话：用 YAML 定义 Claude Code、Codex 等编码智能体团队，一键启动持久协作的 rig。
+- 摘要：OpenRig 把多终端里的 AI 编码会话组织成带角色、共享上下文与分工的团队；向 lead 智能体描述目标，由其协调跨团队专家并汇总待你决策的事项。通过 npm 全局安装 @openrig/cli，依赖 Node.js 22 与 tmux，在 macOS 或 Linux 仓库中启动。提供 TUI 查看席位、运行时、模型与上下文状态。
+- 标签：`多智能体` `Claude Code` `Codex` `编排`
+- 来源：GitHub Star
+
+### [Piggery](https://github.com/sting8k/piggery)
+- 发现：2026-09-29
+- 一句话：用单一 Go 二进制与 SQLite 协调 Pi、Claude Code、Codex 等编码智能体团队的本地农场。
+- 摘要：任务进入 trough 等待执行，只有真正完成才算 consumed；每个智能体有角色定义的 pen，限制通信对象与是否可 spawn 子 worker，农场自动校验围栏。支持 pi、Claude Code、Codex、omp、dsh、opencode 等 harness 的插件或 MCP 接入，通过 piggery setup 安装到各工具。全部数据本地 SQLite，无云端依赖。
+- 标签：`多智能体` `编码智能体` `本地` `Go`
+- 来源：GitHub Star
+
+### [agentmemory](https://github.com/rohitg00/agentmemory)
+- 发现：2026-09-28
+- 一句话：面向 Claude Code、Cursor、Codex 等编码智能体的持久记忆层，基于 iii 引擎。
+- 摘要：agentmemory 让编码智能体跨会话记住项目与用户偏好，减少重复解释。支持 Claude Code、GitHub Copilot CLI、Cursor、Gemini CLI、Codex、Hermes、OpenClaw、pi、OpenCode 及任意 MCP 客户端。在 Karpathy LLM Wiki 模式上扩展置信度、生命周期、知识图谱与混合检索等能力。
+- 标签：`记忆` `MCP` `编码智能体` `iii`
+- 来源：GitHub Star
+
+### [ConnectOnion](https://github.com/openonion/connectonion)
+- 发现：2026-09-27
+- 一句话：智能体 CLI harness：用 co 命令为 AI 智能体接入邮箱、浏览器、文件与聊天等工具。
+- 摘要：ConnectOnion 以单一命令行 co 管理智能体工作所需的账号与集成，包括 Gmail、Outlook、已登录浏览器、文件与聊天应用等。co rem 强调去中心化上下文流，把工作内容中的上下文留在本机并带到下一任务。文档提供 init、email、env、gmail、gcalendar 等子命令说明。
+- 标签：`CLI` `harness` `工具集成` `Python`
+- 来源：GitHub Star
+
+### [tty7](https://github.com/l0ng-ai/tty7)
+- 发现：2026-09-25
+- 一句话：纯 Rust 的终端工作台，会话持久并面向编码智能体编排。
+- 摘要：tty7 由后台服务持有 shell 与窗格，关闭窗口后会话仍可继续，并支持远程开发场景下的原生 SSH 栈。它可识别多种编码智能体 CLI，提供状态、通知与按仓库划分的 git 上下文。还附带 CLI 与 agent skill，使一个智能体可开 pane、派发任务并读取结果。
+- 标签：`终端` `持久会话` `编码智能体` `Rust`
+- 来源：GitHub Star
+
+### [mu](https://github.com/qybaihe/mu)
+- 发现：2026-09-25
+- 一句话：内置判断内核的编码智能体，基于 pi 构建。
+- 摘要：mu 把上下文裁剪、命令安全、协作与完成判定等决策交给名为 Jev 的小型快速模型，在每一轮多个决策点作答，大模型专注编码本身。提供命令行 mu 与可下载的 mu desktop 原生应用。项目处于早期开发阶段，名称与配置仍可能变化。
+- 标签：`编码智能体` `判断内核` `pi` `CLI`
+- 来源：GitHub Star
+
+### [Herdr Projects](https://github.com/eliasstravik/herdr-projects)
+- 发现：2026-09-25
+- 一句话：Herdr 插件：用协调智能体并行分派多个编码任务线程。
+- 摘要：Herdr Projects 在 Herdr 中运行较大项目：你只与一名协调智能体对话，它按任务在独立分支或目录启动工作线程，并为各线程共享目标、指令与记忆。侧边栏汇总待你处理、待评审与进行中的线程。插件免费、MIT 许可，在自有机器上运行，需 Herdr 0.9.1 及以上。
+- 标签：`Herdr` `并行任务` `协调器` `编码智能体`
+- 来源：GitHub Star
+
+### [Apache Maka (Incubating)](https://github.com/apache/maka)
+- 发现：2026-09-24
+- 一句话：高性能编码智能体工作台，以完整运行日志记录每一次操作。
+- 摘要：Apache Maka 是衡量任务完成度与成本的智能体 harness，在固定模型与官方验证器下发布评测结果。运行时将模型消息、工具调用、权限决策等追加为 RuntimeEvent，界面与恢复均基于该日志。会话与设置在本地，桌面、TUI、CLI 与 Eval 共用同一 Runtime Host。
+- 标签：`harness` `事件溯源` `本地优先` `Apache`
+- 来源：GitHub Star
+
+### [LazyCodex](https://github.com/code-yeongyu/lazycodex)
+- 发现：2026-09-22
+- 一句话：面向复杂代码库的 Codex 编码智能体 harness，含记忆、规划与验收。
+- 摘要：LazyCodex 在 Codex 内提供项目记忆、规划、执行与可验证的完成流程，定位为复杂代码库上的 agent harness。可通过 npx lazycodex-ai install 一键安装，也支持从 Codex 插件市场实验性安装 OmO 能力。与 Sisyphus Labs 的 OmO 质量取向相关联。
+- 标签：`Codex` `harness` `规划` `OmO`
+- 来源：GitHub Star
+
+### [brain.md](https://github.com/mindmuxai/brain.md)
+- 发现：2026-09-20
+- 一句话：面向编码智能体的持久化、基于文件的仓库记忆层与 CLI 标准。
+- 摘要：brain.md 提供零依赖 CLI 与开放约定，把项目决策、需求与约束写成仓库内 Markdown，供 Claude Code、Codex 等智能体跨会话读取。在项目中运行 brain init 会脚手架 BRAIN.md 与 brain 目录，并默认接入常见智能体配置。所有写入经 brain CLI 以保证结构一致。
+- 标签：`项目记忆` `Markdown` `CLI` `编码智能体`
+- 来源：GitHub Star
+
+### [Munder Difflin](https://github.com/HarnessMD/munder-difflin)
+- 发现：2026-09-16
+- 一句话：在本地用现有订阅协调多台 Claude Code、Codex 等终端编码智能体的多智能体 harness 桌面应用。
+- 摘要：Munder Difflin 是开源的多智能体 harness，把你已使用的终端编码 CLI 变成可并行协作的「办公室」智能体。它封装 Claude Code、Codex、Gemini CLI、OpenCode 等多种编码后端，支持本地优先与自带密钥。智能体可互发消息、路由与记忆，并在共享办公室场景中可视化协作。
+- 标签：`多智能体` `harness` `Electron` `编码智能体`
+- 来源：GitHub Star
+
+### [Solo Agent](https://github.com/solo-agent/solo)
+- 发现：2026-09-14
+- 一句话：本地优先的人机协作工作台，用频道、任务板与记忆协调多台编码智能体。
+- 摘要：Solo Agent 是开源、本地优先的工作空间，让人类与 Claude Code、Codex、OpenCode 等编码智能体在同一处协作。它提供频道、线程、任务板与频道级团队，把散落终端里的工作收成可认领、可评审的任务流。智能体保留长期记忆与固定工作区，减少每次会话重复解释上下文。
+- 标签：`工作空间` `多智能体` `本地优先` `编码智能体`
+- 来源：GitHub Star
+
+### [Agent Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)
+- 发现：2026-09-13
+- 一句话：从规划到合并，在一处规划、运行并监督多台编码智能体团队的桌面工作空间。
+- 摘要：Agent Orchestrator 面向需要并行多台编码智能体的项目级开发。添加仓库即可为任务创建 worker 会话，并匹配编码智能体、模型与界面；Git 工作可分配独立分支与 worktree。任务、对话、终端、变更、预览、PR、CI 与评审状态绑定在同一会话中，本地守护进程提供项目级实时视图。
+- 标签：`编排` `worktree` `Kanban` `编码智能体`
+- 来源：GitHub Star
+
+### [Worktrunk](https://github.com/max-sixty/worktrunk)
+- 发现：2026-09-13
+- 一句话：面向并行 AI 编码工作流的 Git worktree 管理 CLI。
+- 摘要：Worktrunk 让 git worktree 的使用体验接近分支管理，方便同时跑多台 Claude Code、Codex 等智能体。核心命令简化创建、切换与清理 worktree，并支持钩子与构建缓存等配套能力。路径可按模板自动计算，减少重复输入分支名与目录。
+- 标签：`Git` `worktree` `CLI` `并行开发`
+- 来源：GitHub Star
+
+### [Context Mode](https://github.com/mksglu/context-mode)
+- 发现：2026-09-13
+- 一句话：通过 MCP 与钩子为编码智能体压缩工具输出、持久化会话记忆并优化上下文路由。
+- 摘要：Context Mode 是面向编码智能体上下文窗口问题的 MCP 服务。沙箱化工具调用可把大量原始输出留在窗外，并用 SQLite 与全文检索在压缩后恢复相关编辑、任务与决策。它倡导用脚本代行数据分析以节省上下文，并跨多种客户端通过 MCP 与钩子统一接入。
+- 标签：`MCP` `上下文` `记忆` `编码智能体`
+- 来源：GitHub Star
+
+### [Empryo](https://github.com/proxysoul/Empryo)
+- 发现：2026-09-12
+- 一句话：基于代码图谱与 LSP、按符号而非字符串编辑的 AI 编码智能体。
+- 摘要：Empryo 在改动前先理解仓库结构与影响范围，并以 AST 级方式按名称替换函数或类。它在同一轮中可运行类型检查、lint 与测试并自行修复，并记录项目级决策与历史问题。提供终端与桌面应用，可通过官网脚本安装。
+- 标签：`编码智能体` `LSP` `图谱` `AST`
+- 来源：GitHub Star
+
+### [ai-memory](https://github.com/akitaonrails/ai-memory)
+- 发现：2026-09-11
+- 一句话：为多种编码 CLI 提供跨工具、跨机器的长期记忆与一次性交接协议。
+- 摘要：ai-memory 让 Claude Code、Codex、Cursor 等二十余种 harness 共享同一套项目记忆。记忆以 git 支持的 Markdown 维基为源，可自建服务器供团队复用，并带多用户鉴权与审计。生命周期钩子静默记录会话与工具调用，默认路径无需 LLM 即可完成捕获、检索与交接。
+- 标签：`记忆` `交接` `编码智能体` `Markdown`
+- 来源：GitHub Star
+
+### [Kaku](https://github.com/tw93/Kaku)
+- 发现：2026-09-07
+- 一句话：基于 WezTerm、为 macOS AI 编码场景预配置字体主题与快捷方式的终端。
+- 摘要：Kaku 是面向 AI 友好写作的 macOS 终端，默认集成 JetBrains Mono、深浅色主题与常用 Mac 快捷键。支持分屏、标签、可点击链接、可选 AI 聊天与命令建议，并保留 WezTerm Lua 配置能力。可通过 DMG 或 Homebrew 安装，并用 kaku 命令管理 shell 集成与可选工具。
+- 标签：`终端` `macOS` `WezTerm` `AI 编码`
+- 来源：GitHub Star
+
+### [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)
+- 发现：2026-09-03
+- 一句话：面向 OpenAI Codex CLI 的工作流增强层，提供钩子、智能体团队与 HUD 等能力。
+- 摘要：OMX 是 OpenAI Codex CLI 之上的工作流层，保留 Codex 作为执行引擎。默认强化 Codex 会话，并支持从澄清到完成的一致流程，以及 plan、team、code-review 等斜杠命令。项目状态与计划保存在 .omx 目录中。
+- 标签：`Codex` `工作流` `CLI` `TypeScript` `智能体团队`
+- 来源：GitHub Star
+
+### [portless](https://github.com/vercel-labs/portless)
+- 发现：2026-09-02
+- 一句话：用稳定命名的本地域名替代端口号，方便人与智能体访问开发中的应用。
+- 摘要：portless 为本地开发提供固定名称的 localhost 域名与 HTTPS 反向代理，常见框架可通过 PORT 或自动注入端口参数接入。适合团队与智能体在本地以一致 URL 访问各服务，避免记忆随机端口。
+- 标签：`本地开发` `Vercel Labs` `代理` `HTTPS` `开发者工具`
+- 来源：GitHub Star
+
+
 ## 2026-08
 
 ### [botmux](https://github.com/deepcoldy/botmux)

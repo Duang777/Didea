@@ -2,6 +2,23 @@
 
 现有分类都不合适、又还不必单开一类的条目。
 
+## 2026-09
+
+### [Hono](https://github.com/honojs/hono)
+- 发现：2026-09-17
+- 一句话：基于 Web 标准的轻量、极快的 Web 框架。
+- 摘要：Hono 是小型、简单且极快的 Web 框架，可在 Cloudflare Workers、Deno、Bun、Node.js 等多种 JavaScript 运行时上运行。内置与第三方中间件丰富，主打 RegExpRouter 等高性能路由与良好的 TypeScript 体验。文档与迁移指南托管在 hono.dev。
+- 标签：`Web 框架` `TypeScript` `边缘运行时` `路由`
+- 来源：GitHub Star
+
+### [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
+- 发现：2026-09-14
+- 一句话：美国 NSA 维护的软件逆向工程框架与分析工具套件。
+- 摘要：Ghidra 是软件逆向工程框架，包含反汇编、汇编、反编译、绘图与脚本等分析能力。它可在 Windows、macOS 与 Linux 上分析多种处理器指令集与可执行格式，支持交互与自动化模式。用户亦可用 Java 或 Python 开发扩展与脚本。
+- 标签：`逆向工程` `反编译` `安全分析`
+- 来源：GitHub Star
+
+
 ## 2026-07
 
 ### [Spider](https://github.com/spider-rs/spider)

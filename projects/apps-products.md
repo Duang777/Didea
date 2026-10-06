@@ -2,6 +2,107 @@
 
 给人直接用的完整应用和产品。
 
+## 2026-09
+
+### [Plane](https://github.com/makeplane/plane)
+- 发现：2026-09-30
+- 一句话：开源现代项目管理平台，用于任务、周期、文档与分流，可自托管或使用 Plane Cloud。
+- 摘要：Plane 帮助团队跟踪工作项、运行周期、管理模块与产品路线图，并提供富文本编辑与子属性、关联 issue 等能力。可作为 Jira、Linear 等替代方案，支持云账号或按部署文档自托管。项目持续演进，可通过论坛或 GitHub issue 反馈需求与缺陷。
+- 标签：`项目管理` `开源` `Kanban` `自托管`
+- 来源：GitHub Star
+
+### [Openship](https://github.com/oblien/openship)
+- 发现：2026-09-29
+- 一句话：可自托管的开源部署平台，内置 CI/CD，从仓库构建、路由并自动 TLS 发布应用。
+- 摘要：指向代码仓库后，Openship 负责构建、发布、路由与证书终结，可通过桌面应用、Web 控制台或 CLI 操作。单人可用仅在本机运行的桌面控制面通过 SSH 管理服务器；团队或需要 push-to-deploy 时可自托管 openship up。亦提供 Openship Cloud 免运维沙箱选项。
+- 标签：`部署` `自托管` `CI/CD` `DevOps`
+- 来源：GitHub Star
+
+### [Oh My PPT](https://github.com/arcsin1/oh-my-ppt)
+- 发现：2026-09-25
+- 一句话：本地优先的 AI 演示文稿生成、配图与编辑桌面工具。
+- 摘要：Oh My PPT 用 AI 驱动可编辑 HTML 幻灯片，从大纲、页面到配图可在一套工作流中完成，并支持演示与导出。强调本地优先，可使用自有模型与工作流。还支持导入旧 PPTX 模板、导出可编辑 PPTX 以及内置大量风格 Skill。
+- 标签：`PPT` `本地优先` `桌面应用` `AI 生成`
+- 来源：GitHub Star
+
+### [Raft](https://github.com/botiverse/raft-source)
+- 发现：2026-09-25
+- 一句话：人与 AI 智能体以对等身份协作的共享工作空间平台源码镜像。
+- 摘要：Raft 是人与 AI 智能体共同参与的共享工作空间，智能体拥有持久身份、记忆与能力范围，可在频道、线程、私信与任务中与人类协作。本仓库为按版本导出的源码镜像，含服务端、Web 客户端、CLI、守护进程与 SDK 等组件。采用源码可用许可证，当前不接受外部 pull request。
+- 标签：`协作` `多智能体` `工作空间` `源码可用`
+- 来源：GitHub Star
+
+### [OpenMuse](https://github.com/CopilotKit/openmuse)
+- 发现：2026-09-23
+- 一句话：带浏览器、终端与文件能力的个人智能体，任务可跨会话持续推进。
+- 摘要：OpenMuse 是个人智能体模板，可描述目标、跟随计划、审阅动作并在完成后查看结果，兼容多种 agent harness。基于 CopilotKit React Native，支持 iOS、Android 与 Web。当前为可自托管与二次开发的 alpha 阶段，部分能力需自行配置。
+- 标签：`个人助手` `CopilotKit` `自托管` `移动端`
+- 来源：GitHub Star
+
+### [Octop](https://github.com/TencentCloud/Octop)
+- 发现：2026-09-18
+- 一句话：可自托管的多用户、多智能体 AI 助手。
+- 摘要：Octop 是开源、完全自托管的 AI 助手，通过多智能体架构为团队、家庭与个人提供可并行协作的智能环境。可通过 Web 控制台、CLI 与多种 IM 渠道对话，并用专家库、Connectors 与 ACP 扩展能力。内置多用户隔离、工具审批与命令防护等安全机制。
+- 标签：`自托管` `多用户` `IM` `多智能体`
+- 来源：GitHub Star
+
+### [World Monitor](https://github.com/koala73/worldmonitor)
+- 发现：2026-09-14
+- 一句话：聚合新闻、地缘与基础设施信号的实时全球情报仪表盘。
+- 摘要：World Monitor 提供统一的态势感知界面，整合精选新闻流、双地图引擎与多类专题面板。它支持跨军事、经济、灾害等信号的相关分析，并提供国家不稳定指数、金融雷达等模块。单一代码库可部署多种站点变体，并可选本地 Ollama 运行与 Tauri 桌面端。
+- 标签：`仪表盘` `地缘` `OSINT` `MCP`
+- 来源：GitHub Star
+
+### [Agenta](https://github.com/Agenta-AI/agenta)
+- 发现：2026-09-09
+- 一句话：团队通过对话构建智能体与自动化，并在 Slack 等渠道协作的开源工作空间。
+- 摘要：Agenta 是开源的智能体工作空间，支持用聊天方式搭建 AI 同事并与团队共享。可将智能体接入 Slack、WhatsApp 或 Telegram 等渠道使用。提供自托管与 Agenta Cloud，并附带文档与演示资源。
+- 标签：`工作空间` `自动化` `团队协作` `自托管`
+- 来源：GitHub Star
+
+### [Lody](https://github.com/LodyAI/Lody)
+- 发现：2026-09-08
+- 一句话：在桌面、手机与网页上共享团队编码智能体会话与派单的工作空间。
+- 摘要：Lody 通过 ACP 连接已有机器与编码智能体，让队友查看完整对话、运行状态与代码变更并继续下达指令。可在桌面、移动、Web 或 CLI 选择已连接机器派发任务，权限请求与进度跨端可见。运行守护进程并登录即可把工作站或云主机纳入工作区。
+- 标签：`团队协作` `ACP` `编码智能体` `多端`
+- 来源：GitHub Star
+
+### [BagIdea Office](https://github.com/bagidea/bagidea-office)
+- 发现：2026-09-08
+- 一句话：以桌面壁纸呈现的 2.5D Claude Code 智能体办公室与协作世界。
+- 摘要：BagIdea Office 把 Claude Code 等智能体的真实工作状态渲染成像素风员工在办公室走动、开会与学习。支持按智能体切换多种模型、工作流、插件，以及语音与 Telegram 等集成。运行需 Claude Code，完整体验可在设置中配置 Gemini 与 OpenAI 密钥以启用语音与图像能力。
+- 标签：`桌面` `多智能体` `Claude Code` `游戏化`
+- 来源：GitHub Star
+
+### [易标投标工具箱](https://github.com/FB208/OpenBidKit_Yibiao)
+- 发现：2026-09-07
+- 一句话：开源免费的 AI 招投标标书编写与知识库、查重、废标检查等工具箱。
+- 摘要：易标面向招投标场景，提供 AI 技术方案与图文生成、商务标、企业知识库、标书查重与废标项检查等功能。支持 OpenAI 兼容 API 以及 Ollama、LM Studio 等本地模型接入。项目以 Electron 等技术栈实现，强调开箱可用与完全开源免费。
+- 标签：`招投标` `文档生成` `RAG` `Electron`
+- 来源：GitHub Star
+
+### [Pake](https://github.com/tw93/Pake)
+- 发现：2026-09-03
+- 一句话：一条命令把任意网页打成 macOS、Windows 与 Linux 桌面应用。
+- 摘要：Pake 用 Rust 与 Tauri 将网站打包为轻量桌面应用，安装包体积远小于常见 Electron 方案。支持命令行或在线构建，可配置快捷键、沉浸式窗口、拖拽与去广告等。仓库提供多款预构建热门站点安装包。
+- 标签：`桌面应用` `Tauri` `Rust` `打包` `跨平台`
+- 来源：GitHub Star
+
+### [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)
+- 发现：2026-09-02
+- 一句话：一键获得沉浸式多智能体互动课堂体验的开源教学应用。
+- 摘要：OpenMAIC 提供多智能体驱动的互动课堂，支持课程生成、幻灯片讲解、智能体对话与白板等能力。服务端可持久化课程与生成流程，并支持本地或自托管模型与多种集成。适合自学或搭建可交互的 AI 课堂环境。
+- 标签：`教育` `多智能体` `课堂` `开源` `互动学习`
+- 来源：GitHub Star
+
+### [Ouroboros](https://github.com/razzant/ouroboros)
+- 发现：2026-09-01
+- 一句话：开源通用智能体桌面应用，任务间保持记忆并可协调多子智能体协作。
+- 摘要：Ouroboros 是开源通用智能体，身份、持久记忆与历史在任务和重启后延续。可处理外部项目、协调实时子智能体集群，并能在授权下改写自身实现。提供原生桌面应用与无头 CLI，推理可用远程 API 或本地 GGUF 模型，默认不上报遥测。
+- 标签：`桌面智能体` `自托管` `多智能体` `持久记忆` `开源`
+- 来源：GitHub Star
+
+
 ## 2026-08
 
 ### [CRM](https://github.com/trycompai/crm)

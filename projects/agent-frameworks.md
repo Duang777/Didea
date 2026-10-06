@@ -2,6 +2,156 @@
 
 多智能体框架、编排层和工作流运行时。
 
+## 2026-09
+
+### [Raven](https://github.com/EverMind-AI/Raven)
+- 发现：2026-09-29
+- 一句话：面向递归自改进的多智能体 Host，用 DAG 编排内置与第三方智能体完成复杂任务。
+- 摘要：Raven 作为 Host Agent 聚合 Raven-Research、Raven-Code、Raven-Design、Raven-Oncall 等内置角色，并支持迭代改进自身 harness 的规划与执行方式。基于 EverOS 在会话间承载记忆与上下文，可自主驱动从需求到交付的多轮规划开发与验证。项目处于 pre-alpha，接口与配置可能快速变化。
+- 标签：`多智能体编排` `RSI` `EverOS` `Host Agent`
+- 来源：GitHub Star
+
+### [apowerb](https://github.com/apowerb/apowerb)
+- 发现：2026-09-26
+- 一句话：用于构建、编排与运维生产级 AI 智能体的开源框架。
+- 摘要：apowerb 是面向生产环境构建、运行与治理 AI 智能体的开源平台。它覆盖多智能体编排、检索增强与 Text-to-SQL、MCP 服务与内置业务工具，以及邮件与定时触发等运行方式。可用 Docker Compose 或 Helm 自托管部署。
+- 标签：`编排` `RAG` `MCP` `自托管`
+- 来源：GitHub Star
+
+### [Holon](https://github.com/holon-run/holon)
+- 发现：2026-09-25
+- 一句话：面向持续性任务的本地智能体工作台，可保存目标并在条件满足时恢复执行。
+- 摘要：Holon 是处理持续性工作的本地工作台，用显式 WorkItem 保存目标、计划、进度与等待条件，使任务可跨会话、命令、人工输入与外部事件继续推进。Holon 本身不是智能体，而是为多个智能体提供本地运行环境。支持终端 TUI 与 Web 图形界面两种交互方式。
+- 标签：`工作台` `本地优先` `事件驱动` `运行时`
+- 来源：GitHub Star
+
+### [Strands Agents](https://github.com/strands-agents/harness-sdk)
+- 发现：2026-09-24
+- 一句话：用少量代码在 Python 与 TypeScript 中构建生产级 AI 智能体的开源 SDK。
+- 摘要：Strands Agents 是在自有进程内运行的开源 SDK，无需托管控制平面，覆盖智能体循环、工具与结构化输出、MCP、多智能体模式、记忆与会话、模型可移植性与流式等能力。还提供护栏、追踪与评测等配套。适合原本要手写 agent loop 的场景。
+- 标签：`SDK` `多智能体` `MCP` `Python`
+- 来源：GitHub Star
+
+### [Univer](https://github.com/dream-num/univer)
+- 发现：2026-09-24
+- 一句话：面向 AI 智能体的 Office 能力运行时，集成表格、文档、幻灯片等。
+- 摘要：Univer 是可在自有产品中嵌入办公能力的开源 SDK，提供表格、文档、演示等构建块，并强调插件架构、Canvas 渲染、公式引擎与统一 Facade API，可在浏览器与 Node.js 运行。产品族内各办公工具共享存储与计算运行时，人与 AI 智能体可在同一文件中协作。
+- 标签：`Office SDK` `表格` `插件` `智能体`
+- 来源：GitHub Star
+
+### [Nasiko](https://github.com/Nasiko-Labs/nasiko)
+- 发现：2026-09-24
+- 一句话：面向编码智能体与 harness 的开源运行时，用于发现、计费统计与模型路由。
+- 摘要：Nasiko 作为 OpenRuntime，可发现本机已在运行的编码智能体，将花费统一到同一 schema，并按策略把流量路由到你选择的模型。发现过程默认只读、可不改 harness 配置；上报与路由为显式可选能力。开发者可继续使用原有 harness 命令与界面。
+- 标签：`运行时` `路由` `可观测` `Rust`
+- 来源：GitHub Star
+
+### [Agent-Native](https://github.com/BuilderIO/agent-native)
+- 发现：2026-09-24
+- 一句话：为带专用 UI 的智能体应用提供的 TypeScript 框架。
+- 摘要：Agent-Native 让同一能力以 action 形式同时供智能体当工具调用、供 UI 从代码调用，共享校验、权限与实现。智能体与界面还共享数据与应用状态，例如当前页面或选中记录。智能体不通过点击 UI 操作，而是与界面走同一 action 层。
+- 标签：`TypeScript` `React` `action` `智能体应用`
+- 来源：GitHub Star
+
+### [Hindsight](https://github.com/vectorize-io/hindsight)
+- 发现：2026-09-23
+- 一句话：强调学习与反思的智能体记忆系统，而非仅保存对话历史。
+- 摘要：Hindsight 旨在让智能体随时间学习，提供 retain、recall、reflect 等记忆操作，并支持记忆库、心理模型与知识页等概念。可与多种智能体、编码助手及 MCP 集成，也可嵌入式运行或独立起服务。项目提供文档、集成示例与 cookbook。
+- 标签：`智能体记忆` `学习` `MCP` `Python`
+- 来源：GitHub Star
+
+### [SkillOpt](https://github.com/microsoft/SkillOpt)
+- 发现：2026-09-22
+- 一句话：在文本空间优化冻结 LLM 智能体可复用自然语言技能的训练器。
+- 摘要：SkillOpt 把技能文档当作可训练状态，通过轨迹驱动编辑、验证门控更新与 epoch 式训练流程改进技能，而不改动模型权重。部署产物为紧凑的 best_skill.md，在目标模型与 harness 上直接运行。提供 CLI、WebUI 与 SkillOpt-Sleep 等离线自进化能力。
+- 标签：`技能优化` `自进化` `验证门控` `Microsoft`
+- 来源：GitHub Star
+
+### [deco Studio](https://github.com/decocms/studio)
+- 发现：2026-09-22
+- 一句话：面向组织的开源 AI 智能体控制平面与工作空间。
+- 摘要：deco Studio 打包模型路由、MCP 鉴权、智能体配置、单点登录、权限、审计与用量核算等企业 rollout 所需能力。通过统一 MCP 端点连接 GitHub、Slack、数据库等工具，令牌存入加密 vault。可本地安装保持私有，也可同步到云端供团队协作。
+- 标签：`控制平面` `MCP` `企业` `TypeScript`
+- 来源：GitHub Star
+
+### [tRPC-Agent-Go](https://github.com/trpc-group/trpc-agent-go)
+- 发现：2026-09-22
+- 一句话：用于构建生产级智能体系统的 Go 框架。
+- 摘要：tRPC-Agent-Go 在单一 Go 技术栈中提供 LLM 智能体、图工作流、工具调用、会话与记忆、知识检索、自进化、评测与 OpenTelemetry 可观测性。支持 A2A、AG-UI 与 MCP 等协议集成，并包含可复用的 SKILL.md 工作流与安全执行能力。适合需要并发友好、易部署的智能体服务。
+- 标签：`Go` `图工作流` `MCP` `可观测性`
+- 来源：GitHub Star
+
+### [AX](https://github.com/google/ax)
+- 发现：2026-09-21
+- 一句话：在集群上声明式编排大规模自主智能体工作负载的运行时。
+- 摘要：AX 是基于 Agent Substrate 沙箱的高吞吐声明式编排器，用 Workspace、Task、Model 等 Kubernetes 风格清单描述智能体任务与环境。可为任务预置 Git 仓库、MCP 服务与技能包，并支持挂起恢复与 ssh 进入运行中的沙箱观察。项目仍在快速演进，可能有破坏性变更。
+- 标签：`编排` `Kubernetes` `沙箱` `Go`
+- 来源：GitHub Star
+
+### [OpenFang](https://github.com/RightNow-AI/openfang)
+- 发现：2026-09-18
+- 一句话：用 Rust 构建的开源智能体操作系统。
+- 摘要：OpenFang 面向自主智能体而非单纯聊天框架，支持按计划持续运行、构建知识图谱与向仪表板汇报等能力。系统编译为单一二进制，通过 init 与 start 启动本地仪表板。核心创新 Hands 是预置的自主能力包，可独立定时执行多阶段任务流程。
+- 标签：`Agent OS` `Rust` `自主智能体` `Hands`
+- 来源：GitHub Star
+
+### [SwarmForge](https://github.com/unclebob/swarm-forge)
+- 发现：2026-09-08
+- 一句话：在独立 git worktree 与 tmux 会话中协调多台 AI 智能体并用手递交接的编排工具。
+- 摘要：SwarmForge 通过隔离 worktree 与 tmux 运行多台智能体，并以提交物交换耐久交接。操作者用本地仪表盘启动任务、审批关卡、回答澄清并停止蜂群。提供多种 pack 与 forge 安装形态，需 zsh、git、tmux、Babashka 及 grok、codex、claude 或 copilot 等后端之一。
+- 标签：`多智能体` `worktree` `tmux` `编排`
+- 来源：GitHub Star
+
+### [TeamAI](https://github.com/Tencent/teamai-cli)
+- 发现：2026-09-07
+- 一句话：把个人 AI 能力沉淀为团队共享的技能、规则与 MCP 等资产的 CLI 与技能体系。
+- 摘要：TeamAI 帮助团队在共享 Git 仓库中统一智能体、机器与成员的工作方式。通过 teamai 技能或 CLI 可初始化团队空间、邀请成员加入并共享技能与 MCP 等资源。成员配置完成后打开常用智能体即可加载团队全部 AI 资产，并可用仪表盘查看与管理。
+- 标签：`团队` `技能共享` `CLI` `MCP`
+- 来源：GitHub Star
+
+### [Evolver](https://github.com/EvoMap/evolver)
+- 发现：2026-09-05
+- 一句话：基于 GEP 的可审计智能体自进化引擎，管理基因、胶囊与事件。
+- 摘要：Evolver 为 AI 智能体提供带 Genes、Capsules 与 Events 的自进化运行时，并与 evomap.ai 生态衔接。它强调可审计的演化过程与记忆、技能资产治理，可通过 npm 安装使用。仓库说明未来版本将转向 source-available，已发布的 MIT 与 GPL 版本仍按原许可使用。
+- 标签：`自进化` `GEP` `技能库` `智能体`
+- 来源：GitHub Star
+
+### [Docker Agent](https://github.com/docker/docker-agent)
+- 发现：2026-09-05
+- 一句话：用 YAML 声明式配置构建、运行与分发多智能体团队的 Docker CLI 插件。
+- 摘要：docker-agent 作为 docker agent 子命令，让你无需写代码即可定义模型、指令与工具集。支持多智能体分工、内置与 MCP 工具、多模型提供商以及 think、todo、记忆与 RAG 等能力。可将智能体打包推送到 OCI 仓库并在任意环境拉取运行，Docker Desktop 4.63 及以上预装该插件。
+- 标签：`Docker` `YAML` `MCP` `多智能体`
+- 来源：GitHub Star
+
+### [TrueForge](https://github.com/truefoundry/trueforge)
+- 发现：2026-09-05
+- 一句话：把大模型变成可运行智能体的开源 harness，含聊天 UI、HTTP API 与沙箱工具。
+- 摘要：TrueForge 负责智能体执行循环，涵盖流式调用、会话持久化、MCP、技能、沙箱、审批与上下文管理。可从目录一次配置模型、MCP、技能与沙箱，并通过内置聊天界面、HTTP API 与 TypeScript SDK 接入。支持子智能体、延迟加载工具、大结果卸载与对话压缩等上下文工程能力。
+- 标签：`harness` `MCP` `沙箱` `运行时`
+- 来源：GitHub Star
+
+### [AURA](https://github.com/mezmo/aura)
+- 发现：2026-09-05
+- 一句话：可在数分钟内部署、面向生产运维的 SRE 智能体平台。
+- 摘要：AURA 是已在生产环境验证的 SRE 智能体平台，通过引导式接入连接现有技术栈，预置智能体团队可结合你已有的模型调查事故。平台负责护栏、API、状态管理、流式输出、失败处理与可观测性，在运维者划定的边界内把大模型接到生产工具上。
+- 标签：`SRE` `Rust` `运维` `多智能体` `MCP`
+- 来源：GitHub Star
+
+### [AgentTeams](https://github.com/agentscope-ai/AgentTeams)
+- 发现：2026-09-05
+- 一句话：基于 Matrix 房间、支持人机协同与全程介入的开源多智能体协作运行时。
+- 摘要：AgentTeams 是开源的多智能体协作运行时，多个智能体在可审计的房间内协作，人类可全程可见并干预。采用 Manager-Workers 架构，由 Manager 编排多个 Worker 容器，自身不实现智能体逻辑。支持 OpenClaw、QwenPaw、Hermes 等运行时同处一室，并提供 MinIO 共享文件系统与 Matrix 即时通讯集成。
+- 标签：`多智能体` `Matrix` `OpenClaw` `编排` `人机协同`
+- 来源：GitHub Star
+
+### [Wemux](https://github.com/wemux-ai/wemux)
+- 发现：2026-09-03
+- 一句话：可自托管的开源智能体协作平台，在隔离工作区于自有 Worker 上执行真实编码任务。
+- 摘要：Wemux 是 Apache 2.0 许可、可完全自托管的智能体协作平台。控制面负责规划、路由与审查，实际编码在用户自有 Worker 机器的隔离 Git worktree 中执行，而非云端黑盒。提供主对话编排、看板任务、工作区会话与群组协作等能力。
+- 标签：`自托管` `协作` `Worker` `编排` `开源`
+- 来源：GitHub Star
+
+
 ## 2026-08
 
 ### [OpenHuman](https://github.com/tinyhumansai/openhuman)
