@@ -11,6 +11,58 @@ UI 组件库、动效和设计工具。
 - 标签：`前端` `React` `动效` `插画` `skills`
 
 
+## 2026-07
+
+### [Maple Mono](https://github.com/subframe7536/maple-font)
+- 发现：2026-07-26
+- 一句话：带圆角、连字与 Nerd Font 图标的开源等宽编程字体。
+- 摘要：Maple Mono 面向 IDE 与终端场景，V7 提供可变字体与源码，并重设计大量字形与更智能的连字。支持 Nerd Font 图标、细粒度特性开关与中英 2 比 1 宽度对齐，中文版本基于 Resource Han Rounded 覆盖简繁与日文字符集。可通过官网与仓库下载定制构建。
+- 标签：`等宽字体` `连字` `Nerd Font` `可变字体` `排版`
+- 来源：GitHub Star
+
+### [vinyl](https://github.com/thebuggeddev/vinyl)
+- 发现：2026-07-25
+- 一句话：基于 three.js 的 3D 黑胶唱片机 Web 演示。
+- 摘要：仓库描述为使用 Claude Fable 5 在 three.js 中开发的 3D 黑胶唱片机。README 为空，暂无更多可核对的功能或安装说明。
+- 标签：`three.js` `3D` `Web`
+- 来源：GitHub Star
+
+### [MultiTerm Astro](https://github.com/stelcodes/multiterm-astro)
+- 发现：2026-07-24
+- 一句话：面向程序员的 Astro 博客主题，内置大量编辑器配色方案。
+- 摘要：MultiTerm 是 Astro 博客主题，可用 Shiki 主题一键换站配色，并让正文呈现接近原始 Markdown 的观感。支持明暗与多主题切换、Giscus 评论、GitHub 活动组件、RSS 与站点地图等。示例站展示 admonition、目录、数学公式与阅读时间等扩展。
+- 标签：`Astro` `博客主题` `Shiki` `配色` `静态站`
+- 来源：GitHub Star
+
+### [AstroPaper](https://github.com/satnaing/astro-paper)
+- 发现：2026-07-24
+- 一句话：极简、可访问且 SEO 友好的 Astro 博客主题。
+- 摘要：AstroPaper 是响应式 Astro 博客主题，强调键盘与读屏可访问性、明暗模式与 SEO。内置 Pagefind 静态搜索、草稿与分页、站点地图与 RSS，并支持 MDX、可折叠目录与动态 OG 图生成。文章存放在 src/content/posts，可用子目录组织 URL。
+- 标签：`Astro` `博客` `无障碍` `Tailwind` `SEO`
+- 来源：GitHub Star
+
+### [Astro](https://github.com/withastro/astro)
+- 发现：2026-07-23
+- 一句话：面向内容驱动网站的现代 Web 构建工具与框架。
+- 摘要：Astro 是网站构建工具，强调开发者体验与轻量输出，推荐通过 npm create astro 安装。官方文档覆盖入门、示例与社区支持。仓库还维护编译器等若干独立子项目。
+- 标签：`静态站` `Islands` `内容站` `TypeScript` `SSG`
+- 来源：GitHub Star
+
+### [Codex Dream Skin](https://github.com/Fei-Away/Codex-Dream-Skin)
+- 发现：2026-07-16
+- 一句话：为 Codex 桌面应用换壁纸与主题皮肤的非官方美化工具。
+- 摘要：Codex Dream Skin 用一张图营造氛围，在保留侧栏、卡片、项目选择与输入区等原生控件的前提下替换壁纸。提供主题库与在线 Studio，支持导入主题 zip，且不修改应用包或 app.asar。
+- 标签：`Codex` `主题` `桌面` `皮肤`
+- 来源：GitHub Star
+
+### [Cult UI](https://github.com/nolly-studio/cult-ui)
+- 发现：2026-07-11
+- 一句话：面向设计工程师的动效组件库，一百五十余个免费 shadcn/ui 组件。
+- 摘要：Cult UI 提供可在任意 shadcn/ui 项目中安装的动画组件，通过 shadcn CLI 从注册表复制源码到项目。组件基于 Tailwind CSS v4 与主题令牌，多数使用 Motion 动画，MIT 许可。
+- 标签：`React` `shadcn` `动效` `组件库`
+- 来源：GitHub Star
+
+
 ## 2026-02
 
 ### [Creative Tim UI](https://github.com/creativetimofficial/ui)

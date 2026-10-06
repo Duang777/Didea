@@ -2,6 +2,16 @@
 
 模型权重、推理引擎和模型 API。
 
+## 2026-07
+
+### [OmniRoute](https://github.com/diegosouzapw/OmniRoute)
+- 发现：2026-07-25
+- 一句话：MIT 开源 AI 网关，用单一端点聚合多家模型与免费额度并支持配额感知回退。
+- 摘要：OmniRoute 为 Claude Code、Codex、Cursor、Cline 与 Copilot 等工具提供统一 AI 接入，聚合多家提供商与免费额度，并宣传 RTK 与 Caveman 压缩以节省 token。支持 MCP 与 A2A，提供 Desktop 与 PWA 管理面。目标是减少手工轮换 SDK 与额度，在一处路由与回退。
+- 标签：`LLM网关` `免费额度` `Claude Code` `MCP` `自托管`
+- 来源：GitHub Star
+
+
 ## 2025-11
 
 ### [Ollama](https://github.com/ollama/ollama)

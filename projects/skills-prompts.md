@@ -2,6 +2,79 @@
 
 可复用的技能、提示词和仓库规则。
 
+## 2026-07
+
+### [Claude Design System Prompt](https://github.com/Trystan-SA/claude-design-system-prompt)
+- 发现：2026-07-29
+- 一句话：逆向整理的设计向系统提示词与 14 项可调用技能库。
+- 摘要：该项目提供 Claude Design 风格的系统提示词，将大模型塑造为强调可访问性、拒绝 AI 俗套审美的设计协作者。提示词覆盖内容纪律、视觉层级、WCAG 与组件化思维等章节，并附带线框、原型、可访问性审计与 AI slop 检查等 14 个 procedural skills。MIT 开源，可放入支持 system prompt 的任意模型使用。
+- 标签：`设计` `系统提示词` `可访问性` `skills` `MIT`
+- 来源：GitHub Star
+
+### [Archify](https://github.com/tt-a1i/archify)
+- 发现：2026-07-26
+- 一句话：供 Claude Code、Codex 等使用的智能体 skill，把想法或代码库变成交互式可视化图。
+- 摘要：Archify 让你向 AI agent 描述系统、计划或仓库，生成交互式 HTML 图以便探索、定制与分享。通过 npx skills add 安装，适用于 Cursor、Claude Code、Codex CLI 与 OpenCode 等。站点提供 live demo 画廊与场景指南，强调从一句话到可点击架构或流程图。
+- 标签：`skill` `架构图` `可视化` `Mermaid` `Claude Code`
+- 来源：GitHub Star
+
+### [Plain writing skill](https://github.com/docwriter-org/plain-writing-skill)
+- 发现：2026-07-26
+- 一句话：让 AI agent 用 plain 风格写作并自检删冗的可复用 skill。
+- 摘要：规则集中在 skills/plain-writing/SKILL.md，任意能读文件的 agent 可按步骤写作与修订，并移除不增信息的表述。支持 gh skill install 安装，Claude Code 可只拷贝 skill 文件到本地 skills 目录。还提供 /plain-writing deslopify 命令，将上一轮回复改写为面向非项目读者的清晰结构。
+- 标签：`skill` `plain language` `写作` `修订`
+- 来源：GitHub Star
+
+### [skills（jakubkrehel）](https://github.com/jakubkrehel/skills)
+- 发现：2026-07-25
+- 一句话：帮助构建优秀界面的 agent skills 集合。
+- 摘要：仓库收录 better-interface、better-ui、better-typography、better-colors、better-accessibility、better-layout、better-writing 等 skill，覆盖无障碍、排版、色彩、布局与界面文案等主题。作者关联 Interfaces 设计工程杂志，skills 可通过 skills.sh 分发，并支持 interface-review 等用户触发的审查类 skill。
+- 标签：`UI` `无障碍` `排版` `skills` `设计工程`
+- 来源：GitHub Star
+
+### [Hallmark](https://github.com/Nutlope/hallmark)
+- 发现：2026-07-15
+- 一句话：面向 Claude Code、Cursor 与 Codex 的反 AI 味设计技能。
+- 摘要：Hallmark 为简报挑选宏观结构，套用二十一种主题之一，并通过大量 slop 检测与自检拒绝常见的大模型默认审美。默认动词用于搭建新界面，另支持 audit、redesign 与 study 等命令审计、重构或从参考提取设计 DNA。
+- 标签：`设计` `技能` `反模板` `UI`
+- 来源：GitHub Star
+
+### [AI Job Search](https://github.com/MadsLorentzen/ai-job-search)
+- 发现：2026-07-12
+- 一句话：在本机运行的求职框架，基于 Claude Code 评估职位并定制简历与求职信。
+- 摘要：AI Job Search 是一套结构化工作流，fork 后填入个人档案，让 Claude 评估招聘信息、定制 CV、撰写求职信并准备面试。作者自述用同一套 scrape、apply 与 interview 流程完成自己的求职。
+- 标签：`求职` `Claude Code` `工作流` `简历`
+- 来源：GitHub Star
+
+### [AI Website Cloner Template](https://github.com/JCodesMore/ai-website-cloner-template)
+- 发现：2026-07-11
+- 一句话：给编码智能体一条命令，把任意网站复刻为 Next.js 应用的模板仓库。
+- 摘要：该模板让具备浏览器能力的 AI 编码智能体访问 URL，并重建为干净的 Next.js 应用。推荐配合 Claude Code 与 Opus，也支持 Codex、Cursor 与 OpenCode，通过 clone-website 类斜杠命令启动流程。
+- 标签：`模板` `网站克隆` `Next.js` `skills`
+- 来源：GitHub Star
+
+### [yichen-skills](https://github.com/mcncarl/yichen-skills)
+- 发现：2026-07-11
+- 一句话：面向创作者的技能合集，覆盖写作、X 内容与微信本地工作流等。
+- 摘要：yichen-skills 收录多组技能，用于上传 Markdown 到 X Articles 草稿、Mac 双开微信、把微信聊天与收藏转为本地数字资产、抓取抖音与小红书对标内容，以及火山引擎 ASR 口播剪辑等。面向在 Claude Code 与 Codex 中复用的个人创作流程。
+- 标签：`技能` `创作` `微信` `Claude Code`
+- 来源：GitHub Star
+
+### [skills（mattpocock）](https://github.com/mattpocock/skills)
+- 发现：2026-07-02
+- 一句话：面向真实工程场景的 Claude Code 与 skills.sh 可复用智能体技能集。
+- 摘要：仓库收录作者日常用于真实工程而非 vibe coding 的智能体技能，强调小块、可组合、易改造，并兼容多种模型。可通过 Claude Code 官方插件 marketplace 或 skills.sh 安装整包或可编辑副本。README 说明两种安装路径的更新与定制差异，并邀请订阅技能变更通讯。
+- 标签：`Claude Code` `skills.sh` `工程实践`
+- 来源：GitHub Star
+
+### [agent-skills（addyosmani）](https://github.com/addyosmani/agent-skills)
+- 发现：2026-07-02
+- 一句话：面向 AI 编码智能体的生产级工程技能与斜杠命令工作流。
+- 摘要：Agent Skills 把资深工程师在需求、实现、测试、审查与上线各阶段的工作流与质量门槛编码成技能包，供 AI 智能体一致遵循。提供从 /spec 到 /ship 共九个映射开发生命周期的斜杠命令，并支持 /build auto 等自动化路径。技能也可按场景自动激活，例如 API 设计或前端 UI 工程。
+- 标签：`斜杠命令` `编码智能体` `工作流` `质量门槛`
+- 来源：GitHub Star
+
+
 ## 2026-05
 
 ### [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing)

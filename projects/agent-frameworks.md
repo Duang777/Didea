@@ -2,6 +2,156 @@
 
 多智能体框架、编排层和工作流运行时。
 
+## 2026-07
+
+### [HyperFrames](https://github.com/heygen-com/hyperframes)
+- 发现：2026-07-29
+- 一句话：将 HTML、CSS 与动画确定性渲染为 MP4 视频的开源框架，面向编码智能体。
+- 摘要：HyperFrames 用 HTML、CSS、媒体与可 seek 动画生成确定性 MP4，可在本地 CLI、AI 编码 agent 技能或托管创作流程中使用。为 Claude Code 等提供插件与 skills 安装路径，并附带 Studio 与文档站点。口号为 Write HTML、Render video、Built for agents。
+- 标签：`视频渲染` `HTML` `TypeScript` `skills` `FFmpeg`
+- 来源：GitHub Star
+
+### [CopilotKit](https://github.com/CopilotKit/CopilotKit)
+- 发现：2026-07-25
+- 一句话：构建智能体原生应用与 Generative UI 的前端 SDK，并推动 AG-UI 协议。
+- 摘要：CopilotKit 提供 React、Angular、Vue、React Native 以及 Slack 与 Microsoft Teams 等表面的 agent 集成能力，涵盖生成式 UI、共享状态与人机协同工作流。团队维护 AG-UI 协议，用于连接各类 agent 框架与用户界面。生产场景可叠加 CopilotKit Intelligence 以持久线程、用户记忆与从使用中学习的 agent。
+- 标签：`React` `Generative UI` `AG-UI` `SDK` `Slack`
+- 来源：GitHub Star
+
+### [IntentKit](https://github.com/crestalnetwork/intentkit)
+- 发现：2026-07-25
+- 一句话：开源自托管的云原生智能体集群，管理协作式 AI 团队。
+- 摘要：IntentKit 定位为云端运行的 agent 集群，相较本地优先方案更省本机资源并便于免维护部署。特性包括多 agent 互调、默认安全配置使 agent 无法直接访问密钥、可选 Web3 集成、社交媒体连接与可扩展技能系统。也可作为 Python 库导入或通过内置 API 被外部应用调用。
+- 标签：`云原生` `多智能体` `自托管` `Web3` `Python`
+- 来源：GitHub Star
+
+### [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)
+- 发现：2026-07-24
+- 一句话：基于 Qwen 的 LLM 应用开发框架，含工具调用、MCP 与示例应用。
+- 摘要：Qwen-Agent 面向指令跟随、工具使用、规划与记忆等能力构建 LLM 应用。仓库附带浏览器助手、代码解释器、自定义助手等示例，并作为 Qwen Chat 的后端。文档与评测基准 DeepPlanning 等随仓库维护。
+- 标签：`Qwen` `Function Calling` `MCP` `RAG` `示例应用`
+- 来源：GitHub Star
+
+### [Open Agent SDK（OasAIStudio）](https://github.com/OasAIStudio/open-agent-sdk)
+- 发现：2026-07-24
+- 一句话：轻量通用的 TypeScript 智能体运行时，定位为 Claude Agent SDK 的开源替代。
+- 摘要：Open Agent SDK 提供可阅读、可扩展的 MIT 核心运行时，统一会话、工具、钩子、子智能体与多模型接入。支持权限模式、按工具门控与生命周期钩子，并内置本地 SWE-bench 与 Terminal-bench 评测 harness。可通过 npx open-agent-sdk init 脚手架启动项目。
+- 标签：`TypeScript` `智能体运行时` `多模型` `MCP` `开源`
+- 来源：GitHub Star
+
+### [Orloj](https://github.com/OrlojHQ/orloj)
+- 发现：2026-07-24
+- 一句话：用 YAML 声明智能体、工具与策略的多智能体编排与治理运行时。
+- 摘要：Orloj 将模型路由、工具权限、凭证、记忆、审批、调度、Webhook、追踪与部署等视为可版本化的基础设施资源。团队以声明式清单描述期望状态，由平台调度执行、路由与治理。文档称其覆盖从开发到生产的完整智能体栈，API 在 1.0 前可能变动。
+- 标签：`YAML` `多智能体` `编排` `治理` `可观测`
+- 来源：GitHub Star
+
+### [Agno](https://github.com/agno-agi/agno)
+- 发现：2026-07-23
+- 一句话：用于构建、运行与管理智能体平台的框架与 AgentOS 运行时。
+- 摘要：Agno 提供 SDK 构建智能体，并以 AgentOS 作为服务运行时，配合 Web UI 管理平台。强调数据、记忆与安全姿态由团队自持，并可通过模拟与使用数据形成学习闭环。官方引导通过 agentos 系列模板在 Docker 等环境拉起 REST API、Postgres、MCP 与控制面。
+- 标签：`AgentOS` `智能体平台` `Python` `自托管` `MCP`
+- 来源：GitHub Star
+
+### [Griptape](https://github.com/griptape-ai/griptape)
+- 发现：2026-07-23
+- 一句话：用于构建生成式 AI 应用与智能体工作流的模块化 Python 框架。
+- 摘要：Griptape 用 Agent、Pipeline 与 Workflow 等结构组织任务，并配套对话记忆、任务记忆与元数据记忆抽象。通过 Driver 层对接 LLM、检索、规则集与外部服务，便于替换提供商而不重写业务逻辑。文档亦指向 Griptape Nodes 可视化桌面产品作为无代码补充。
+- 标签：`Python` `工作流` `RAG` `记忆` `Driver`
+- 来源：GitHub Star
+
+### [iii](https://github.com/iii-hq/iii)
+- 发现：2026-07-23
+- 一句话：用统一实时运行时组合、发现、扩展与观测各类后端 Worker 的引擎。
+- 摘要：iii 让队列、cron、HTTP、状态、观测与智能体等能力通过同一 live catalog 互联，Worker 注册触发器与函数后即可被其他 Worker 调用。智能体可在缺能力时动态添加 Worker 并追踪调用链。提供 compose 命令拉起命名空间，并在 workers.iii.dev 浏览可用 Worker。
+- 标签：`运行时` `Worker` `可组合` `Rust` `多语言 SDK`
+- 来源：GitHub Star
+
+### [clawhive](https://github.com/longzhi/clawhive)
+- 发现：2026-07-22
+- 一句话：Rust 编写的轻量 AI 智能体平台，单二进制部署多聊天渠道机器人。
+- 摘要：clawhive 定位为 OpenClaw 的开源 Rust 替代，约十四兆单文件、无 Node 与 Docker 运行时依赖。可通过 Web 或终端向导配置提供商、智能体与 Telegram、Discord、飞书等渠道。CLI 提供 chat、start、schedule、task trigger 与配置热重载等命令。
+- 标签：`Rust` `多渠道` `自托管` `OpenClaw` `单二进制`
+- 来源：GitHub Star
+
+### [LoopX](https://github.com/loopx-project/loopx)
+- 发现：2026-07-21
+- 一句话：面向长程智能体与团队的本地优先控制平面，用持久状态核保持任务跨会话推进。
+- 摘要：LoopX 为 Codex、Claude Code 等运行时提供可恢复的目标、决策与证据，减少人工盯进度。支持个人 Agent Workspace 管理项目、日程与待决事项，并与 LHTB 等长程基准评测联动展示收益。通过 pip 安装 loopx 并安装 workflow skills 后可在 Codex App 用 $loopx 触发心跳式推进。
+- 标签：`控制平面` `长程任务` `Codex` `本地优先` `多智能体`
+- 来源：GitHub Star
+
+### [Pipelex](https://github.com/Pipelex/pipelex)
+- 发现：2026-07-18
+- 一句话：用编码智能体搭建可复用的 AI 方法，并以 MCP、网页或 API 运行。
+- 摘要：Pipelex 让你用自然语言描述流程，由编码智能体通过插件把 expertise 建成多步骤、确定性的 method，可串联 LLM、OCR、图像生成等。建成后可作为团队网页、面向客户的 SaaS、聊天机器人的 MCP，或软件 API 调用。
+- 标签：`编排` `MCP` `自托管` `FastAPI`
+- 来源：GitHub Star
+
+### [Flyto2 Core](https://github.com/flytohub/flyto-core)
+- 发现：2026-07-17
+- 一句话：面向 AI 智能体的 Python 执行引擎，分步记录浏览器与 API 操作并可断点重放。
+- 摘要：Flyto2 Core 把浏览器与 API 工作拆成显式步骤，记录每步输入输出与耗时，失败时可从指定步骤重放而无需整任务重跑。内置大量注册模块，覆盖触发器、队列、浏览器自动化、API 调用、数据变换、校验与文件等场景。
+- 标签：`工作流` `浏览器自动化` `重放` `Python`
+- 来源：GitHub Star
+
+### [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)
+- 发现：2026-07-11
+- 一句话：面向团队的 AI 智能体记忆中枢，把对话与文档沉淀为可复用记忆资产。
+- 摘要：TencentDB Agent Memory 将对话、文档与代码整理为聊天记忆、技能、LLM-Wiki 与代码图谱等四类可治理、可共享的资产。通过 Proxy 统一接入多种智能体框架，无需改协议即可共用同一记忆服务。
+- 标签：`记忆` `团队` `向量` `自托管`
+- 来源：GitHub Star
+
+### [MetaHarness](https://github.com/ruvnet/metaharness)
+- 发现：2026-07-11
+- 一句话：元脚手架，从任意仓库生成带 CLI、MCP、记忆与技能的定制智能体 harness。
+- 摘要：metaharness 用 npx 在浏览器或本地为 GitHub 仓库或空白项目生成专属智能体脚手架，包含项目级 CLI、MCP 服务、记忆命名空间、技能与治理策略。产出可发布的 npm 包形态 harness，可接入 Claude Code、Codex、Hermes 等多种宿主。
+- 标签：`脚手架` `MCP` `多智能体` `CLI`
+- 来源：GitHub Star
+
+### [elizaOS](https://github.com/elizaOS/eliza)
+- 发现：2026-07-11
+- 一句话：开源自主 AI 智能体操作系统与 TypeScript 框架单体仓库。
+- 摘要：elizaOS 提供自主 AI 智能体的核心运行时、Eliza 应用、CLI、云服务与首批插件等完整产品栈。可从源码用 Bun 安装运行，也支持构建智能体、插件以及面向整机的 elizaOS 分发。
+- 标签：`框架` `插件` `TypeScript` `自主智能体`
+- 来源：GitHub Star
+
+### [kagent](https://github.com/kagent-dev/kagent)
+- 发现：2026-07-06
+- 一句话：在 Kubernetes 上构建、部署与管理 AI 智能体的云原生框架。
+- 摘要：kagent 是 Kubernetes 原生的 AI 智能体框架，利用 Kubernetes 编排能力在集群中构建、部署与管理智能体。框架强调易理解、易使用，并提供灵活的智能体构建方式。文档提供首个智能体入门与安装指南，并围绕 Agents 等核心概念组织技术说明。
+- 标签：`Kubernetes` `云原生` `智能体框架` `CNCF`
+- 来源：GitHub Star
+
+### [AgentFactory](https://github.com/zzatpku/AgentFactory)
+- 发现：2026-07-06
+- 一句话：把成功任务沉淀为可执行子智能体代码并持续自我演化的框架。
+- 摘要：AgentFactory 将成功任务方案保存为可执行的子智能体 Python 代码，而非纯文本经验，并依据执行反馈持续 refine。保存的子智能体带标准化文档，可在任意支持 Python 的环境间移植。框架经历 Install、Self-Evolve、Deploy 三阶段，含 Meta-Agent 编排、分层 Skill 体系与隔离工作区管理。
+- 标签：`子智能体` `自我演化` `Python` `ACL`
+- 来源：GitHub Star
+
+### [Deep Researcher Agent](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7)
+- 发现：2026-07-03
+- 一句话：可 24 小时自主运行深度学习实验的 AI 智能体。
+- 摘要：Deep Researcher Agent 面向深度学习实验的 24 小时自主运行，采用 Leader-Worker 架构与恒定规模记忆设计。README 说明可通过配置项选用 DeepSeek、通义、Kimi、智谱等国内大模型 API 预设，并支持 Slurm 集群作为实验执行后端。监控会读取作业真实终态，避免失败运行被误记为完成。
+- 标签：`深度学习` `实验自动化` `自主智能体` `MLOps`
+- 来源：GitHub Star
+
+### [GNAP](https://github.com/farol-team/gnap)
+- 发现：2026-07-03
+- 一句话：仅用 Git 仓库协调多 AI 智能体协作的 Git-Native Agent Protocol。
+- 摘要：GNAP 让 OpenClaw、Codex、Claude Code 或自定义智能体通过共享 Git 仓库组队协作，无需独立服务器或数据库。协议在 .gnap 目录用 agents、tasks、runs、messages 等 JSON 文件描述团队与任务，智能体按心跳拉取、执行、提交并推送。Git 历史即审计日志，人类与 AI 均为一等参与者。
+- 标签：`多智能体` `Git` `编排` `协议`
+- 来源：GitHub Star
+
+### [Flowise](https://github.com/FlowiseAI/Flowise)
+- 发现：2026-07-02
+- 一句话：可视化低代码搭建 AI 智能体与工作流的 Node 应用。
+- 摘要：Flowise 用可视化界面编排智能体与自动化流程。仓库包含 server、ui、components 等模块，README 给出本地启动方式。README 注明项目已归档，并指向后续方向的讨论。
+- 标签：`低代码` `可视化` `LangChain` `已归档`
+- 来源：GitHub Star
+
+
 ## 2026-06
 
 ### [OxyGent](https://github.com/jd-opensource/OxyGent)

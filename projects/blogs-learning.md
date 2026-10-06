@@ -2,6 +2,51 @@
 
 文章、教程、课程、通讯和其他学习资料。
 
+## 2026-07
+
+### [Creative Portfolios](https://github.com/iRaul/creative-portfolios)
+- 发现：2026-07-28
+- 一句话：精选创意个人作品集网站的策展清单。
+- 摘要：Creative Portfolios 收集并展示多位设计师与开发者的创意 portfolio 站点链接，项目本身用 React、Gatsby 与 GraphQL 构建。README 欢迎按贡献指南补充条目，并提供本地 develop 与 build 命令用于运行站点。
+- 标签：`作品集` `策展` `Gatsby` `前端灵感`
+- 来源：GitHub Star
+
+### [learn-agent](https://github.com/LienJack/learn-agent)
+- 发现：2026-07-27
+- 一句话：系统学习 AI Agent、Claude Code 源码与数据库 Redis 等工程主题的技术博客知识库。
+- 摘要：learn-agent 面向工程师，用可复盘的方式讲解 Agent 概念地图、Claude Code 架构与工具链，以及 MySQL、PostgreSQL、Redis 与前端工程实践。内容强调从模型调用到上下文、工具与任务拆分的真实软件工程视角，并配套结构图与流程图。仓库为 Astro 博客源码，可本地 pnpm dev 运行。
+- 标签：`教程` `Claude Code` `Agent` `数据库` `博客`
+- 来源：GitHub Star
+
+### [深入理解 AI Agent：设计原理与工程实践](https://github.com/bojieli/ai-agent-book)
+- 发现：2026-07-25
+- 一句话：李博杰所著 AI Agent 全书正文、PDF 与按章配套实验的开源仓库。
+- 摘要：全书以 Agent 等于 LLM 加上下文加工具为核心公式，用 10 章讲解从原理到工程实践，并开源 109 个配套实验。仓库提供多语言 PDF 与 EPUB 下载及在线阅读站点，2.0 版重组了交互与多模态相关章节。姊妹篇《深入理解 AI Infra》亦单独开源。
+- 标签：`书籍` `Agent` `实验` `RAG` `MCP`
+- 来源：GitHub Star
+
+### [Awesome README](https://github.com/matiassingers/awesome-readme)
+- 发现：2026-07-21
+- 一句话：精选优秀 README 范例与撰写灵感的清单仓库。
+- 摘要：本仓库收集 GitHub 上排版与信息组织出色的 README 案例，说明常见要素如徽章、截图、目录与安装指引等。条目按项目链接罗列，便于对照学习如何写清项目定位与上手步骤。属于 curated awesome 类学习资源，而非可执行产品代码。
+- 标签：`awesome` `README` `文档` `清单` `学习资源`
+- 来源：GitHub Star
+
+### [awesome-shadcn/ui](https://github.com/birobirobiro/awesome-shadcn-ui)
+- 发现：2026-07-12
+- 一句话：与 shadcn/ui 相关的精选资源清单。
+- 摘要：awesome-shadcn/ui 是一份持续整理的清单，收录与 shadcn/ui 相关的库、组件、工具与站点链接。配套 awesomeshadcn.dev 站点浏览条目，并按类别表格列出名称、说明与链接。
+- 标签：`shadcn` `清单` `前端` `资源`
+- 来源：GitHub Star
+
+### [力扣百题通](https://github.com/mo-lx/LeetCode-BaiTiTong)
+- 发现：2026-07-07
+- 一句话：基于 Obsidian 与 Claudian 的 LeetCode Hot 100 知识库与十四天刷题路线。
+- 摘要：力扣百题通以 Obsidian 为载体，融合 labuladong、代码随想录与灵茶山艾府等方法，提供十四天结构化 Hot 100 路线与百题详解。通过 Claudian 插件定义 AI 教练角色，对话前后读取与更新学员进度，形成学练记闭环。
+- 标签：`LeetCode` `Obsidian` `面试` `教程`
+- 来源：GitHub Star
+
+
 ## 2026-06
 
 ### [Design Patterns Implemented in Java](https://github.com/iluwatar/java-design-patterns)

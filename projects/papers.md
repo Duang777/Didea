@@ -2,6 +2,16 @@
 
 论文、技术报告和以研究问题为主的原型。
 
+## 2026-07
+
+### [Darwin Gödel Machine](https://github.com/jennyzzt/dgm)
+- 发现：2026-07-24
+- 一句话：迭代修改自身代码并用编码基准验证的自改进智能体研究系统。
+- 摘要：该仓库实现 Darwin Gödel Machine，一种通过迭代改写自身代码来提升改码能力的自改进系统。每次变更会在 SWE-bench 与 Polyglot 等编码评测上实证检验。入口脚本为 DGM_outer.py，默认将运行结果写入 output_dgm 目录。
+- 标签：`自改进` `编码智能体` `SWE-bench` `开源研究`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [AI Agents Papers](https://github.com/masamasa59/ai-agent-papers)

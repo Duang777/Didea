@@ -2,6 +2,23 @@
 
 现有分类都不合适、又还不必单开一类的条目。
 
+## 2026-07
+
+### [Spider](https://github.com/spider-rs/spider)
+- 发现：2026-07-18
+- 一句话：面向 Rust 的低延迟网页爬虫与抓取引擎。
+- 摘要：Spider 是用 Rust 编写的以并发为先的爬取引擎，页面到达即流式处理，仅在需要时渲染 JavaScript。可从单脚本扩展到分布式集群而无需改代码，同一引擎也支撑 Spider Cloud，便于本地原型与托管切换。
+- 标签：`Rust` `爬虫` `抓取` `JavaScript渲染`
+- 来源：GitHub Star
+
+### [Coworker](https://github.com/accomplish-ai/coworker)
+- 发现：2026-07-11
+- 一句话：已不再维护的 Accomplish AI 相关项目仓库。
+- 摘要：仓库 README 仅说明该项目已不再提供支持。公开信息很少，无法核对更多功能细节。
+- 标签：`已停更` `Accomplish` `归档说明`
+- 来源：GitHub Star
+
+
 ## 2026-04
 
 ### [个人简历](https://github.com/hijiangtao/resume)

@@ -2,6 +2,23 @@
 
 MCP 服务，以及把外部系统接到智能体上的集成。
 
+## 2026-07
+
+### [feishu-cli](https://github.com/riba2534/feishu-cli)
+- 发现：2026-07-22
+- 一句话：飞书开放平台命令行工具，核心为 Markdown 与飞书文档双向转换，并服务 AI 操控飞书。
+- 摘要：feishu-cli 将文档、知识库、表格、消息、日历、任务等飞书能力封装为 CLI，主打 Markdown 与飞书文档双向无损转换，并支持 Mermaid 与 PlantUML 转画板。面向 Claude Code 等助手提供九个领域 Skill，覆盖平台命令。安装脚本一键装二进制，并可用 config create-app 创应用存凭证。
+- 标签：`飞书` `CLI` `Markdown` `Skill` `集成`
+- 来源：GitHub Star
+
+### [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)
+- 发现：2026-07-11
+- 一句话：供 AI 智能体读写与自动化 Word、Excel、PowerPoint 的 Office 套件 CLI。
+- 摘要：OfficeCLI 面向 AI 智能体，用单一二进制在无本地 Office 安装的情况下处理 docx、xlsx 与 pptx。内置 HTML 渲染引擎，可把文档渲染为 HTML 或 PNG，支撑智能体查看版式再修改的闭环。
+- 标签：`Office` `CLI` `文档` `智能体`
+- 来源：GitHub Star
+
+
 ## 2026-03
 
 ### [lark-cli](https://github.com/larksuite/cli)

@@ -2,6 +2,177 @@
 
 给人直接用的完整应用和产品。
 
+## 2026-07
+
+### [Proma](https://github.com/proma-ai/Proma)
+- 发现：2026-07-31
+- 一句话：面向专业用户的开源通用桌面智能体产品。
+- 摘要：Proma 提供 Chat、Agent、计划模式、项目分区、记忆、内嵌浏览器与终端、定时任务、Skills、MCP 与 IM 远程连接等能力。针对专业场景集成 Todo、日程、Obsidian、子会话与 Agent 探索，并支持基于 worktree 的开发体验。开源版可从 GitHub Releases 安装，团队说明目前主要精力在商业版 proma.cool。
+- 标签：`桌面Agent` `Obsidian` `MCP` `Skills` `专业用户`
+- 来源：GitHub Star
+
+### [LobeHub](https://github.com/lobehub/lobehub)
+- 发现：2026-07-29
+- 一句话：Chief Agent Operator，用于招聘、调度并汇报整套 AI 智能体团队。
+- 摘要：LobeHub 将你的智能体组织成 7×24 运转的 AI 团队，由你统筹而无需一直在线。产品定位 Chief Agent Operator，支持智能体协作、技能与 MCP 等能力。提供 Docker 部署、文档站点与社区渠道，面向需要运营多智能体工作流的用户。
+- 标签：`多智能体` `调度` `Chief Agent Operator` `MCP` `自托管`
+- 来源：GitHub Star
+
+### [Huabu](https://github.com/microsoft/Huabu)
+- 发现：2026-07-27
+- 一句话：让你与智能体在同一无限工作面上共同思考的桌面应用。
+- 摘要：Huabu 提供可跨会话保持可见与关联的 Space，把想法、文件、开放问题与智能体放在同一工作面。你可与 AI 一起整理信息、发现关系并在审阅后应用变更，也可引入自有智能体利用材料及其关系理解意图。安装包经 GitHub Releases 发布，应用本身不提供 LLM 服务，需自行配置模型或外部能力。
+- 标签：`微软` `协作` `桌面应用` `Space` `智能体`
+- 来源：GitHub Star
+
+### [Info2Action](https://github.com/yike-gunshi/info2action)
+- 发现：2026-07-24
+- 一句话：可自托管的 AI 信息引擎，把多源资讯聚合并转成可执行行动。
+- 摘要：Info2Action 面向信息过载与跨源重复，做多平台聚合、跨源事件去重与 AI 精选评分。产品强调把值得知道的内容与值得做的事分开，并把信号落成可执行行动卡。技术栈为 FastAPI 加 React，支持 SQLite 单机与 Supabase 多用户自部署，prompt 开源可改。
+- 标签：`自托管` `RSS` `信息聚合` `行动闭环` `FastAPI`
+- 来源：GitHub Star
+
+### [OpenCowork（LeonGaoHaining）](https://github.com/LeonGaoHaining/opencowork)
+- 发现：2026-07-24
+- 一句话：本地优先的桌面智能体运行时，用于评估浏览器自动化与可复用工作流。
+- 摘要：OpenCowork 面向构建者、研究者与产品团队，在本地评估桌面智能体如何操作浏览器、调用 MCP、使用技能并保留任务历史。用户描述目标后在人工监督下完成任务，成功运行可沉淀为可复用模板。项目定位为开源评估与原型工具，而非宣称生产级 RPA 或托管 SaaS。
+- 标签：`桌面智能体` `浏览器自动化` `MCP` `本地优先` `工作流`
+- 来源：GitHub Star
+
+### [WrenAI](https://github.com/Canner/WrenAI)
+- 发现：2026-07-23
+- 一句话：面向 AI 智能体的开源 GenBI 引擎，用语义层把自然语言问题变成可信 SQL 与看板。
+- 摘要：WrenAI 为 Claude Code、Cursor 等智能体提供受治理的语义层与 AI 上下文层，把业务指标、枚举、联结与示例沉淀为可审查的 YAML 与 Markdown。支持二十余种数据源上的自然语言问数、图表与仪表盘部署。提供 wrenai CLI 与可安装的 discovery skill 引导智能体接入工作流。
+- 标签：`GenBI` `text-to-SQL` `语义层` `MCP` `自托管`
+- 来源：GitHub Star
+
+### [NOFX](https://github.com/NoFxAiOS/nofx)
+- 发现：2026-07-22
+- 一句话：开源 AI 交易终端，用语言模型策略在本地循环读盘、决策与下单。
+- 摘要：NOFX 把交易策略交给语言模型，由 Go 运行时持续执行读行情、决策、下单并记录推理，同时对订单施加模型无法突破的硬风控。用户可组合不同模型、交易所与策略并行运行，并在公开排行榜比较收益。凭证加密存于本机，安装脚本后可在本地 Web 终端使用 Autopilot 等流程。
+- 标签：`交易` `自托管` `多交易所` `风控` `Go`
+- 来源：GitHub Star
+
+### [CowAgent](https://github.com/zhayujie/CowAgent)
+- 发现：2026-07-21
+- 一句话：开源个人 AI 助手与 Agent Harness，可规划任务、跑工具技能并长期记忆进化。
+- 摘要：CowAgent 主动拆解复杂任务、操控电脑与外部服务，支持多智能体协作、三层记忆与知识库/wiki 构建。可接入多家大模型，在个人电脑或服务器上通过 Web 与主流 IM 全天候运行。定位为轻量可扩展的 Harness 参考实现，并提供 Skill Hub 与在线试用入口。
+- 标签：`个人助手` `Harness` `多通道` `记忆` `多智能体`
+- 来源：GitHub Star
+
+### [Metrics](https://github.com/lowlighter/metrics)
+- 发现：2026-07-21
+- 一句话：用三十余个插件把 GitHub 账号统计渲染成 SVG、Markdown、PDF 或 JSON 的信息图生成器。
+- 摘要：Metrics 可为用户、组织或仓库生成可嵌入个人主页的统计卡片，支持 GitHub Action 等方式自动化更新。插件覆盖提交日历、语言活动、星标趋势等大量可视化选项。输出格式多样，便于在 README 或站点中展示开发活动画像。
+- 标签：`GitHub` `信息图` `GitHub Action` `SVG` `自动化`
+- 来源：GitHub Star
+
+### [Khoj](https://github.com/khoj-ai/khoj)
+- 发现：2026-07-20
+- 一句话：可自托管的个人 AI 第二大脑，支持网页与文档问答、智能体与自动化研究。
+- 摘要：Khoj 可对接本地或在线大模型，从互联网与个人文档中检索回答，并支持 Obsidian、Emacs、桌面端与 WhatsApp 等入口。用户可配置带知识与工具的智能体、定时研究与语义搜索，并生成图像或语音。项目开源且可完全私有部署，亦提供官方云应用。
+- 标签：`自托管` `RAG` `个人助手` `自动化` `多入口`
+- 来源：GitHub Star
+
+### [Kortix](https://github.com/kortix-ai/suna)
+- 发现：2026-07-20
+- 一句话：开源 AI 操作系统，把智能体、技能、记忆与连接器收进可版本化的公司仓库。
+- 摘要：Kortix 定位为可自托管的 Claude Cowork 类替代品，智能体在隔离云沙箱与分支上完成报告、代码或部署变更，并通过变更请求让人审批。支持 Slack 与 Teams、后台编码智能体、定时与 Webhook 自动化，以及按工具规则与审计追踪的治理。可使用自有模型与 API 密钥，或托管云。
+- 标签：`AI OS` `自托管` `沙箱` `团队协作` `治理`
+- 来源：GitHub Star
+
+### [Sim](https://github.com/simstudioai/sim)
+- 发现：2026-07-19
+- 一句话：用于构建、部署与监控 AI 智能体与工作流的可协作工作区。
+- 摘要：Sim 连接上千集成与主流大模型，支持可视化、对话式或代码方式编排智能体，并统一管理表格、文件与知识库。提供云托管、npx sim-setup 自托管与 macOS 桌面客户端。可查看运行日志、调度与活动，面向团队在同一空间迭代自动化。
+- 标签：`工作流` `低代码` `自托管` `集成` `监控`
+- 来源：GitHub Star
+
+### [Wardrobe](https://github.com/tandpfun/wardrobe)
+- 发现：2026-07-19
+- 一句话：用 OpenAI 视觉与图像模型从照片提取、建模并管理个人衣橱的 Web 应用。
+- 摘要：Wardrobe 检测照片中的每件衣物，生成干净抠图与可选的模特穿搭预览，数据保存在本地 data 目录。Web 端支持拖拽导入、编辑、审核与再生，需配置 OPENAI_API_KEY 与模特参考图方可启用导入。仓库 bundled Codex skill 可命令行批量导入衣物或生成搭配 lookbook。
+- 标签：`衣橱` `图像生成` `OpenAI` `本地数据` `Web`
+- 来源：GitHub Star
+
+### [Cebian](https://github.com/maotoumao/Cebian)
+- 发现：2026-07-18
+- 一句话：住在浏览器侧栏里的 AI 助手扩展。
+- 摘要：Cebian 是 Chrome 扩展，在浏览器侧栏提供 AI 助手，可读取当前页面、点选元素、模拟移动设备、附加文件，并在对话间记住关于你的持久事实。支持自带各模型服务商 API Key，无需注册账号；对话与附件默认留在本地浏览器，仅在发送消息时把上下文转发给你选择的模型。
+- 标签：`Chrome扩展` `侧栏` `多模型` `MCP`
+- 来源：GitHub Star
+
+### [LiveContext](https://github.com/livecontext-ai/livecontext-ce)
+- 发现：2026-07-18
+- 一句话：可自托管的 AI 自动化平台，用对话生成可读工作流与智能体。
+- 摘要：LiveContext 让你在聊天里描述任务，平台当场生成可读工作流、带权限与预算的智能体，以及团队可用的小应用。聊天、工作流、智能体与应用在同一画布上，无需写代码拼接，定位为可自托管的 n8n、Zapier、Make 替代并内置 AI 智能体。
+- 标签：`自托管` `工作流` `低代码` `智能体`
+- 来源：GitHub Star
+
+### [Open AI Design Agent](https://github.com/Anil-matcha/Open-AI-Design-Agent)
+- 发现：2026-07-16
+- 一句话：开源 AI 设计智能体，自主规划并生成海报、品牌包与视频等创意交付物。
+- 摘要：Open AI Design Agent 根据自然语言简报规划、生成并组装完整创意产出，涵盖海报、社交战役、品牌套件、广告创意与视频剪辑等。智能体编排大量图像与视频模型，可自托管，也提供浏览器托管版本免安装试用。
+- 标签：`设计` `多模态` `自托管` `创意`
+- 来源：GitHub Star
+
+### [LLM Wiki](https://github.com/nashsu/llm_wiki)
+- 发现：2026-07-13
+- 一句话：跨平台桌面应用，把文档增量整理成互链的个人维基知识库。
+- 摘要：LLM Wiki 读取你的文档，自动构建并维护结构化 wiki，而非每次问答从零检索。支持多格式解析、链式 ingest、知识图谱与向量语义搜索，并提供项目导出导入与深度研究等能力。
+- 标签：`知识库` `桌面` `RAG` `维基`
+- 来源：GitHub Star
+
+### [Karakeep](https://github.com/karakeep-app/karakeep)
+- 发现：2026-07-13
+- 一句话：可自托管的全能收藏应用，支持链接、笔记与图片及 AI 自动标签。
+- 摘要：Karakeep 是可自托管的收藏一切应用，前身项目名为 Hoarder。可收藏链接、简单笔记与图片 PDF，并自动抓取标题描述与预览图。提供全文与语义搜索、基于大模型的自动标签与摘要，以及浏览器扩展、移动应用、RSS 与 REST API 等能力。
+- 标签：`书签` `自托管` `AI标签` `搜索`
+- 来源：GitHub Star
+
+### [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+- 发现：2026-07-13
+- 一句话：个人交易智能体，一条命令为智能体接入全面交易能力。
+- 摘要：Vibe-Trading 面向个人交易场景，为智能体提供行情、回测与多智能体协作等交易相关能力。项目提供文档站、快速安装与 API 或 MCP 接入方式，并强调官方渠道与仿冒代币无关。
+- 标签：`量化` `交易` `智能体` `Python`
+- 来源：GitHub Star
+
+### [DojoAgents](https://github.com/Alpha-Dojo/DojoAgents)
+- 发现：2026-07-12
+- 一句话：面向个人投资的全市场 AI 副驾驶框架。
+- 摘要：DojoAgents 为个人投资者打造，以 Agent Loop 引擎驱动自主推理智能体，衔接持仓与市场数据。覆盖基本面与行情认知、跨市场策略推演、组合风险与绩效归因，并提供投资组合与市场等仪表盘界面。
+- 标签：`投资` `智能体` `金融` `仪表盘`
+- 来源：GitHub Star
+
+### [wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter)
+- 发现：2026-07-11
+- 一句话：在线批量下载微信公众号文章并多格式导出的工具。
+- 摘要：wechat-article-exporter 可搜索公众号并导出 html、json、excel 等格式，html 可尽量还原排版。支持 Docker 与 Cloudflare 私有化部署；README 声明因上游接口关闭项目已停止维护，在线站点域名将到期。
+- 标签：`微信` `导出` `下载` `自托管`
+- 来源：GitHub Star
+
+### [Meetily](https://github.com/Zackriya-Solutions/meetily)
+- 发现：2026-07-09
+- 一句话：隐私优先的本地 AI 会议助手，实时转写并生成摘要。
+- 摘要：Meetily 在本地完成会议采集、实时转写与摘要，无需把数据送到云端。基于 Rust，支持 Parakeet 或 Whisper 转写、说话人分离与 Ollama 摘要，面向 macOS 与 Windows 自托管使用。
+- 标签：`会议` `转写` `本地` `隐私`
+- 来源：GitHub Star
+
+### [Botkube](https://github.com/kubeshop/botkube)
+- 发现：2026-07-06
+- 一句话：通过 Slack、Discord 等聊天平台监控与排查 Kubernetes 集群的 ChatOps 机器人。
+- 摘要：Botkube 面向 Kubernetes 的故障排查与监控方案，帮助 DevOps 更高效协作，也让开发者在无需额外集群权限的情况下排查应用。它对接多种即时通讯平台，监听多源事件并支持安全执行命令与插件驱动的自动化操作。你还可远程执行 kubectl、helm 等命令，便于调试应用或集群。
+- 标签：`Kubernetes` `ChatOps` `DevOps` `监控`
+- 来源：GitHub Star
+
+### [Strix](https://github.com/usestrix/strix)
+- 发现：2026-07-03
+- 一句话：开源 AI 渗透测试工具，自主发现并利用应用漏洞并给出修复建议。
+- 摘要：Strix 提供自主 AI 渗透测试智能体，像真实黑客一样动态运行代码、发现漏洞并用 PoC 验证。内置侦察、利用与验证能力，支持多智能体协作，并以开发者优先的 CLI 输出可操作的修复指引。还可生成补丁与合规向的渗透测试报告，并支持接入 GitHub Actions 等 CI 流程。
+- 标签：`安全` `渗透测试` `DevSecOps` `CLI`
+- 来源：GitHub Star
+
+
 ## 2026-06
 
 ### [AriaType](https://github.com/joe223/AriaType)

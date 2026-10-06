@@ -7,18 +7,18 @@ jialing 每天把发现的项目丢进来，由 AI 归类并写成中文摘要�
 ## 分类目录
 
 <!-- categories:start -->
-- [智能体框架与编排](projects/agent-frameworks.md)（35）
-- [编码智能体与开发工具](projects/coding-agents.md)（18）
-- [Skills/提示词/规则](projects/skills-prompts.md)（23）
-- [MCP 与工具集成](projects/mcp-tools.md)（9）
-- [浏览器与电脑操作](projects/browser-computer.md)（12）
+- [智能体框架与编排](projects/agent-frameworks.md)（56）
+- [编码智能体与开发工具](projects/coding-agents.md)（34）
+- [Skills/提示词/规则](projects/skills-prompts.md)（33）
+- [MCP 与工具集成](projects/mcp-tools.md)（11）
+- [浏览器与电脑操作](projects/browser-computer.md)（18）
 - [评测与基准](projects/benchmarks.md)（1）
-- [论文与研究](projects/papers.md)（5）
-- [模型与推理服务](projects/models-inference.md)（5）
-- [应用与产品](projects/apps-products.md)（34）
-- [前端与设计](projects/frontend-design.md)（4）
-- [博客与学习资料](projects/blogs-learning.md)（85）
-- [其他](projects/other.md)（13）
+- [论文与研究](projects/papers.md)（6）
+- [模型与推理服务](projects/models-inference.md)（6）
+- [应用与产品](projects/apps-products.md)（58）
+- [前端与设计](projects/frontend-design.md)（11）
+- [博客与学习资料](projects/blogs-learning.md)（91）
+- [其他](projects/other.md)（15）
 <!-- categories:end -->
 
 ## 最近新增
@@ -27,25 +27,25 @@ jialing 每天把发现的项目丢进来，由 AI 归类并写成中文摘要�
 
 <!-- recent:start -->
 - 2026-10-07 [hairline](https://github.com/lucasmarkes/hairline) · [前端与设计](projects/frontend-design.md)：27 个会跟着指针动的等距线条插画，React 和任何 DOM 页面都能用。
-- 2026-06-30 [PMB](https://github.com/oleksiijko/pmb) · [编码智能体与开发工具](projects/coding-agents.md)：面向 Claude Code、Cursor、Codex 等编码智能体的本地优先持久记忆，经 MCP 读写。
-- 2026-06-27 [OxyGent](https://github.com/jd-opensource/OxyGent) · [智能体框架与编排](projects/agent-frameworks.md)：用 Oxy 抽象把工具、模型与智能体模块化的多智能体 Python 框架。
-- 2026-06-27 [Design Patterns Implemented in Java](https://github.com/iluwatar/java-design-patterns) · [博客与学习资料](projects/blogs-learning.md)：用 Java 示例实现并讲解常见设计模式的开放源码学习仓库。
-- 2026-06-27 [Trae Agent](https://github.com/bytedance/trae-agent) · [编码智能体与开发工具](projects/coding-agents.md)：面向通用软件工程任务的 LLM 命令行智能体，架构透明便于研究与扩展。
-- 2026-06-26 [Eino](https://github.com/cloudwego/eino) · [智能体框架与编排](projects/agent-frameworks.md)：Go 语言的 LLM 应用与智能体开发框架，含组件、ADK 与图编排。
-- 2026-06-22 [ego lite](https://github.com/citrolabs/ego-lite) · [浏览器与电脑操作](projects/browser-computer.md)：供 AI 智能体高速跑浏览器自动化、并与用户并行共用登录态的浏览器。
-- 2026-06-22 [Cowart](https://github.com/zhongerxin/Cowart) · [编码智能体与开发工具](projects/coding-agents.md)：面向 Codex 的 tldraw 无限画布原生插件，经 MCP 在项目中持久化画布与 AI 生图。
-- 2026-06-16 [AriaType](https://github.com/joe223/AriaType) · [应用与产品](projects/apps-products.md)：桌面端语音输入与润色层，把口述内容写入当前应用光标处。
-- 2026-06-08 [bb-browser](https://github.com/epiral/bb-browser) · [浏览器与电脑操作](projects/browser-computer.md)：让 AI 智能体通过 CLI 与 MCP 复用你已登录 Chrome 状态的浏览器 API。
-- 2026-06-08 [Midscene.js](https://github.com/web-infra-dev/midscene) · [浏览器与电脑操作](projects/browser-computer.md)：基于视觉的 GUI 智能体，用自然语言做 Web、移动端与桌面端端到端测试。
-- 2026-06-07 [Browser Harness](https://github.com/browser-use/browser-harness) · [浏览器与电脑操作](projects/browser-computer.md)：经 CDP 连接真实浏览器、让 LLM 完成任务并自写可复用 helper 的自愈 harness。
-- 2026-06-05 [x-cli](https://github.com/better-world-ai/x-cli) · [博客与学习资料](projects/blogs-learning.md)：展示用 agent-cli-creator 技能与 webbridge 为各网站生成的 CLI 示例集合。
-- 2026-05-31 [HarnessClaw Engine](https://github.com/harnessclaw/harnessclaw-engine) · [编码智能体与开发工具](projects/coding-agents.md)：Go 实现的 LLM 编程助手引擎，支持 WebSocket、工具调用、权限与技能扩展。
-- 2026-05-29 [GoClub](https://github.com/LeoninCS/GoClub) · [博客与学习资料](projects/blogs-learning.md)：汇总 Go 面试真题、八股与资料的 Hugo 学习站点仓库。
-- 2026-05-27 [go-awesome](https://github.com/shockerli/go-awesome) · [博客与学习资料](projects/blogs-learning.md)：整理 Go 语言优秀开源资源与 learning 链接的中文 awesome 清单。
-- 2026-05-26 [Ragent](https://github.com/nageoffer/ragent) · [智能体框架与编排](projects/agent-frameworks.md)：面向 Agentic RAG 的 Java 生产级平台，覆盖入库、检索、记忆与 MCP 工具。
-- 2026-05-22 [Multica](https://github.com/multica-ai/multica) · [应用与产品](projects/apps-products.md)：可自托管的团队看板，像分配同事一样把 Issue 交给 AI 编码智能体。
-- 2026-05-21 [Agent Learning Hub](https://github.com/datawhalechina/Agent-Learning-Hub) · [博客与学习资料](projects/blogs-learning.md)：整理 AI Agent 学习路线、todo 与精选资料的社区 hub。
-- 2026-05-18 [Nexus Agent](https://github.com/java-up-up/nexus-agent) · [智能体框架与编排](projects/agent-frameworks.md)：企业级 AI 智能体平台，覆盖对话、RAG、MCP、Skills 与文档治理全链路。
+- 2026-07-31 [Cockpit Tools](https://github.com/jlcodes99/cockpit-tools) · [编码智能体与开发工具](projects/coding-agents.md)：通用 AI IDE 账号管理工具，支持多账号切换、配额监控与多开实例。
+- 2026-07-31 [Proma](https://github.com/proma-ai/Proma) · [应用与产品](projects/apps-products.md)：面向专业用户的开源通用桌面智能体产品。
+- 2026-07-29 [HyperFrames](https://github.com/heygen-com/hyperframes) · [智能体框架与编排](projects/agent-frameworks.md)：将 HTML、CSS 与动画确定性渲染为 MP4 视频的开源框架，面向编码智能体。
+- 2026-07-29 [Claude Design System Prompt](https://github.com/Trystan-SA/claude-design-system-prompt) · [Skills/提示词/规则](projects/skills-prompts.md)：逆向整理的设计向系统提示词与 14 项可调用技能库。
+- 2026-07-29 [agentic-engineering-framework](https://github.com/DimitriGeelen/agentic-engineering-framework) · [编码智能体与开发工具](projects/coding-agents.md)：围绕 AI 编码智能体的治理与连续性 harness，强调任务可追溯与审计。
+- 2026-07-29 [LobeHub](https://github.com/lobehub/lobehub) · [应用与产品](projects/apps-products.md)：Chief Agent Operator，用于招聘、调度并汇报整套 AI 智能体团队。
+- 2026-07-28 [Creative Portfolios](https://github.com/iRaul/creative-portfolios) · [博客与学习资料](projects/blogs-learning.md)：精选创意个人作品集网站的策展清单。
+- 2026-07-27 [learn-agent](https://github.com/LienJack/learn-agent) · [博客与学习资料](projects/blogs-learning.md)：系统学习 AI Agent、Claude Code 源码与数据库 Redis 等工程主题的技术博客知识库。
+- 2026-07-27 [img2threejs](https://github.com/img2threejs/img2threejs) · [编码智能体与开发工具](projects/coding-agents.md)：把参考图里的物体重建为纯代码、可动画的 Three.js 程序化模型。
+- 2026-07-27 [Huabu](https://github.com/microsoft/Huabu) · [应用与产品](projects/apps-products.md)：让你与智能体在同一无限工作面上共同思考的桌面应用。
+- 2026-07-26 [Archify](https://github.com/tt-a1i/archify) · [Skills/提示词/规则](projects/skills-prompts.md)：供 Claude Code、Codex 等使用的智能体 skill，把想法或代码库变成交互式可视化图。
+- 2026-07-26 [Maple Mono](https://github.com/subframe7536/maple-font) · [前端与设计](projects/frontend-design.md)：带圆角、连字与 Nerd Font 图标的开源等宽编程字体。
+- 2026-07-26 [Plain writing skill](https://github.com/docwriter-org/plain-writing-skill) · [Skills/提示词/规则](projects/skills-prompts.md)：让 AI agent 用 plain 风格写作并自检删冗的可复用 skill。
+- 2026-07-25 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) · [模型与推理服务](projects/models-inference.md)：MIT 开源 AI 网关，用单一端点聚合多家模型与免费额度并支持配额感知回退。
+- 2026-07-25 [CopilotKit](https://github.com/CopilotKit/CopilotKit) · [智能体框架与编排](projects/agent-frameworks.md)：构建智能体原生应用与 Generative UI 的前端 SDK，并推动 AG-UI 协议。
+- 2026-07-25 [IntentKit](https://github.com/crestalnetwork/intentkit) · [智能体框架与编排](projects/agent-frameworks.md)：开源自托管的云原生智能体集群，管理协作式 AI 团队。
+- 2026-07-25 [vinyl](https://github.com/thebuggeddev/vinyl) · [前端与设计](projects/frontend-design.md)：基于 three.js 的 3D 黑胶唱片机 Web 演示。
+- 2026-07-25 [深入理解 AI Agent：设计原理与工程实践](https://github.com/bojieli/ai-agent-book) · [博客与学习资料](projects/blogs-learning.md)：李博杰所著 AI Agent 全书正文、PDF 与按章配套实验的开源仓库。
+- 2026-07-25 [oh-my-pi](https://github.com/can1357/oh-my-pi) · [编码智能体与开发工具](projects/coding-agents.md)：内置 IDE 能力的编码智能体，由 Stencil Labs 维护。
 <!-- recent:end -->
 
 ## 用法

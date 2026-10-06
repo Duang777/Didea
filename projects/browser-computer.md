@@ -2,6 +2,51 @@
 
 让智能体操作浏览器、桌面或整台电脑的项目。
 
+## 2026-07
+
+### [AppAgent](https://github.com/TencentQQGYLab/AppAgent)
+- 发现：2026-07-21
+- 一句话：基于多模态大模型的智能手机应用操作智能体框架。
+- 摘要：AppAgent 通过点击、滑动等类人交互操作手机应用，无需系统后端权限即可跨应用工作。智能体可通过自主探索或观察人类演示学习新应用，并生成知识库支撑后续操作。仓库为 CHI 2025 相关工作实现，并提供评测基准与可选网格叠加点击方案。
+- 标签：`手机自动化` `多模态` `GUI 智能体` `Android` `研究原型`
+- 来源：GitHub Star
+
+### [GenericAgent](https://github.com/lsdefine/GenericAgent)
+- 发现：2026-07-21
+- 一句话：极简自进化自主智能体框架，用少量原子工具控制浏览器、终端与桌面。
+- 摘要：GenericAgent 核心约三千行种子代码，以九个原子工具与约百行 Agent Loop 赋予大模型本机级控制能力，覆盖浏览器、文件系统、键鼠与屏幕等。完成任务后会把执行路径结晶为可复用 Skill，逐步形成个人技能树。强调不预置技能、随使用进化，并兼容多种主流模型 API。
+- 标签：`自进化` `Skill` `桌面控制` `浏览器` `轻量`
+- 来源：GitHub Star
+
+### [Understudy](https://github.com/understudy-ai/understudy)
+- 发现：2026-07-21
+- 一句话：开源本地智能体，用 GUI、浏览器与 Shell 等操作整台电脑。
+- 摘要：Understudy 从单条指令完成调研、浏览器操控与技能调用等通用任务。支持通过手机消息远程派发到桌面执行 GUI 自动化，并可通过演示一次来学习任务意图后泛化重放。数据留在本机，用户自带 Claude、Gemini 等模型提供商。
+- 标签：`电脑操作` `GUI 智能体` `本地优先` `远程派发` `教学重放`
+- 来源：GitHub Star
+
+### [肉包 Roubao](https://github.com/Turbo1123/roubao)
+- 发现：2026-07-19
+- 一句话：基于视觉语言模型的开源 Android 手机自动化助手，无需电脑即可本机运行。
+- 摘要：肉包用 Kotlin 在手机上完成截图、分析与点击输入，通过 Shizuku 获得系统级自动化权限而无需 Root。采用 Tools 加 Skills 双层架构，可在快速委派与 GUI 循环路径间切换。用户安装 App、配置 API Key 后用自然语言描述任务即可执行，对标无需外接 ADB 的手机智能体方案。
+- 标签：`Android` `VLM` `手机自动化` `Kotlin` `Shizuku`
+- 来源：GitHub Star
+
+### [Nanobrowser](https://github.com/nanobrowser/nanobrowser)
+- 发现：2026-07-14
+- 一句话：在浏览器内运行的开源 AI 网页自动化 Chrome 扩展。
+- 摘要：Nanobrowser 是本地浏览器中的 AI 网页自动化工具，使用你自己的 LLM API Key，采用多智能体协作完成复杂流程。提供侧栏聊天界面与任务自动化，支持多家主流与兼容 OpenAI 的模型提供商。
+- 标签：`Chrome扩展` `多智能体` `自动化` `本地`
+- 来源：GitHub Star
+
+### [Page Agent](https://github.com/alibaba/page-agent)
+- 发现：2026-07-03
+- 一句话：嵌入网页的 JavaScript GUI 智能体，用自然语言操控页面界面。
+- 摘要：Page Agent 只需一段 in-page JavaScript 即可为任意网页提供 AI 智能体，无需浏览器扩展、Python 或 headless 浏览器。它基于文本的 DOM 操作，不依赖截图或多模态模型，可自带多种主流或本地大模型。可选 Chrome 扩展处理多页任务，并提供 Beta 版 MCP Server 从外部控制。
+- 标签：`浏览器` `DOM` `JavaScript` `MCP`
+- 来源：GitHub Star
+
+
 ## 2026-06
 
 ### [ego lite](https://github.com/citrolabs/ego-lite)
