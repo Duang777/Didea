@@ -2,6 +2,58 @@
 
 多智能体框架、编排层和工作流运行时。
 
+## 2026-01
+
+### [Agent Kit](https://github.com/leemysw/agent-kit)
+- 发现：2026-01-19
+- 一句话：基于 Claude Agent SDK 的全栈智能体开发框架，含 FastAPI 后端与 Next.js 前端。
+- 摘要：Agent Kit 帮助开发者快速构建、部署与扩展生产级 AI Agent 应用，深度集成 Claude Agent SDK 并支持流式响应。内置 WebSocket 实时通信，以及 Discord、Telegram 等多渠道接入与统一会话路由。采用工作区 JSON 或 JSONL 文件存储，并提供多 Agent 管理与正在扩展的工具、MCP 与技能支持。
+- 标签：`智能体框架` `Claude SDK` `FastAPI` `Next.js` `多渠道`
+- 来源：GitHub Star
+
+### [graph-rag-agent](https://github.com/1517005260/graph-rag-agent)
+- 发现：2026-01-16
+- 一句话：融合 GraphRAG、LightRAG 与 DeepSearch 的私域问答与多智能体推理系统实现。
+- 摘要：项目结合 GraphRAG 与私域 Deep Search，构建可解释、可推理的智能问答方案，并整合多 Agent 协作与知识图谱增强。核心包包含多种 Agent 实现、图谱构建与社区摘要、文档摄取管道，以及针对 GraphRAG 的评估框架。适合需要自建知识图谱检索、深度研究与多智能体编排的团队学习与二次开发。
+- 标签：`GraphRAG` `RAG` `知识图谱` `智能体` `评估`
+- 来源：GitHub Star
+
+### [KAG](https://github.com/OpenSPG/KAG)
+- 发现：2026-01-16
+- 一句话：基于 OpenSPG 与大模型的逻辑形式引导推理与检索框架，用于垂直领域知识库问答。
+- 摘要：KAG 在 OpenSPG 引擎与 LLM 之上构建逻辑推理与问答方案，缓解传统 RAG 向量相似度歧义与 OpenIE 类 GraphRAG 噪声问题。支持知识与文本块互索引、概念语义对齐、Schema 约束的知识构建，以及逻辑形式引导的混合推理与多跳问答。目标是在专业领域提供知识增强、可事实核验的 LLM 服务框架。
+- 标签：`知识图谱` `推理` `RAG` `OpenSPG` `问答`
+- 来源：GitHub Star
+
+### [AWorld](https://github.com/inclusionAI/AWorld)
+- 发现：2026-01-12
+- 一句话：面向领域专家的智能体 Harness 平台，用于编排工具、记忆与执行并沉淀技能。
+- 摘要：AWorld 提供完整的 Agent Harness，用于编排智能体的工具、记忆、上下文与执行，帮助将领域知识编码为可复用技能与自主智能体舰队。平台强调从专家经验到可重复生产能力的转化，并展示深度搜索、应用创建等示例配方。
+- 标签：`智能体框架` `Harness` `技能`
+- 来源：GitHub Star
+
+### [MiroFlow](https://github.com/MiroMindAI/MiroFlow)
+- 发现：2026-01-11
+- 一句话：MiroMind 研究智能体项目的开源框架实现，面向多步联网深度研究任务。
+- 摘要：本仓库是 MiroMind 研究智能体项目的官方实现之一，提供可复现的研究智能体框架 MiroFlow，用于处理未来事件预测等需要多步互联网检索的复杂问题。README 将其与 MiroThinker 模型及 MiroVerse 训练数据并列介绍，并提供快速上手与 Web 演示入口。
+- 标签：`研究智能体` `深度研究` `开源框架`
+- 来源：GitHub Star
+
+### [MiroThinker](https://github.com/MiroMindAI/MiroThinker)
+- 发现：2026-01-11
+- 一句话：面向复杂研究与预测任务的深度研究智能体及模型系列。
+- 摘要：MiroThinker 是优化研究与预测场景的深度研究智能体，提供 MiroThinker 系列开源模型权重与在线体验入口 dr.miromind.ai。支持扩展文档上传、研究报告生成与分享等功能，README 持续发布版本更新与基准相关说明。
+- 标签：`深度研究` `研究智能体` `搜索`
+- 来源：GitHub Star
+
+### [data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper)
+- 发现：2026-01-03
+- 一句话：从原始数据驱动端到端科研、产出可反向追溯至代码的论文的自动化框架。
+- 摘要：data-to-paper 通过多智能体协作完成从原始数据探索、文献与假设、分析到论文撰写的全流程，生成可点击追溯到生成代码的稿件。支持全自动或 Copilot 人工引导模式，并对统计代码加入护栏以减少常见 LLM 编码错误。
+- 标签：`科研自动化` `多智能体` `可追溯`
+- 来源：GitHub Star
+
+
 ## 2025-12
 
 ### [mcp-agent](https://github.com/lastmile-ai/mcp-agent)

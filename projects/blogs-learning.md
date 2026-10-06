@@ -2,6 +2,79 @@
 
 文章、教程、课程、通讯和其他学习资料。
 
+## 2026-01
+
+### [claude-code（timothywarner-org）](https://github.com/timothywarner-org/claude-code)
+- 发现：2026-01-18
+- 一句话：O'Reilly 直播课《Claude Code and Large-Context Reasoning》的配套仓库与练习材料。
+- 摘要：课程约四小时，讲解 Claude Code CLI、MCP 服务器、智能体工作流与自定义技能，学习路径从零安装到生产级开发环境。学员将搭建分层 CLAUDE.md 记忆、边界规范、自定义技能、子智能体与 MCP 消费等组件。仓库含分段讲义、示例配置与 Node 依赖，适合按模块动手完成实验。
+- 标签：`Claude Code` `课程` `O'Reilly` `MCP` `教程`
+- 来源：GitHub Star
+
+### [AI-Compass](https://github.com/tingaicompass/AI-Compass)
+- 发现：2026-01-16
+- 一句话：系统化整理 AI 技术栈、实战代码与学习路径的开源知识导航项目。
+- 摘要：AI-Compass 为初学者与进阶开发者提供从基础到前沿的 AI 学习路线，整合大模型、多模态、RAG、Agent、MCP 等模块的博客、可运行代码与资源索引。仓库可按安装说明配置为 Codex 与 Claude Code 的本地知识库 Skill，便于在编码智能体中检索技术资料。内容持续更新并划分博客、Code、框架、应用实践等多个子模块。
+- 标签：`学习路线` `知识库` `RAG` `Agent` `开源`
+- 来源：GitHub Star
+
+### [代码随想录](https://github.com/youngyangyang04/leetcode-master)
+- 发现：2026-01-13
+- 一句话：《代码随想录》LeetCode 刷题攻略仓库，按专题顺序讲解高频题与图解。
+- 摘要：本仓库配套《代码随想录》刷题路线，按知识脉络与难度排列题目，提供图文题解与视频讲解，主线为 C++，并含 Java、Python、Go、JavaScript 等实现。README 即刷题总目录，适合系统准备算法面试。
+- 标签：`LeetCode` `算法` `面试`
+- 来源：GitHub Star
+
+### [GitHubDaily](https://github.com/GitHubDaily/GitHubDaily)
+- 发现：2026-01-08
+- 一句话：长期分享 GitHub 优质开源项目、教程与开发者工具的资讯仓库。
+- 摘要：GitHubDaily 自 2015 年起持续整理并推荐 GitHub 上的开源技术资料、开发者工具、编程网站与应用案例，并在公众号、微博、知乎与 X 等平台同步传播。仓库按年度复盘归档推荐内容，并欢迎通过 issues 自荐或推荐项目。
+- 标签：`开源资讯` `教程` `清单`
+- 来源：GitHub Star
+
+### [LeetCode 算法笔记](https://github.com/datawhalechina/leetcode-notes)
+- 发现：2026-01-06
+- 一句话：Datawhale 开源的 LeetCode 算法与数据结构系统教程与题解。
+- 摘要：教程从数据结构与算法基础讲起，精选 LeetCode 两百余道经典题目逐题解析，并汇总知名公司高频面试题章节。提供 GitHub 仓库、在线阅读站点与 PDF 下载，按学习周期与每日打卡组织内容。
+- 标签：`LeetCode` `算法` `教程`
+- 来源：GitHub Star
+
+### [Awesome Agents](https://github.com/kyrolabs/awesome-agents)
+- 发现：2026-01-03
+- 一句话：精选开源 AI 智能体工具与产品的 Awesome 清单。
+- 摘要：Awesome Agents 汇总用于构建 AI 智能体的开源框架、评测、软件开发、研究、对话智能体、记忆与浏览器自动化等方向的链接与简介。维护者另提供 Awesome ADE 列表，聚焦智能体开发环境与并行编码编排工具。
+- 标签：`Awesome` `智能体` `清单`
+- 来源：GitHub Star
+
+### [Awesome](https://github.com/sindresorhus/awesome)
+- 发现：2026-01-02
+- 一句话：涵盖多主题的 Awesome 精选清单总索引。
+- 摘要：该仓库是 Awesome 系列的总入口，按平台、语言、前后端、安全、学习等大类链接到各主题的 Awesome 子清单。附带贡献指南、创建清单说明与订阅方式，便于发现各领域的 curated 资源集合。
+- 标签：`Awesome` `资源` `清单`
+- 来源：GitHub Star
+
+### [Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)
+- 发现：2026-01-02
+- 一句话：生产环境智能体架构与工作流的 Agentic 模式精选目录。
+- 摘要：本清单收集可重复、以智能体为中心且有公开参考的 agentic AI 模式，涵盖上下文与记忆、反馈环、编排、可靠性评测与安全等类别。配套 agentic-patterns.com 网站提供筛选、对比、决策引导与关系图等浏览方式。
+- 标签：`模式` `智能体` `Awesome`
+- 来源：GitHub Star
+
+### [Awesome CEO](https://github.com/kuchin/awesome-ceo)
+- 发现：2026-01-02
+- 一句话：面向创业公司创始人与高增长团队管理者的精选资源清单。
+- 摘要：Awesome CEO 以主观筛选方式整理融资、创业、产品、销售、营销、管理、招聘、财务与书籍等主题的文章与演讲链接。提供 Substack 订阅以获取更新，目录按职能板块组织便于查阅。
+- 标签：`创业` `管理` `Awesome`
+- 来源：GitHub Star
+
+### [Easy-Vibe](https://github.com/datawhalechina/easy-vibe)
+- 发现：2026-01-01
+- 一句话：面向 AI 原生产品构建者的 Vibe Coding 入门课程，从零做出可上线产品。
+- 摘要：Easy-Vibe 是 Datawhale 推出的 AI 编程课程，强调通过实战把想法做成真实产品，并提供多语言在线教程与交互附录。仓库含学习地图、欢迎页与 hello-claw 等延伸学习链接，面向零基础到能独立交付产品的学习者。
+- 标签：`Vibe Coding` `课程` `教程`
+- 来源：GitHub Star
+
+
 ## 2025-12
 
 ### [LangChain 1.0 & LangGraph 1.0 完整学习指南](https://github.com/BrandPeng/Langchain1.0-Langgraph1.0-Learning)

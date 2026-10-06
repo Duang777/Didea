@@ -2,6 +2,16 @@
 
 现有分类都不合适、又还不必单开一类的条目。
 
+## 2026-01
+
+### [docsify](https://github.com/docsifyjs/docsify)
+- 发现：2026-01-24
+- 一句话：无需构建步骤即可把 Markdown 变成可浏览文档网站的轻量生成器。
+- 摘要：docsify 将一份或多份 Markdown 直接渲染为网站，不预生成静态 HTML 文件。内置全文搜索插件、多主题、插件 API 与 Emoji 支持，适合用静态服务器或 GitHub Pages 快速上线文档。社区提供 CLI、CDN 与模板仓库等配套资源。
+- 标签：`文档` `Markdown` `静态站点` `轻量` `插件`
+- 来源：GitHub Star
+
+
 ## 2025-12
 
 ### [V2Ray 一键安装脚本](https://github.com/233boy/v2ray)

@@ -2,6 +2,23 @@
 
 论文、技术报告和以研究问题为主的原型。
 
+## 2026-01
+
+### [AI Agents Papers](https://github.com/masamasa59/ai-agent-papers)
+- 发现：2026-01-16
+- 一句话：按能力、架构、运维与应用分层整理的 AI Agent 论文清单，双周更新。
+- 摘要：仓库策展 AI 智能体应用与架构技术的最新研究论文，通过固定关键词定期检索 arXiv 并筛选有新意的工作，不追求穷尽收录。论文按智能体能做什么、如何构建、如何运行与落地场景四层分类，各子目录为按日期排序的阅读列表，并标注推荐、综述与基准类条目。附带分类说明文档解释归档规则。
+- 标签：`论文清单` `智能体` `综述` `arXiv` `规划`
+- 来源：GitHub Star
+
+### [Awesome GUI Agent Paper List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List)
+- 发现：2026-01-10
+- 一句话：GUI 智能体方向精选论文清单，含网站检索、筛选与 BibTeX 导出。
+- 摘要：该清单整理 GUI 智能体相关研究论文，涵盖模型、框架、基准、数据集、定位、规划、记忆与安全等主题。推荐通过 osu-nlp-group.github.io 网站全文搜索、多维筛选与单篇详情页阅读，结构化数据存于 papers.yaml。
+- 标签：`论文清单` `GUI 智能体` `检索`
+- 来源：GitHub Star
+
+
 ## 2025-11
 
 ### [DeepRAG](https://github.com/gxy-gxy/DeepRAG)

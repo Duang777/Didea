@@ -2,6 +2,16 @@
 
 MCP 服务，以及把外部系统接到智能体上的集成。
 
+## 2026-01
+
+### [小红书自动搜索评论工具](https://github.com/chenningling/Redbook-Search-Comment-MCP2.0)
+- 发现：2026-01-02
+- 一句话：基于 Playwright 的小红书搜索与评论 MCP 服务，可接入 Claude 等客户端。
+- 摘要：本项目作为 MCP Server，帮助在 MCP Client 中完成小红书登录、关键词搜索、笔记内容获取与由客户端 AI 生成评论后的发布。采用持久化浏览器上下文与模块化流程，将笔记分析、评论生成与发布分离，并支持多种评论风格配置。
+- 标签：`MCP` `小红书` `Playwright`
+- 来源：GitHub Star
+
+
 ## 2025-12
 
 ### [Firecrawl](https://github.com/firecrawl/firecrawl)

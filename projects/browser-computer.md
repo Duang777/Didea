@@ -2,6 +2,16 @@
 
 让智能体操作浏览器、桌面或整台电脑的项目。
 
+## 2026-01
+
+### [Agent S](https://github.com/simular-ai/Agent-S)
+- 发现：2026-01-14
+- 一句话：开源计算机使用智能体，像人一样操作真实图形界面的鼠标、键盘与屏幕。
+- 摘要：Agent S 是 Simular 开源的计算机使用智能体框架，在真实 GUI 上通过鼠标、键盘和屏幕完成任务。项目提供 Agent S 系列实现，并关联 Sai 与多篇技术论文与博客资料。适合研究或搭建桌面级计算机自动化与 GUI 智能体。
+- 标签：`计算机使用` `GUI` `开源`
+- 来源：GitHub Star
+
+
 ## 2025-12
 
 ### [AIO Sandbox](https://github.com/agent-infra/sandbox)

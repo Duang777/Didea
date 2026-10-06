@@ -2,6 +2,51 @@
 
 给人直接用的完整应用和产品。
 
+## 2026-01
+
+### [Kiro Account Manager](https://github.com/hj01857655/kiro-account-manager)
+- 发现：2026-01-29
+- 一句话：基于 Tauri 的桌面应用，集中管理 Kiro IDE 账号、登录与本地配置同步。
+- 摘要：Kiro Account Manager 用于导入、导出、刷新与验证 Kiro IDE 账号，并支持分组、标签与远程删除等管理能力。集成 Google、GitHub、AWS IAM Identity Center 等多种登录方式，可切换账号并同步模型、代理、MCP、Steering、Skills 等 Kiro 侧配置。内置 Token 自动刷新、配额不足换号，以及面向多种 API 形态的 Kiro 网关转发能力。
+- 标签：`Kiro` `桌面应用` `账号管理` `Tauri` `API 网关`
+- 来源：GitHub Star
+
+### [CC Switch](https://github.com/farion1231/cc-switch)
+- 发现：2026-01-26
+- 一句话：跨平台桌面工具，一键切换 Claude Code、Codex、OpenCode 等编码智能体的 API 提供商并集中管理 MCP 与技能。
+- 摘要：CC Switch 面向 Claude Code、Codex、OpenCode、OpenClaw、Hermes Agent、Pi 等多款编码智能体，无需手改 JSON、TOML 或 YAML 即可切换 API 提供商。在同一界面管理 MCP、Skills 与 Prompts 配置，降低多工具并行使用时的维护成本。提供官网下载与多语言文档，支持 WSL 等场景。
+- 标签：`桌面应用` `Claude Code` `提供商切换` `MCP` `技能管理`
+- 来源：GitHub Star
+
+### [RSSHub](https://github.com/DIYgod/RSSHub)
+- 发现：2026-01-26
+- 一句话：全球最大的开源 RSS 路由网络，把各类网站内容聚合为可订阅的 RSS 源。
+- 摘要：RSSHub 由全球数千个实例组成的 RSS 网络，持续从多种来源聚合内容并由社区维护新路由与修复。用户可自建实例或使用公共路由，配合文档、浏览器扩展与移动端雷达等生态工具发现与订阅源。口号为 Everything is RSSible，强调尽可能把在线内容转为 RSS。
+- 标签：`RSS` `聚合` `开源` `自托管` `订阅`
+- 来源：GitHub Star
+
+### [WeKnora](https://github.com/Tencent/WeKnora)
+- 发现：2026-01-19
+- 一句话：腾讯开源的 LLM 知识平台，把文档转为可检索的 RAG、自主智能体与自维护 Wiki。
+- 摘要：WeKnora 面向企业文档理解、语义检索与推理，在同一知识库上提供 RAG 问答、多步任务智能体与 Wiki 组织三种能力。智能体可安装技能并在持久沙箱中运行，支持浏览器扩展操作本地 Chrome 或 Edge，以及按需启用外部 MCP 服务。项目为开源知识管理框架，适合团队搭建可引用、可推理且可更新的知识应用。
+- 标签：`知识库` `RAG` `智能体` `Wiki` `企业`
+- 来源：GitHub Star
+
+### [opencowork（Safphere）](https://github.com/Safphere/opencowork)
+- 发现：2026-01-16
+- 一句话：开源桌面 AI 助手，作为 Cowork 的开源版在本机操作文件、终端并扩展技能与 MCP。
+- 摘要：OpenCowork 将电脑变成 AI 驱动的工作助手，支持多种具备 Agent 能力的模型且无厂商锁定。可读写本地文件、执行终端命令、管理多会话，并通过内置技能与 MCP 协议扩展搜索、阅读与图像理解等能力。提供 Windows、macOS 与 Linux 客户端，以及 Alt+Space 悬浮球快捷入口。
+- 标签：`桌面助手` `开源` `MCP` `技能` `跨平台`
+- 来源：GitHub Star
+
+### [DeepTutor](https://github.com/HKUDS/DeepTutor)
+- 发现：2026-01-10
+- 一句话：终身个性化 AI 导师产品，支持交互学习与多智能体辅导能力。
+- 摘要：DeepTutor 定位为终身个性化辅导，提供 CLI 与面向学习者的功能模块，并持续通过版本发布迭代阅读、题库练习与文档解析等能力。官网为 deeptutor.info，仓库含贡献指南与路线图讨论入口。
+- 标签：`AI 导师` `学习` `多智能体`
+- 来源：GitHub Star
+
+
 ## 2025-12
 
 ### [Paper Burner X](https://github.com/Feather-2/Burner-X)
