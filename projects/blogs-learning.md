@@ -2,6 +2,194 @@
 
 文章、教程、课程、通讯和其他学习资料。
 
+## 2025-12
+
+### [LangChain 1.0 & LangGraph 1.0 完整学习指南](https://github.com/BrandPeng/Langchain1.0-Langgraph1.0-Learning)
+- 发现：2025-12-29
+- 一句话：系统学习 LangChain 1.0 与 LangGraph 1.0 进行智能体开发的实践仓库。
+- 摘要：仓库按四阶段二十余个模块讲解从基础调用、工具与 create_agent 到 RAG、LangGraph 状态图与多智能体项目。LangChain 1.0 基于 LangGraph 运行时，涵盖中间件、结构化输出与 LangSmith 等主题，并提供 requirements 与环境变量示例。
+- 标签：`LangChain` `LangGraph` `教程`
+- 来源：GitHub Star
+
+### [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code)
+- 发现：2025-12-29
+- 一句话：从零实现类 Claude Code 智能体 Harness 的教学与示例代码仓库。
+- 摘要：Learn Claude Code 以「模型提供能动性、Harness 提供运行环境」为主线，用极简方式讲解如何搭建真实可用的编码智能体产品外壳。内容结合智能体发展史与可运行示例，面向想理解 Harness 工程而非仅调用 API 的开发者。
+- 标签：`Claude Code` `Harness` `教程`
+- 来源：GitHub Star
+
+### [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+- 发现：2025-12-29
+- 一句话：百余个开源 AI 智能体、技能与 RAG 应用示例集合，附端到端教程入口。
+- 摘要：Awesome LLM Apps 收录可克隆运行的智能体与 RAG 应用模板，兼容多种闭源与开源大模型，采用 Apache-2.0 许可。README 展示代表性项目截图，并链接 Unwind AI 上的分步教程与快速运行说明。
+- 标签：`RAG` `智能体` `示例`
+- 来源：GitHub Star
+
+### [RAG From Scratch](https://github.com/langchain-ai/rag-from-scratch)
+- 发现：2025-12-28
+- 一句话：从零讲解 RAG 索引、检索与生成的 Jupyter 笔记本与配套视频课程。
+- 摘要：配套视频playlist说明大模型知识受训练语料限制，RAG 通过外部检索文档做上下文增强生成。笔记本循序渐进覆盖 RAG 基础构件，适合与 LangChain 官方视频一起系统学习检索增强生成原理与实现。
+- 标签：`RAG` `教程` `LangChain`
+- 来源：GitHub Star
+
+### [awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources)
+- 发现：2025-12-28
+- 一句话：持续更新的大语言模型与多模态相关优质资源汇总清单。
+- 摘要：仓库汇总全世界大语言模型相关资源，涵盖多模态生成、智能体、辅助编程、数据处理、训练与推理等方向。README 强调挖掘真正有价值的项目而不仅是噱头，并按数据、微调、推理、评估、RAG、智能体等主题分目录整理。适合按主题查找课程、教程、工具与论文入口。
+- 标签：`awesome` `LLM` `资源清单` `RAG` `智能体`
+- 来源：GitHub Star
+
+### [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices)
+- 发现：2025-12-26
+- 一句话：创业团队总结的 FastAPI 最佳实践与项目结构约定。
+- 摘要：这是一份带观点的 FastAPI 实践清单，整理作者多年生产系统里的结构与约定。内容覆盖项目结构、异步路由、Pydantic、依赖注入、REST、数据库迁移与测试等主题。仓库另提供 AGENTS.md，把同一套规则写成便于 AI 代理读取的格式。适合搭建或重构 FastAPI 服务时对照参考。
+- 标签：`FastAPI` `最佳实践` `Python` `后端` `AGENTS.md`
+- 来源：GitHub Star
+
+### [CS-Notes](https://github.com/CyC2018/CS-Notes)
+- 发现：2025-12-26
+- 一句话：技术面试常用的计算机基础与算法学习笔记合集。
+- 摘要：仓库整理技术面试所需的基础知识，包括算法与 Leetcode 题解、操作系统、计算机网络、数据库、Java、系统设计与编码实践等模块。提供在线阅读入口与各专题目录链接。适合面试前系统复习或按模块查漏补缺。
+- 标签：`面试` `算法` `计算机基础` `Leetcode` `笔记`
+- 来源：GitHub Star
+
+### [Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
+- 发现：2025-12-26
+- 一句话：按天划分的 Python 从入门到进阶的中文学习路线与讲义。
+- 摘要：项目以一百天为周期组织 Python 学习材料，从语言基础、数据结构、面向对象到 Web、数据分析与机器学习等应用领域。README 说明学习曲线、职业方向与部分章节配有 B 站视频。适合按日程自学 Python 或作为培训班式讲义使用。
+- 标签：`Python` `教程` `课程` `入门` `一百天`
+- 来源：GitHub Star
+
+### [Daily Interview](https://github.com/datawhalechina/daily-interview)
+- 发现：2025-12-23
+- 一句话：Datawhale 整理的精简高频技术面试复习面经。
+- 摘要：项目面向面试前短时间复习，主张求精而准而非大而全。内容覆盖算法、编程语言、计算机基础、机器学习与深度学习、系统设计、开发技术栈、项目经验与行为面试等模块，并提供在线阅读站点。适合按岗位侧重在半天到两天内过一遍高频考点。
+- 标签：`面经` `面试` `Datawhale` `算法岗` `开发岗`
+- 来源：GitHub Star
+
+### [awesome-claude-skills（BehiSecc）](https://github.com/BehiSecc/awesome-claude-skills)
+- 发现：2025-12-23
+- 一句话：精选 Claude Skills 及相关资源的分类导航清单。
+- 摘要：仓库标题为 Awesome Claude Skills，按文档处理、开发工具、数据分析、科研写作、学习、媒体、安全与自动化等类别收录技能与工具链接。README 以表格形式列出赞助方与各条目说明。适合查找可安装的 Claude Skill 示例与相关文章合集。
+- 标签：`Claude` `Skills` `awesome` `清单` `导航`
+- 来源：GitHub Star
+
+### [awesome-claude-skills（ComposioHQ）](https://github.com/ComposioHQ/awesome-claude-skills)
+- 发现：2025-12-23
+- 一句话：面向 Claude 与多种编码代理的 Skills 与插件资源大全。
+- 摘要：仓库汇总上千个可用于 Claude.ai、Claude Code 以及 Codex、Cursor、Gemini CLI 等编码代理的 Skills 与插件，并按文档处理、开发、数据、业务等分区组织。README 还介绍 Composio 的 connect-apps 插件与 MCP 网关接入外部应用的方式。适合按场景挑选技能并了解与工具集成的配套资源。
+- 标签：`Claude` `Skills` `awesome` `编码代理` `Composio`
+- 来源：GitHub Star
+
+### [vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn)
+- 发现：2025-12-22
+- 一句话：中文 Vibe Coding 从入门到精通的 AI 结对编程工作流教程。
+- 摘要：仓库讲解从想法到产品的 AI 结对编程标准，围绕 Prompt、Skill、上下文、质量门禁与工程闭环组织内容。README 提出目标驱动、分层反馈的可验证收敛等核心命题，并链到拼好码、关键词系统、学习地图与企业架构等文档。适合系统学习中文语境下的 Vibe Coding 方法与术语。
+- 标签：`Vibe Coding` `教程` `Prompt` `Skill` `中文`
+- 来源：GitHub Star
+
+### [大模型基础](https://github.com/ZJU-LLMs/Foundations-of-LLMs)
+- 发现：2025-12-21
+- 一句话：浙江大学团队编写、持续月度更新的大模型系统教材。
+- 摘要：本书面向希望系统学习大语言模型的读者，第一版涵盖传统语言模型、大模型架构演化、Prompt 工程、参数高效微调、模型编辑与检索增强生成等章节。仓库提供完整 PDF、分章 PDF 与各章 Paper List，并计划继续补充推理加速与智能体等内容。适合作为课程或自学用的中文大模型基础读物。
+- 标签：`教材` `大模型` `RAG` `微调` `浙江大学`
+- 来源：GitHub Star
+
+### [Hugging Face Agents Course](https://github.com/huggingface/agents-course)
+- 发现：2025-12-09
+- 一句话：Hugging Face 出品的免费智能体在线课程与配套仓库。
+- 摘要：课程分四个单元，从智能体基础讲到含基准的最终作业，涵盖 LLM、函数调用微调、smolagents、LangGraph 与 LlamaIndex 等框架专题。本仓库保存课程材料，报名与学习在 hf.co/learn/agents-course 进行。适合系统入门智能体开发并完成官方练习。
+- 标签：`课程` `智能体` `Hugging Face` `smolagents` `LangGraph`
+- 来源：GitHub Star
+
+### [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents)
+- 发现：2025-12-09
+- 一句话：五十余个生成式 AI 智能体技术与实现的教程仓库。
+- 摘要：仓库汇集从简单对话机器人到多智能体系统的教程与 Jupyter 实现，主题覆盖 LangChain、LangGraph、RAG、MCP 与自主代理等。README 定位为学习与构建 GenAI 代理的综合资源，并链到作者的生产级课程宣传。适合按示例动手复现各类智能体模式。
+- 标签：`教程` `智能体` `LangGraph` `RAG` `Jupyter`
+- 来源：GitHub Star
+
+### [500+ AI Agent Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)
+- 发现：2025-12-09
+- 一句话：按行业与框架整理的五百余个 AI 智能体用例与开源项目索引。
+- 摘要：仓库 curated 医疗、金融、教育等多行业的智能体应用案例，并对比 LangGraph、CrewAI、AutoGen、Agno 等框架特点。agents 目录提供可独立运行的示例代理及依赖说明。适合选型框架或按行业寻找可参考的开源实现。
+- 标签：`awesome` `智能体` `用例` `LangGraph` `CrewAI`
+- 来源：GitHub Star
+
+### [Claude Code 使用技巧完整指南](https://github.com/gegej1/ClaudeCodeTips)
+- 发现：2025-12-09
+- 一句话：整合社区与实战经验的 Claude Code 高效使用技巧文档库。
+- 摘要：仓库汇总上下文工程、CLAUDE.md 维护、多 Agent 协作、Subagent、Hooks、TDD、Planning Mode 以及 Skills 与 MCP 取舍等主题。完整内容在 claudecode使用技巧.md，面向新手与希望规范团队 AI 编程流程的用户。适合按专题查阅 Claude Code 进阶做法。
+- 标签：`Claude Code` `技巧` `上下文` `MCP` `CLAUDE.md`
+- 来源：GitHub Star
+
+### [AgentGuide](https://github.com/adongwanai/AgentGuide)
+- 发现：2025-12-04
+- 一句话：对标 JavaGuide 的 AI Agent 系统化学习与求职导向指南。
+- 摘要：项目定位资源整合加学习路径，串联 LangGraph、RAG、多智能体、面试题与简历项目等文档，区分开发岗与算法岗路线。README 强调站在巨人肩膀上引用优质课程与论文，并标注面试与实战产出要求。适合转行或大模型 Agent 方向求职的系统导航。
+- 标签：`学习路线` `智能体` `面试` `RAG` `求职`
+- 来源：GitHub Star
+
+### [Claude Quickstarts](https://github.com/anthropics/claude-quickstarts)
+- 发现：2025-12-02
+- 一句话：帮助开发者用 Claude API 快速搭建可部署示例应用的合集。
+- 摘要：仓库包含客户支持代理、金融数据分析、Computer Use、Browser Use、自主编码代理等多个独立 quickstart 子项目。每个子目录提供可扩展的基础实现，需自备 Claude API Key。适合按场景克隆示例并二次开发自己的 Claude 应用。
+- 标签：`Claude API` `示例` `Computer Use` `Browser Use` `快速开始`
+- 来源：GitHub Star
+
+### [Claude Cookbooks](https://github.com/anthropics/claude-cookbooks)
+- 发现：2025-12-02
+- 一句话：展示 Claude API 用法与模式的官方 Notebook 食谱集。
+- 摘要：Claude Cookbooks 提供可复制集成的代码片段与指南，涵盖分类、RAG、摘要、工具调用与客户服务代理等主题。面向已有或即将获取 API Key 的开发者，并链到官方文档与社区。适合按菜谱学习提示工程与 API 集成技巧。
+- 标签：`Claude` `Cookbook` `Jupyter` `RAG` `工具调用`
+- 来源：GitHub Star
+
+
+## 2025-11
+
+### [5-Day AI Agents Intensive Course with Google](https://github.com/anxiong2025/5-Day-AI-Agents-Intensive-Course-with-Google)
+- 发现：2025-11-29
+- 一句话：Google 五天 AI 智能体强化课程的本地笔记与实验环境。
+- 摘要：仓库配套 Kaggle 与 Google 的免费五天智能体课程，含 Agent 入门、MCP 工具、会话与记忆、质量保障等单元白皮书与本地 day1 笔记本。使用 uv 管理依赖，需配置 Google API Key 并在 VS Code 中运行 Jupyter。适合跟课复现 ADK 与多智能体实验。
+- 标签：`课程` `Google` `智能体` `MCP` `Kaggle`
+- 来源：GitHub Star
+
+### [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
+- 发现：2025-11-17
+- 一句话：曾整理 B 站非公开 API 的文档仓库，现已停止维护并关停。
+- 摘要：仓库 README 声明已停止维护并永久关停。维护者称收到 B 站委托律所发出的律师函后，删除相关文档与源代码。当前页面仅保留关停说明与原因说明。
+- 标签：`B站` `API` `已归档` `文档`
+- 来源：GitHub Star
+
+### [xhs](https://github.com/cxycsx03/xhs)
+- 发现：2025-11-16
+- 一句话：以 JS 逆向实战为主题的课程资料与 B 站公开课链接合集。
+- 摘要：README 标题为 JS 逆向实战精讲，汇集 2024 年 JS 逆向零基础进阶课程与大量 B 站免费公开课链接。仓库描述涉及小红书数据采集与逆向等关键词，页面主体内容为逆向学习资源索引与联系方式。
+- 标签：`JS逆向` `教程` `爬虫` `学习`
+- 来源：GitHub Star
+
+### [MCP-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
+- 发现：2025-11-10
+- 一句话：中文 MCP 编程极速入门教程，以工具与 stdio 传输为例动手写服务器。
+- 摘要：教程介绍模型上下文协议的资源、提示、工具、采样等概念，并以 Python 与 uv 实现网络搜索 MCP 服务器为例。内容覆盖 FastMCP 装饰器定义工具、智谱搜索接口调用与服务调试思路。默认讲解 stdio 传输层实现。
+- 标签：`MCP` `教程` `Python` `中文`
+- 来源：GitHub Star
+
+### [build_mcp](https://github.com/869413421/build_mcp)
+- 发现：2025-11-09
+- 一句话：从零搭建、调试到部署 MCP 服务的保姆级中文开发教程与示例工程。
+- 摘要：教程以高德地图 API 为例实现 IP 定位与附近 POI 查询等 MCP 工具，并强调项目结构、配置、日志与异常处理等工程化要点。文档梳理 Resources、Tools、Prompts 等 MCP 概念，给出 uv 环境与推荐 src 布局。配套代码开源在同一仓库供对照实践。
+- 标签：`MCP` `教程` `Python` `工程化`
+- 来源：GitHub Star
+
+### [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH)
+- 发现：2025-11-09
+- 一句话：面向中文用户的 MCP 资源精选与指南，汇总客户端、服务器与社区资料。
+- 摘要：Awesome-MCP-ZH 介绍 MCP 协议能做什么，并按场景整理 MCP 客户端与服务器精选列表及更多玩法与开发资源。仓库包含作者撰写的多篇 MCP 相关中文分析文章链接。定位为帮助中文用户快速上手 MCP 生态的合集。
+- 标签：`MCP` `Awesome` `中文` `资源`
+- 来源：GitHub Star
+
+
 ## 2025-10
 
 ### [Qwen3-Medical-SFT](https://github.com/Zeyi-Lin/Qwen3-Medical-SFT)

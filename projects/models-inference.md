@@ -2,6 +2,16 @@
 
 模型权重、推理引擎和模型 API。
 
+## 2025-11
+
+### [Ollama](https://github.com/ollama/ollama)
+- 发现：2025-11-08
+- 一句话：在本地运行与管理 Kimi、Qwen、DeepSeek 等开源大模型的推理运行时。
+- 摘要：Ollama 帮助用户下载并在本机运行多种开源模型，提供命令行交互与 REST API。支持通过 ollama launch 对接 Claude Code、Codex、Copilot 等编码集成，也可配合 OpenClaw 等助手产品使用。提供 macOS、Windows、Linux 安装方式及官方 Docker 镜像。
+- 标签：`本地推理` `LLM` `开源模型` `API`
+- 来源：GitHub Star
+
+
 ## 2025-10
 
 ### [MiniMind](https://github.com/jingyaogong/minimind)

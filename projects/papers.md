@@ -2,6 +2,16 @@
 
 论文、技术报告和以研究问题为主的原型。
 
+## 2025-11
+
+### [DeepRAG](https://github.com/gxy-gxy/DeepRAG)
+- 发现：2025-11-11
+- 一句话：大模型逐步思考检索的研究实现 DeepRAG，含训练与维基索引流程。
+- 摘要：DeepRAG 对应论文 Thinking to Retrieve Step by Step for Large Language Models，仓库提供维基语料索引、两阶段数据构造与基于 Llama-Factory 的训练脚本说明。README 列出 Hugging Face 上的 DeepRAG 模型权重链接。
+- 标签：`RAG` `检索` `大模型` `研究`
+- 来源：GitHub Star
+
+
 ## 2025-10
 
 ### [Awesome-Self-Evolving-Agents](https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents)
