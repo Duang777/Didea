@@ -2,6 +2,30 @@
 
 现有分类都不合适、又还不必单开一类的条目。
 
+## 2026-04
+
+### [个人简历](https://github.com/hijiangtao/resume)
+- 发现：2026-04-14
+- 一句话：中文个人简历 LaTeX 模板与源码。
+- 摘要：仓库保存个人简历 LaTeX 源码与效果图，入口文件为 resume-zh_CN.tex，修改自 billryan/resume。模板使用 XeLaTeX 编译，强调易定制、Unicode 与中文字体支持，并支持 FontAwesome。可使用 Overleaf 或本地发行版编译，亦提供含字体的发布包下载方式。
+- 标签：`LaTeX` `简历模板` `中文` `XeLaTeX`
+- 来源：GitHub Star
+
+### [Resume-NG](https://github.com/fky2015/resume-ng)
+- 发现：2026-04-14
+- 一句话：追求信息密度与美观的 LaTeX 简历排版模板。
+- 摘要：Resume-NG 旨在在单页简历中提高信息密度并保持版面美观，基于 LaTeX3 编写。支持 PDF 书签、精简依赖、超链接与脚注示例，并可插入照片。提供本地 latexmk 编译与 Overleaf 在线模板链接，常用宏在 main.tex 中有示例。
+- 标签：`LaTeX` `简历` `排版` `LaTeX3`
+- 来源：GitHub Star
+
+### [Claw Code](https://github.com/ultraworkers/claw-code)
+- 发现：2026-04-01
+- 一句话：由智能体维护的 Rust 博物馆式展品仓库，非严肃生产产品。
+- 摘要：Claw Code 使用 Gajae-Code 与 LazyCodex 等 harness 在无人手工维护下持续演进，定位为智能体管理的展示品而非日常产品仓库。README 明确建议实际跑任务应使用 LazyCodex 或 Gajae-Code。仓库含 Rust 工作区、用法与路线图文档。
+- 标签：`Rust` `harness` `展品` `LazyCodex` `Gajae-Code`
+- 来源：GitHub Star
+
+
 ## 2026-03
 
 ### [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)

@@ -2,6 +2,71 @@
 
 给人直接用的完整应用和产品。
 
+## 2026-06
+
+### [AriaType](https://github.com/joe223/AriaType)
+- 发现：2026-06-16
+- 一句话：桌面端语音输入与润色层，把口述内容写入当前应用光标处。
+- 摘要：AriaType 是桌面语音层，根据当前窗口与光标语境把口述转为上下文感知的文本输出。支持降噪、VAD、本地或云端 AI 润色、模板与词级纠错记忆及词库管理。用户可在聊天回复、笔记、文档与 Agent Prompt 等场景使用，无需离开正在工作的应用。
+- 标签：`语音输入` `桌面` `本地优先` `STT`
+- 来源：GitHub Star
+
+
+## 2026-05
+
+### [Multica](https://github.com/multica-ai/multica)
+- 发现：2026-05-22
+- 一句话：可自托管的团队看板，像分配同事一样把 Issue 交给 AI 编码智能体。
+- 摘要：Multica 是 source-available 工作区，可用现有 Claude Code、Codex 等 CLI 智能体领取任务、汇报进度、提出阻塞并交回审查。强调自托管、无厂商锁定，智能体像队友一样出现在看板列上。提供官网文档、云快速开始与本地下载入口，解决多终端会话遗忘与重复解释上下文的问题。
+- 标签：`看板` `自托管` `编码智能体` `协作`
+- 来源：GitHub Star
+
+### [技术派](https://github.com/itwanger/paicoding)
+- 发现：2026-05-17
+- 一句话：基于 Spring Boot 等栈的开源技术社区，含文章、教程、搜索与评论等完整流程。
+- 摘要：技术派是用 Spring Boot、MyBatis-Plus、MySQL、Redis、ElasticSearch 等实现的社区系统，支持文章与教程发布、搜索、评论与统计，并有一键源码部署与全新 UI。提供在线站点 paicoding.com、专栏教程、管理端 paicoding-admin 与派聪明 AI 助手等配套服务。代码完全开源无二次封装，适合二次开发与实战学习。
+- 标签：`Spring Boot` `社区` `Java` `开源`
+- 来源：GitHub Star
+
+### [PmHub](https://github.com/laigeoffer/pmhub)
+- 发现：2026-05-17
+- 一句话：基于 SpringCloud 与大模型的微服务智能项目管理系统。
+- 摘要：PmHub 是一套微服务智能项目管理系统，整合认证、流程、项目管理、用户与网关等服务，并采用 Redis、RocketMQ、Docker、Vue3 等常见技术栈。项目同时提供单体与微服务两种架构版本，可作为企业工作流开发框架按需二次定制。文档站与在线体验地址在仓库说明中给出。
+- 标签：`项目管理` `SpringCloud` `微服务` `工作流` `LLM`
+- 来源：GitHub Star
+
+### [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- 发现：2026-05-16
+- 一句话：功能丰富的命令行音视频下载工具。
+- 摘要：yt-dlp 是命令行音视频下载器，支持大量站点。它在 youtube-dl 和已停止维护的 youtube-dlc 的基础上继续开发。README 说明了用法、配置、格式选择和插件。
+- 标签：`CLI` `下载器` `Python` `音视频`
+- 来源：GitHub Star
+
+
+## 2026-04
+
+### [InterviewGuide](https://github.com/Snailclimb/interview-guide)
+- 发现：2026-04-27
+- 一句话：集成简历分析、模拟面试与 RAG 知识库的智能 AI 面试平台。
+- 摘要：InterviewGuide 面向求职者、HR 与培训机构，提供简历分析、文字与语音模拟面试、面试安排、知识库管理与多模型配置。后端基于 Spring Boot、Spring AI、PostgreSQL 与 pgvector、Redis Stream 等，前端为 React。项目完整功能开源，并配套教程与文档说明。
+- 标签：`面试` `RAG` `Spring AI` `简历分析` `全栈`
+- 来源：GitHub Star
+
+### [AI 热点监控工具](https://github.com/liyupi/yupi-hot-monitor)
+- 发现：2026-04-17
+- 一句话：多源聚合抓取并用 AI 分析热点的 Web 监控工具，附带 Agent Skills。
+- 摘要：基于 Express 与 React，通过 OpenRouter 接入大模型，从 Twitter、Bing、HackerNews、B 站等八个以上信息源聚合内容，并进行查询扩展、真假识别、相关性分析与摘要。支持关键词监控、多维筛选排序、WebSocket 实时推送与邮件通知。热点能力亦封装为 Agent Skills，可在 Cursor、Copilot、Claude Code 等工具中使用。
+- 标签：`热点监控` `OpenRouter` `WebSocket` `爬虫` `Agent Skills`
+- 来源：GitHub Star
+
+### [WorkAny](https://github.com/workany-ai/workany)
+- 发现：2026-04-06
+- 一句话：通过自然语言执行任务的桌面通用 AI 智能体应用。
+- 摘要：WorkAny 是桌面 AI 智能体，支持自然语言任务输入与实时流式执行，内置文件、Shell、搜索与代码编辑等三十余种工具，并提供沙箱与产物预览。运行时基于进程内 open-agent-sdk，支持 MCP 与自定义 Skills，可配置 OpenRouter、Anthropic、OpenAI 等模型。技术栈为 React、Hono 与 Tauri。
+- 标签：`桌面智能体` `Tauri` `任务执行` `MCP` `Skills`
+- 来源：GitHub Star
+
+
 ## 2026-03
 
 ### [Scientify](https://github.com/tsingyuai/scientify)

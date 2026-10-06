@@ -2,6 +2,85 @@
 
 文章、教程、课程、通讯和其他学习资料。
 
+## 2026-06
+
+### [Design Patterns Implemented in Java](https://github.com/iluwatar/java-design-patterns)
+- 发现：2026-06-27
+- 一句话：用 Java 示例实现并讲解常见设计模式的开放源码学习仓库。
+- 摘要：站点展示多种设计模式的 Java 实现，代码由社区贡献并附注释，可按描述或源码浏览。README 说明模式可加速开发、提升可读性并避免隐蔽问题，并建议先了解相关软件设计原则。示例基于常见 Java 技术栈，强调保持设计尽可能简单。
+- 标签：`设计模式` `Java` `示例代码` `开源社区`
+- 来源：GitHub Star
+
+### [x-cli](https://github.com/better-world-ai/x-cli)
+- 发现：2026-06-05
+- 一句话：展示用 agent-cli-creator 技能与 webbridge 为各网站生成的 CLI 示例集合。
+- 摘要：仓库收录 58 同城、安居客、Rightmove 等十余个由智能体逆向接口后编写的 Go CLI，以及租房、旅行、文献等 recipe 与配套 skill。README 讲述通过一句话让智能体开 Chrome 抓包验证再脚手架实现 search 等命令的流程。依赖 agent-cli-creator 教造 CLI，kimi-webbridge 让智能体操作桌面 Chrome 获取无开放 API 的站点数据。
+- 标签：`CLI` `示例` `webbridge` `技能`
+- 来源：GitHub Star
+
+
+## 2026-05
+
+### [GoClub](https://github.com/LeoninCS/GoClub)
+- 发现：2026-05-29
+- 一句话：汇总 Go 面试真题、八股与资料的 Hugo 学习站点仓库。
+- 摘要：GoClub 围绕技术面试与系统复习整理面试真题、八股总结、资料视频与项目推荐等内容。站点基于 Hugo 部署在 GitHub Pages，域名为 goclub.space。README 说明可通过 Issue 表单投稿面经、Fork 后由 AI 提 PR 等方式贡献，并附 AI 整理面经的提示词模板。
+- 标签：`Go` `面试` `Hugo` `面经`
+- 来源：GitHub Star
+
+### [go-awesome](https://github.com/shockerli/go-awesome)
+- 发现：2026-05-27
+- 一句话：整理 Go 语言优秀开源资源与 learning 链接的中文 awesome 清单。
+- 摘要：go-awesome 持续维护 Go 生态的优秀项目、工具、大牛与组织等链接集合，目标是为项目落地加速。内容涵盖指导原则、Awesome 系列索引、框架库、中间件等分类，并在 GitHub 稳定更新。README 提供 golang.org 与国内镜像等官方入口引用。
+- 标签：`Go` `awesome` `资源整理` `中文`
+- 来源：GitHub Star
+
+### [Agent Learning Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
+- 发现：2026-05-21
+- 一句话：整理 AI Agent 学习路线、todo 与精选资料的社区 hub。
+- 摘要：Agent Learning Hub 以 README 为唯一核心展示面，把官方博客、论文、开源项目与工程经验整理成可执行的 Agent 学习 todo list。分阶段覆盖最小 agent loop、工具与 RAG、MCP 与评测等主题，并给出 Project Ladder 与 Curated Resources。Maintainer 说明当前应优先学习 coding agents、harness 工程与个人 agent 等方向，而非老式角色扮演多 agent 框架。
+- 标签：`学习路线` `Agent` `Datawhale` `教程`
+- 来源：GitHub Star
+
+
+## 2026-04
+
+### [zero-to-ai-fullstack](https://github.com/yanhua1010/zero-to-ai-fullstack)
+- 发现：2026-04-24
+- 一句话：Java 后端工程师公开记录的 AI 全栈与 RAG 知识库学习路线。
+- 摘要：作者以周为单位从 Python、FastAPI、LangChain、pgvector 到 Next.js 搭建可自托管的 RAG 知识库，支持上传文档、问答与引用来源。仓库包含后端 ETL、检索与生成模块结构，以及按周划分的学习日志与路线图进度表。
+- 标签：`学习路线` `RAG` `FastAPI` `Next.js` `全栈`
+- 来源：GitHub Star
+
+### [MiniCC](https://github.com/Louisym/MiniCC)
+- 发现：2026-04-09
+- 一句话：通过教学 demo 与手写 mini 版学习 Claude Code harness 工程。
+- 摘要：MiniCC 帮助从 Claude Code 源码理解当前 SOTA harness 设计，包含 19 个可运行的 Python 教学 demo 与 13 模块手写 mini Claude Code。仓库还提供 Rust 原版源码对照目录与参考笔记。每个 demo 聚焦 agentic loop、工具、权限、压缩、Hook 等单一主题。
+- 标签：`Claude Code` `harness` `源码学习` `教程` `Python`
+- 来源：GitHub Star
+
+### [Harness Engineering 学习指南](https://github.com/deusyu/harness-engineering)
+- 发现：2026-04-07
+- 一句话：从概念到实践的 Harness Engineering 深度学习档案。
+- 摘要：仓库记录围绕 OpenAI Harness Engineering 范式阅读原文、拆解概念与动手实践的完整过程，强调人类设计约束、智能体写代码的协作方式。整理仓库即真相、AGENTS.md 作地图、机械化 lint、智能体可读性等六大概念，并附概念文档、作品与自产介绍材料。
+- 标签：`Harness Engineering` `学习笔记` `AGENTS.md` `工程化`
+- 来源：GitHub Star
+
+### [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md)
+- 发现：2026-04-07
+- 一句话：收录多款开发者站点 DESIGN.md 设计系统分析的精选清单。
+- 摘要：本仓库提供从真实网站提炼的 DESIGN.md 文本设计系统，供编码智能体读取以生成风格一致的 UI。说明 DESIGN.md 与 AGENTS.md 的分工，并支持向社区请求特定站点的 DESIGN.md。条目涵盖模式、设计令牌与规则，面向高质量界面生成而非浅层样式。
+- 标签：`DESIGN.md` `设计系统` `awesome` `Vibe Coding` `UI`
+- 来源：GitHub Star
+
+### [AI Agent Deep Dive](https://github.com/tvytlx/ai-agent-deep-dive)
+- 发现：2026-04-01
+- 一句话：AI 智能体源码深度研究报告与最小教学 Agent 项目。
+- 摘要：仓库发布 Claude Code 等主题的 PDF 深度解析报告，部分版本在仓库内可直接下载。另含教学用最小 Python Agent，核心代码集中在 agent 与 CLI，文档在 docs 目录。当前为教学实现，内置可替换的 Fake LLM，便于后续只替换模型调用层。
+- 标签：`源码解析` `研究报告` `教学` `Claude Code` `Python`
+- 来源：GitHub Star
+
+
 ## 2026-03
 
 ### [Awesome Nano Banana Pro Prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts)

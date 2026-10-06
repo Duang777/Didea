@@ -2,6 +2,64 @@
 
 写代码、改仓库、跑命令的编码智能体和开发工具。
 
+## 2026-06
+
+### [PMB](https://github.com/oleksiijko/pmb)
+- 发现：2026-06-30
+- 一句话：面向 Claude Code、Cursor、Codex 等编码智能体的本地优先持久记忆，经 MCP 读写。
+- 摘要：PMB 为 MCP 感知的编码智能体提供本地工作区记忆，决策、教训与事实写入 SQLite，读路径不依赖云端 API 或额外 LLM 调用。通过 pip 安装后可用 setup 自动检测智能体并写入 MCP 配置，支持 recall 搜索与可视化实体图谱。强调离线、多语言与跨会话、跨智能体切换仍保留记忆。
+- 标签：`MCP` `记忆` `SQLite` `本地优先`
+- 来源：GitHub Star
+
+### [Trae Agent](https://github.com/bytedance/trae-agent)
+- 发现：2026-06-27
+- 一句话：面向通用软件工程任务的 LLM 命令行智能体，架构透明便于研究与扩展。
+- 摘要：Trae Agent 提供自然语言驱动的 CLI，可执行文件编辑、bash、顺序思考等工具链，并支持多轮交互与轨迹记录。支持 OpenAI、Anthropic、Doubao、Gemini 等多家模型与 YAML 配置。项目定位为研究友好：模块化架构便于修改、扩展与分析智能体行为，并附带 Lakeview 等步骤摘要能力。
+- 标签：`CLI` `软件工程` `工具调用` `字节跳动`
+- 来源：GitHub Star
+
+### [Cowart](https://github.com/zhongerxin/Cowart)
+- 发现：2026-06-22
+- 一句话：面向 Codex 的 tldraw 无限画布原生插件，经 MCP 在项目中持久化画布与 AI 生图。
+- 摘要：Cowart 是 Codex 原生无限画布 widget 插件，基于 tldraw 做构思、标注、生图与迭代，数据默认保存在用户项目的 canvas 目录。仓库含 Agent Plugins 规范下的 plugin.json、skills 与 MCP 入口，可在 Codex 内打开画布而非依赖外部浏览器。支持 AI 图片框、HTML 框、幻灯片与标注驱动改图，并提供 Cowart MCP 工具读写选择与资源。
+- 标签：`Codex` `MCP` `画布` `tldraw`
+- 来源：GitHub Star
+
+
+## 2026-05
+
+### [HarnessClaw Engine](https://github.com/harnessclaw/harnessclaw-engine)
+- 发现：2026-05-31
+- 一句话：Go 实现的 LLM 编程助手引擎，支持 WebSocket、工具调用、权限与技能扩展。
+- 摘要：HarnessClaw Engine 经 WebSocket、HTTP、飞书等通道提供多轮对话、流式卡片 UI、工具执行与权限流水线。内置 Bash、读写文件、Grep 等工具，并从 SKILL.md 加载可参数化技能。Query Engine 采用预处理、LLM 流式、错误退避、工具执行与续跑检查的五阶段循环，并支持多 Provider 与上下文压缩。
+- 标签：`Go` `WebSocket` `编程助手` `技能`
+- 来源：GitHub Star
+
+
+## 2026-04
+
+### [hero-coding](https://github.com/lawrencewzen/hero-coding)
+- 发现：2026-04-30
+- 一句话：极简自治编码智能体 harness，故事入 inbox 即产出 git 提交。
+- 摘要：hero-coding 是自治编码智能体的最小 harness，理念是推理放在循环与约束中，智能体本身可替换。Dispatcher 监听 inbox 并为每个用户故事创建隔离 git worktree，Worker、Verifier 与 Reviewer 组成执行—验证回合，通过后进入 done。Plan 通常在上游对话中写成故事文件，本 harness 专注 Execute 与 Verify。
+- 标签：`编码智能体` `harness` `Execute-Verify` `Git` `Go`
+- 来源：GitHub Star
+
+### [claude-code（claude-code-best）](https://github.com/claude-code-best/claude-code)
+- 发现：2026-04-01
+- 一句话：可运行、可构建的 Claude Code 工程化复刻与扩展发行版。
+- 摘要：项目称完整复原 Anthropic Claude Code，并扩展 Goal 持续驱动、Artifacts 上传、Ultracode 多智能体编排、Pipe IPC 群控与 ACP IDE 接入等能力。兼容原有配置，文档站点说明各特性用法。面向需要在本地构建与调试 Claude Code 类编码智能体的开发者。
+- 标签：`Claude Code` `编码智能体` `开源复刻` `ACP` `编排`
+- 来源：GitHub Star
+
+### [Codex CLI](https://github.com/openai/codex)
+- 发现：2026-04-01
+- 一句话：在本地终端运行的 OpenAI 轻量编码智能体。
+- 摘要：Codex CLI 是 OpenAI 的编码智能体，在本机运行。README 把它和编辑器里的 Codex、桌面应用，以及云端的 Codex Web 区分开。官方脚本、npm 和 Homebrew 都可以安装，也可以从 GitHub Release 下载对应平台的二进制。
+- 标签：`编码智能体` `CLI` `OpenAI` `终端` `Rust`
+- 来源：GitHub Star
+
+
 ## 2026-02
 
 ### [Pi](https://github.com/earendil-works/pi)

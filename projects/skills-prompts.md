@@ -2,6 +2,40 @@
 
 可复用的技能、提示词和仓库规则。
 
+## 2026-05
+
+### [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing)
+- 发现：2026-05-15
+- 一句话：面向 AI 科研写作的 Prompt 模板与 Agent Skills 合集。
+- 摘要：仓库汇总一线研究机构与高校研究者常用的论文写作技巧，包含翻译、润色、逻辑检查、去 AI 味等场景的 Prompt 模板库。第二部分提供 Agent Skills 配置说明、总览与使用示例，并持续收录写作相关技能。目标是减少重复调试 Prompt 的时间，便于开箱即用。
+- 标签：`论文写作` `Prompt` `Agent Skills` `科研`
+- 来源：GitHub Star
+
+### [skills（vibe-motion）](https://github.com/vibe-motion/skills)
+- 发现：2026-05-05
+- 一句话：面向动效与品牌视频等场景的 Vibe Motion Agent Skills 包。
+- 摘要：仓库提供可通过 npx skills add 安装的动效相关技能，涵盖尺子进度动画、打字演示、鱼眼动效、品牌发布片、K 线图与聚光灯文字等能力。README 注明项目不再维护，并指向 motionface.cc。各技能说明触发方式与典型使用示例。
+- 标签：`Agent Skills` `动效` `Remotion` `Vibe Coding`
+- 来源：GitHub Star
+
+
+## 2026-04
+
+### [The Agency](https://github.com/msitarzewski/agency-agents)
+- 发现：2026-04-17
+- 一句话：带人格与交付流程的多角色 AI 智能体人格与提示资源库。
+- 摘要：The Agency 收集各领域专用 AI 智能体人格，强调深度领域专长、鲜明沟通风格与可交付成果。可通过桌面应用 Agency Agents 一键安装到 Claude Code、Cursor、Codex 等工具，也可用脚本复制到本地智能体目录。每个智能体文件包含身份、工作流、技术交付物与成功指标。
+- 标签：`智能体人格` `Prompt` `Claude Code` `Cursor` `安装工具`
+- 来源：GitHub Star
+
+### [Frontend Slides](https://github.com/zarazhangrui/frontend-slides)
+- 发现：2026-04-03
+- 一句话：帮助编码智能体制作精美 HTML 演示稿的 Claude Code 技能插件。
+- 摘要：Frontend Slides 以技能形式让非设计背景用户生成单文件 HTML 幻灯片，支持从零创建或将 PPT 转为网页并保留图片与内容。通过视觉风格预览做选型，强调零依赖、16:9 固定版式与可访问性。可作为 Claude Code 插件安装，核心 SKILL.md 也可被其他具备文件与 Shell 能力的智能体读取。
+- 标签：`演示稿` `HTML` `Claude Code` `技能` `PPT`
+- 来源：GitHub Star
+
+
 ## 2026-03
 
 ### [EdgeOne Pages Skills](https://github.com/edgeone-pages/edgeone-pages-skills)

@@ -2,6 +2,78 @@
 
 多智能体框架、编排层和工作流运行时。
 
+## 2026-06
+
+### [OxyGent](https://github.com/jd-opensource/OxyGent)
+- 发现：2026-06-27
+- 一句话：用 Oxy 抽象把工具、模型与智能体模块化的多智能体 Python 框架。
+- 摘要：OxyGent 是开源 Python 框架，将工具、模型与智能体统一为可组合的 Oxy 组件，提供透明端到端流水线以构建、运行与演化多智能体系统。强调高效开发、智能协作、弹性拓扑、持续评估进化与分布式调度扩展。文档面向快速组装生产级智能系统，并提供 Java 版 JDOxyGent4J 姊妹仓库链接。
+- 标签：`多智能体` `模块化` `Python` `京东`
+- 来源：GitHub Star
+
+### [Eino](https://github.com/cloudwego/eino)
+- 发现：2026-06-26
+- 一句话：Go 语言的 LLM 应用与智能体开发框架，含组件、ADK 与图编排。
+- 摘要：Eino 借鉴 LangChain、Google ADK 等思路，按 Go 习惯提供 ChatModel、Tool、Retriever 等可复用组件及官方多种模型实现。Agent Development Kit 支持工具调用、多智能体协作、上下文管理与人机协同中断恢复。还可把组件连成 graph 或 workflow 独立运行，或作为智能体工具暴露。
+- 标签：`Go` `LLM` `ADK` `CloudWeGo`
+- 来源：GitHub Star
+
+
+## 2026-05
+
+### [Ragent](https://github.com/nageoffer/ragent)
+- 发现：2026-05-26
+- 一句话：面向 Agentic RAG 的 Java 生产级平台，覆盖入库、检索、记忆与 MCP 工具。
+- 摘要：Ragent 提供从文档解析到智能问答的 Agentic RAG 全链路，包括向量、关键词、图谱与联网的混合检索及 RRF 融合。支持问题重写、意图识别、多知识库路由、会话摘要记忆与 Redis 流量保护。集成 AgentScope MCP 工具发现调用，并提供入库 Pipeline、溯源、反馈 Trace 与管理后台。
+- 标签：`RAG` `Java` `MCP` `企业级`
+- 来源：GitHub Star
+
+### [Nexus Agent](https://github.com/java-up-up/nexus-agent)
+- 发现：2026-05-18
+- 一句话：企业级 AI 智能体平台，覆盖对话、RAG、MCP、Skills 与文档治理全链路。
+- 摘要：Nexus Agent 提供智能对话、文档问答、联网搜索、RAG、MCP 工具与 Skills 扩展及 Harness 控制与会话记忆。采用三层执行器体系，在确定性编排之后按场景选择追问、知识问答或 ReAct Agent。包含 Neo4j 文档结构图谱、双通道混合检索、证据预算与无证据短路、Parent-Child 切块及 Tika 解析入库等工程化模块。
+- 标签：`RAG` `Spring` `MCP` `Skills`
+- 来源：GitHub Star
+
+
+## 2026-04
+
+### [Open Deep Research](https://github.com/langchain-ai/open_deep_research)
+- 发现：2026-04-07
+- 一句话：可配置的开源深度研究智能体，支持多模型、搜索与 MCP。
+- 摘要：Open Deep Research 是深度研究类智能体应用，可在多种模型提供商、搜索工具与 MCP 服务上运行。用户可通过 LangGraph 本地启动并在 Studio UI 中交互。仓库 README 说明环境配置、依赖安装与近期更新，并指向相关课程与评测基准。
+- 标签：`深度研究` `LangGraph` `开源` `已归档` `MCP`
+- 来源：GitHub Star
+
+### [DeerFlow](https://github.com/bytedance/deer-flow)
+- 发现：2026-04-06
+- 一句话：开源长时程 SuperAgent harness，可研究、写代码并创作内容。
+- 摘要：DeerFlow 2.0 是全新编写的超级智能体 harness，编排子智能体、记忆、沙箱与可扩展技能，处理从数分钟到数小时的任务。借助工具、技能与子智能体完成深度探索与高效研究流。官方站点提供案例演示，1.x 深度研究框架在独立分支维护。
+- 标签：`SuperAgent` `harness` `多智能体` `沙箱` `LangGraph`
+- 来源：GitHub Star
+
+### [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
+- 发现：2026-04-03
+- 一句话：面向任意任务的自主深度研究智能体，可产出带引用的报告。
+- 摘要：GPT Researcher 是开源深度研究智能体，面向网页与本地数据生成详细、有据可查的研究报告。架构采用 planner 与 execution 智能体分工，并由 publisher 汇总成文。支持高度定制以构建领域研究智能体，并可安装为 Claude Skill 在对话中调用。
+- 标签：`深度研究` `自主智能体` `报告` `网页研究` `Python`
+- 来源：GitHub Star
+
+### [Full-Stack AI Agent Template](https://github.com/vstorm-co/full-stack-ai-agent-template)
+- 发现：2026-04-03
+- 一句话：带 AI 智能体、RAG 与企业集成的 FastAPI 加 Next.js 全栈项目生成器。
+- 摘要：该项目通过生成器产出生产向的 FastAPI 与 Next.js 应用，内置多种智能体框架选项、RAG 流水线、WebSocket 流式聊天与二十余项集成。涵盖 JWT、OAuth、管理面板、Celery 与 Docker 等能力，并支持 Milvus、Qdrant、pgvector、ChromaDB 等向量存储。可通过 PyPI 包 fastapi-fullstack 快速脚手架。
+- 标签：`项目模板` `全栈` `RAG` `FastAPI` `Next.js`
+- 来源：GitHub Star
+
+### [Open Agent SDK（codeany-ai）](https://github.com/codeany-ai/open-agent-sdk-typescript)
+- 发现：2026-04-01
+- 一句话：进程内运行完整智能体循环的开源 TypeScript Agent SDK。
+- 摘要：Open Agent SDK 无需子进程或外部 CLI 即可在进程内执行智能体循环，支持 Anthropic 与 OpenAI 兼容 API，可部署到云、Serverless、Docker 或 CI。提供 query 流式接口与 createAgent 多轮对话，并自动识别多种 OpenAI 兼容模型类型。亦提供 Go 语言版本。
+- 标签：`Agent SDK` `TypeScript` `进程内` `OpenAI` `Anthropic`
+- 来源：GitHub Star
+
+
 ## 2026-03
 
 ### [TinyTroupe](https://github.com/microsoft/TinyTroupe)

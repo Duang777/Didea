@@ -2,6 +2,37 @@
 
 让智能体操作浏览器、桌面或整台电脑的项目。
 
+## 2026-06
+
+### [ego lite](https://github.com/citrolabs/ego-lite)
+- 发现：2026-06-22
+- 一句话：供 AI 智能体高速跑浏览器自动化、并与用户并行共用登录态的浏览器。
+- 摘要：ego lite 让用户与 AI 智能体在同一浏览器内并行工作，智能体在隔离 Space 中执行任务而不抢占用户标签。相比需外接浏览器驱动的方案，它原生共享真实登录与标签，并通过 ego-browser 技能供 Codex 等调用。支持 macOS 应用安装、npx 添加技能或让智能体按文档自动安装。
+- 标签：`浏览器自动化` `并行` `skills` `零配置`
+- 来源：GitHub Star
+
+### [bb-browser](https://github.com/epiral/bb-browser)
+- 发现：2026-06-08
+- 一句话：让 AI 智能体通过 CLI 与 MCP 复用你已登录 Chrome 状态的浏览器 API。
+- 摘要：bb-browser 在你已登录的 Chrome 中执行站点适配命令，覆盖知乎、B 站、GitHub 等众多平台的检索与读取场景。理念是让机器直接使用人类浏览器界面而非依赖缺失的站点 API，通过 eval、fetch 或页面模块以用户身份访问。提供 npm 全局安装、社区适配器更新，并为 Claude Code、Cursor 等配置 MCP 服务。
+- 标签：`Chrome` `MCP` `CLI` `登录态`
+- 来源：GitHub Star
+
+### [Midscene.js](https://github.com/web-infra-dev/midscene)
+- 发现：2026-06-08
+- 一句话：基于视觉的 GUI 智能体，用自然语言做 Web、移动端与桌面端端到端测试。
+- 摘要：Midscene 结合视觉驱动 GUI 智能体与测试套件，通过同一套 Agent API 编写、验证与调试 UI 测试。它像人一样看屏幕、操作并检查可见结果，可点击无文字按钮、canvas 与跨域 iframe 而无需手写选择器。同一 API 可面向 Playwright Web、Android、iOS、HarmonyOS 与桌面应用，也可接入自定义截图与动作接口。
+- 标签：`E2E` `视觉` `Playwright` `GUI Agent`
+- 来源：GitHub Star
+
+### [Browser Harness](https://github.com/browser-use/browser-harness)
+- 发现：2026-06-07
+- 一句话：经 CDP 连接真实浏览器、让 LLM 完成任务并自写可复用 helper 的自愈 harness。
+- 摘要：Browser Harness 通过可编辑的 CDP WebSocket 把 LLM 直接接到真实浏览器，智能体缺 helper 时在工作区编写并复用。安装流程含 skill 注册与 chrome 远程调试授权，核心包受保护而 helper 写在 agent 本地 workspace。另提供 browser-harness-mcp，把浏览器控制 helper 暴露为 MCP 工具供多种客户端调用。
+- 标签：`CDP` `Playwright` `MCP` `自愈合`
+- 来源：GitHub Star
+
+
 ## 2026-03
 
 ### [OpenCLI](https://github.com/jackwener/OpenCLI)
