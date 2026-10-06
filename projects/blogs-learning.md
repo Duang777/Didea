@@ -2,6 +2,89 @@
 
 文章、教程、课程、通讯和其他学习资料。
 
+## 2026-03
+
+### [Awesome Nano Banana Pro Prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts)
+- 发现：2026-03-17
+- 一句话：面向 Google Nano Banana Pro 图像生成的精选提示词合集与画廊索引。
+- 摘要：仓库按 awesome 清单形式收录社区创作的 Nano Banana Pro 提示词，并关联预览图与多语言展示。README 引导到 YouMind 在线画廊进行分类浏览、全文搜索与一键生成。内容仅供学习交流，侵权可提 issue 移除。
+- 标签：`awesome` `Nano Banana Pro` `图像生成` `提示词`
+- 来源：GitHub Star
+
+### [book](https://github.com/qloog/books)
+- 发现：2026-03-16
+- 一句话：收集各类书籍与 pdf、ppt、doc 等资料的仓库。
+- 摘要：仓库 README 说明其用于收集各类书籍以及 pdf、ppt、doc 等资料。公开描述称下载链接永久有效。
+- 标签：`书籍` `资料` `PDF`
+- 来源：GitHub Star
+
+### [Awesome OpenClaw Agents](https://github.com/mergisi/awesome-openclaw-agents)
+- 发现：2026-03-12
+- 一句话：收录可复制的 OpenClaw 智能体 SOUL.md 模板清单。
+- 摘要：该 awesome 清单按生产力、开发、营销等类别整理可直接粘贴使用的 OpenClaw 智能体模板，每个模板是一份 SOUL.md 配置。README 说明模板覆盖多类业务与个人场景，并链接到社区部署与订阅渠道。
+- 标签：`awesome` `OpenClaw` `模板` `SOUL.md`
+- 来源：GitHub Star
+
+### [哈喽！龙虾](https://github.com/datawhalechina/hello-claw)
+- 发现：2026-03-11
+- 一句话：从零领养与构建 OpenClaw 命令行 AI 助理的 Datawhale 教程。
+- 摘要：教程分领养使用、龙虾大学场景实战与构建开发三大模块，覆盖安装配置、聊天渠道、模型与网关、Skills 选型及源码拆解。面向零基础用户、效率场景与希望定制自有 Claw 的开发者，并提供在线阅读站点与持续更新的章节目录。
+- 标签：`OpenClaw` `教程` `Skills` `Datawhale`
+- 来源：GitHub Star
+
+### [Awesome Open Source Flutter Apps](https://github.com/fluttergems/awesome-open-source-flutter-apps)
+- 发现：2026-03-09
+- 一句话：精选开源 Flutter 应用项目的 awesome 清单。
+- 摘要：清单按开发者工具、生成式 AI、理财、游戏等类别收录开源 Flutter 应用，并注明各项目在 fluttergems.dev 的展示。贡献者需阅读仓库 CONTRIBUTING 指南后提交 PR 增补条目。
+- 标签：`awesome` `Flutter` `开源应用`
+- 来源：GitHub Star
+
+### [full-stack](https://github.com/xuya227939/full-stack)
+- 发现：2026-03-04
+- 一句话：基于 Next.js 16 与 React 19 的全栈项目模板与快速上手指南。
+- 摘要：模板集成 Web 前端与 API、Supabase 鉴权、Stripe 与支付宝支付、Resend 邮件、Redis、R2 存储、SEO、博客与 i18n 等模块。README 列出 SnapVee、SkillHub 等站点案例，并说明用 Bun 安装依赖、复制环境变量后本地启动的开发流程。
+- 标签：`Next.js` `模板` `全栈` `Supabase`
+- 来源：GitHub Star
+
+
+## 2026-02
+
+### [awesome-agent-skills](https://github.com/libukai/awesome-agent-skills)
+- 发现：2026-02-24
+- 一句话：Agent Skills 入门、规范说明与精选资源的中文 awesome 指南。
+- 摘要：项目遵循少而精原则汇总优质 Skill 教程与实践，并介绍开放规范下的 SKILL.md 结构与渐进式加载机制。README 列出 Claude Code、Cursor、Copilot 等宿主支持情况，以及安装路径与 frontmatter 字段要求。适合作为构建垂直能力 Agent 的学习索引。
+- 标签：`awesome` `Agent Skills` `教程` `规范`
+- 来源：GitHub Star
+
+### [Awesome OpenClaw Use Cases](https://github.com/hesamsheikh/awesome-openclaw-usecases)
+- 发现：2026-02-22
+- 一句话：社区整理的 OpenClaw 真实生活与工作场景用例合集。
+- 摘要：清单聚焦如何用 OpenClaw 改善日常，而非罗列技能本身，并按社媒、创意构建等分类链接到具体用例文档。README 警告所引用的第三方技能与插件可能未经审计，使用前需自行审查源码与权限。维护者邀请在 X 上交流更多场景。
+- 标签：`awesome` `OpenClaw` `用例` `社区`
+- 来源：GitHub Star
+
+### [大模型应用开发 -上下文工程与运行空间实践指南](https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering)
+- 发现：2026-02-17
+- 一句话：围绕上下文工程与 Agent 运行空间的大模型应用开发实践指南。
+- 摘要：文档阐述如何在有限上下文窗口中选择并组织与任务相关的信息，并说明 Harness Engineering 为智能体搭建能力结构、协作与反馈闭环的思路。项目将 RAG、记忆、提示与评估等模块纳入统一框架，帮助开发者串联大模型应用各环节。仓库提供中文主线 README 与配图说明概念关系。
+- 标签：`上下文工程` `Harness` `教程` `Agent`
+- 来源：GitHub Star
+
+### [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)
+- 发现：2026-02-09
+- 一句话：汇集 Claude Code 子智能体、命令、技能与编排工作流等实践与示例的学习仓库。
+- 摘要：仓库主题是从 vibe coding 走向 agentic engineering，整理 Claude Code 相关概念、最佳实践与可落地的实现示例。内容按子智能体、斜杠命令、技能等维度分目录，并链接官方文档与社区资源。适合对照仓库结构学习如何在项目中配置与组合这些能力。
+- 标签：`Claude Code` `最佳实践` `技能` `子智能体` `教程`
+- 来源：GitHub Star
+
+### [AI Agents 智能体项目](https://github.com/NanGePlus/ReActAgentsTest)
+- 发现：2026-02-03
+- 一句话：南哥 AGI 研习社在视频频道分享的 AI Agent 开源示例与配套代码合集。
+- 摘要：仓库保存作者在 YouTube 与 B 站发布的 AI Agent 相关教程资源，全部开源免费。各子文件夹对应具体视频主题，例如 LangGraph 与 ReAct 结合高德地图 MCP、人工审查工具调用、长短期记忆，以及基于 FastAPI 的生产级 Agent 接口与前端演示等。适合按目录对照视频逐步复现实战案例。
+- 标签：`教程` `LangGraph` `ReAct` `MCP` `实战`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [claude-code（timothywarner-org）](https://github.com/timothywarner-org/claude-code)

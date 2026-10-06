@@ -2,6 +2,33 @@
 
 MCP 服务，以及把外部系统接到智能体上的集成。
 
+## 2026-03
+
+### [lark-cli](https://github.com/larksuite/cli)
+- 发现：2026-03-29
+- 一句话：飞书官方 CLI，覆盖消息、文档、多维表格等并为 AI 智能体提供 Skills。
+- 摘要：lark-cli 由飞书团队维护，提供两百余条命令与二十余项 Agent Skills，覆盖消息、文档、Base、日历、邮件、任务、会议等场景。强调 Agent 友好参数与结构化输出，支持快捷命令、API 命令与原始 API 三层体系。文档说明个人快速上手与企业嵌入自有 Agent 的扩展方式。
+- 标签：`飞书` `CLI` `Agent Skills` `企业协作` `集成`
+- 来源：GitHub Star
+
+### [小红书创作者MCP工具包](https://github.com/aki66938/xhs-toolkit)
+- 发现：2026-03-09
+- 一句话：通过 MCP 与 AI 客户端集成的小红书创作发布与数据采集工具包。
+- 摘要：README 声明作者已停止维护约一年且后续不再计划推进。工具包支持 Cookie 管理、图文与视频笔记发布、话题标签，以及创作者中心仪表板与粉丝等数据的定时采集与 CSV 存储。需本机 Chrome 与版本匹配的 ChromeDriver，并可配置远程浏览器实例。
+- 标签：`小红书` `MCP` `发布` `数据采集`
+- 来源：GitHub Star
+
+
+## 2026-02
+
+### [Agent Reach](https://github.com/Panniantong/Agent-Reach)
+- 发现：2026-02-26
+- 一句话：一条 CLI 让智能体读取与搜索 Twitter、Reddit、YouTube、GitHub、B站与小红书等站点。
+- 摘要：Agent Reach 主打零 API 费用的一站式互联网接入，替智能体完成各平台安装、配置与健康检查。README 强调接入方式会随环境更新而调整，用户无需自行折腾底层方案。支持 Claude Code、Cursor 等宿主，并文档化多语言快速上手流程。
+- 标签：`CLI` `爬虫` `MCP` `多平台`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [小红书自动搜索评论工具](https://github.com/chenningling/Redbook-Search-Comment-MCP2.0)

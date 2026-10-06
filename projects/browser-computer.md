@@ -2,6 +2,23 @@
 
 让智能体操作浏览器、桌面或整台电脑的项目。
 
+## 2026-03
+
+### [OpenCLI](https://github.com/jackwener/OpenCLI)
+- 发现：2026-03-30
+- 一句话：把网站与已登录浏览器变成 CLI，供人与 AI 智能体确定性调用。
+- 摘要：OpenCLI 将网站、浏览器会话、Electron 应用与本地工具统一为命令行接口，内置多站点适配器，并可通过 opencli browser 在已登录 Chrome 上导航、填表、点击与抽取数据。需安装 Browser Bridge 扩展与本地守护进程，提供 OpenCLIApp 桌面安装方式或 npm 全局安装。配套技能可指导智能体编写新适配器。
+- 标签：`浏览器自动化` `CLI` `Chrome` `适配器` `Playwright`
+- 来源：GitHub Star
+
+### [AutoCLI](https://github.com/nashsu/AutoCLI)
+- 发现：2026-03-25
+- 一句话：Rust 实现的极速 CLI，从五十五余站点与桌面应用抓取信息供智能体使用。
+- 摘要：AutoCLI 前身 opencli-rs，用单二进制从 Twitter、Reddit、B站、知乎等站点与 Electron 应用获取数据，并支持注册本地 CLI 供 Agent 发现。基于 OpenCLI 思路用 Rust 重写，强调更低内存与无 Node 运行时依赖。可与 AutoCLI.ai 云市场及 AI 生成适配规则同步。
+- 标签：`CLI` `Rust` `浏览器会话` `适配器` `OpenCLI`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [Agent S](https://github.com/simular-ai/Agent-S)

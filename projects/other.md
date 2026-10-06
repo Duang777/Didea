@@ -2,6 +2,26 @@
 
 现有分类都不合适、又还不必单开一类的条目。
 
+## 2026-03
+
+### [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)
+- 发现：2026-03-22
+- 一句话：面向 AI 数据提取与无障碍自动化的开源 PDF 解析工具。
+- 摘要：OpenDataLoader PDF 可从 PDF 提取 Markdown、带边界框的 JSON 和 HTML，支持本地确定性模式与 AI 混合模式处理复杂版面。内置 OCR 与表格、公式等提取能力，并提供 Python、Node.js、Java SDK 及 LangChain 集成。同时支持将无标签 PDF 自动标注为可供读屏使用的 Tagged PDF。
+- 标签：`PDF` `文档解析` `RAG` `无障碍`
+- 来源：GitHub Star
+
+
+## 2026-02
+
+### [docmd](https://github.com/docmd-io/docmd)
+- 发现：2026-02-14
+- 一句话：面向人与机器的文档编译器，一份 Markdown 可同时生成网站、搜索与 AI 上下文等输出。
+- 摘要：docmd 用文件夹中的 Markdown 作为唯一源，运行开发命令即可在本地预览，导航由目录结构自动生成，无需额外配置文件或 frontmatter。构建命令会产出可部署到常见静态托管环境的站点。项目还支持语义搜索、多语言与插件等能力，并可将文档导出为多种知识格式供智能体使用。
+- 标签：`文档` `Markdown` `静态站点` `语义搜索` `AI`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [docsify](https://github.com/docsifyjs/docsify)

@@ -2,6 +2,61 @@
 
 多智能体框架、编排层和工作流运行时。
 
+## 2026-03
+
+### [TinyTroupe](https://github.com/microsoft/TinyTroupe)
+- 发现：2026-03-29
+- 一句话：基于大模型的多智能体人格模拟库，用于商业洞察与想象增强。
+- 摘要：TinyTroupe 用 LLM 模拟具个性、兴趣与目标的 TinyPerson 智能体，在 TinyWorld 环境中互动，侧重仿真而非直接辅助用户。适用于广告离线评估、系统测试输入、合成数据生成与产品管理情景探索等。库提供论文预印本与公开实验材料。
+- 标签：`多智能体` `人格模拟` `LLM` `仿真` `Python`
+- 来源：GitHub Star
+
+### [Deep Agents](https://github.com/langchain-ai/deepagents)
+- 发现：2026-03-18
+- 一句话：开箱即用的开源智能体 harness，基于 LangGraph 可扩展替换各组件。
+- 摘要：Deep Agents 是偏工程化的智能体运行时，默认面向长程多步任务，可与支持工具调用的各类模型配合。内置子智能体、可插拔文件系统、上下文摘要与工具输出落盘、沙箱命令执行、持久记忆、人机审批与按需加载 Skills，并支持 MCP 与自定义工具。
+- 标签：`LangGraph` `harness` `子智能体` `MCP`
+- 来源：GitHub Star
+
+### [InsForge](https://github.com/InsForge/InsForge)
+- 发现：2026-03-11
+- 一句话：面向智能体编码的一体化开源后端，为编码智能体提供数据库、鉴权与托管等能力。
+- 摘要：InsForge 让编码智能体像后端工程师一样操作基础设施：通过自托管或云端的 MCP 服务，以及云端的 CLI 与 Skills 读取文档与 schema、查看日志，并部署函数、迁移数据库、配置存储与鉴权等。平台集成认证、数据库、存储、边缘函数、模型网关、计算与部署等原语。
+- 标签：`BaaS` `智能体编码` `MCP` `PostgreSQL`
+- 来源：GitHub Star
+
+### [CLI-Anything](https://github.com/HKUDS/CLI-Anything)
+- 发现：2026-03-10
+- 一句话：为各类软件生成可供智能体调用的 CLI harness 与社区 CLI-Hub。
+- 摘要：CLI-Anything 旨在让现有软件以命令行形式被 AI 智能体操作，并提供 CLI-Hub 浏览、安装与管理社区构建的 CLI。README 展示智能体借助生成 CLI 与预览循环完成 CAD、3D、字幕等真实产出，并欢迎贡献新 CLI 或提交愿望单。
+- 标签：`CLI` `Agent-Native` `harness` `CLI-Hub`
+- 来源：GitHub Star
+
+### [Paperclip](https://github.com/paperclipai/paperclip)
+- 发现：2026-03-05
+- 一句话：用任务看板编排多智能体团队、预算与目标的开源工作台。
+- 摘要：Paperclip 是 Node 服务加 React 界面，用于为商业目标组建多角色智能体并跟踪工作与成本。支持为各智能体选择模型与 harness，同时统一管理任务、技能、权限与历史。README 将其类比为管理 AI 员工的公司层，而非单一代码仓库助手。
+- 标签：`多智能体` `编排` `目标管理` `OpenClaw`
+- 来源：GitHub Star
+
+
+## 2026-02
+
+### [OpenViking](https://github.com/volcengine/OpenViking)
+- 发现：2026-02-14
+- 一句话：面向 AI 智能体的开源上下文数据库，统一承载知识、记忆与技能。
+- 摘要：OpenViking 是面向 AI 智能体的上下文数据库，把智能体所需的知识、记忆与技能放在同一套虚拟文件系统中组织。智能体可用类似浏览文件的方式列出、读取、写入与检索上下文，便于人工检查与编辑智能体所知内容。项目定位为可自进化的上下文基础设施，用于融合记忆、知识检索与技能管理。
+- 标签：`智能体` `记忆` `RAG` `上下文` `知识库`
+- 来源：GitHub Star
+
+### [Refly](https://github.com/refly-ai/refly)
+- 发现：2026-02-03
+- 一句话：开源的智能体技能构建平台，用可视化工作流定义可版本化、可导出的原子技能。
+- 摘要：Refly 定位为首个开源的智能体技能构建平台，把企业 SOP 编译成稳定、原子化且可版本管理的可执行技能，而非一次性提示词。技能可在 Refly 中一键运行，也可导出到 Claude Code、Cursor、Codex 等环境，或部署为 API 与 Slack、飞书等机器人。提供自托管部署指南、托管工作区与官方技能注册库。
+- 标签：`技能构建` `工作流` `自动化` `Claude Code` `开源平台`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [Agent Kit](https://github.com/leemysw/agent-kit)

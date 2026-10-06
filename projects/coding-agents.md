@@ -2,6 +2,23 @@
 
 写代码、改仓库、跑命令的编码智能体和开发工具。
 
+## 2026-02
+
+### [Pi](https://github.com/earendil-works/pi)
+- 发现：2026-02-11
+- 一句话：可扩展的极简编码智能体 harness，提供统一模型接口、智能体循环与终端交互式 CLI。
+- 摘要：Pi 是一个极简、可扩展的智能体 harness，可通过扩展、技能、提示模板与主题按你的工作流定制。默认侧重编码场景，支持交互式使用、打印或 JSON 模式自动化、RPC 控制，也可用 TypeScript SDK 构建应用。安装命令行工具后在项目目录启动，即可连接内置或自备的模型提供商并下达任务。
+- 标签：`编码智能体` `CLI` `harness` `TypeScript` `可扩展`
+- 来源：GitHub Star
+
+### [memU](https://github.com/NevaMind-AI/memU)
+- 发现：2026-02-01
+- 一句话：跨会话、跨智能体与跨设备的个人记忆系统，以 Wiki 形式沉淀可复用技能。
+- 摘要：memU 是轻量的智能体驱动记忆系统，为用户在多次会话、多种编码智能体与多台设备间提供共享的 LLM Wiki。它会从智能体历史中自动蒸馏可复用的个人技能，核心记忆逻辑体量很小便于审阅与改造。通过 memu.so 获取 API Key 并按技能说明安装后，可与 Codex、Claude Code、Cursor、OpenClaw 等宿主配合做记忆写入与检索。
+- 标签：`记忆` `Wiki` `编码智能体` `技能` `MCP`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [ECC](https://github.com/affaan-m/ECC)

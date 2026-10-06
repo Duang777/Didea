@@ -2,6 +2,96 @@
 
 给人直接用的完整应用和产品。
 
+## 2026-03
+
+### [Scientify](https://github.com/tsingyuai/scientify)
+- 发现：2026-03-30
+- 一句话：端到端自主演进的 AI 科研系统，可产出研究论文与实验结果。
+- 摘要：Scientify 接收研究目标后自主完成文献调研、假设生成、代码实现、审查与实验，并在多轮中沉淀经验。案例包括自主提出 KV2 算法与黑洞热力学论文等成果，相关方法论文称已被 ICML 2026 录用。用户可在 Scientify.tech 注册后在隔离云电脑中持续运行研究任务。
+- 标签：`AI 科研` `多智能体` `自主研究` `云工作区`
+- 来源：GitHub Star
+
+### [nanoclaw-py](https://github.com/ApeCodeAI/nanoclaw-py)
+- 发现：2026-03-30
+- 一句话：约五百行 Python 实现的 Telegram 个人 AI 智能体。
+- 摘要：nanoclaw-py 基于 Claude Agent SDK，通过 Telegram 与用户对话，可读写文件、执行命令、搜索网页并定时任务。长期记忆依赖 CLAUDE.md，对话按日归档。仓库提供七天渐进式 episodes 课程，从回声机器人演进到完整 Agent，属 ApeCode 学习系列。
+- 标签：`个人助手` `Telegram` `Claude Agent SDK` `轻量` `Python`
+- 来源：GitHub Star
+
+### [Huobao Drama](https://github.com/chatfire-AI/huobao-drama)
+- 发现：2026-03-18
+- 一句话：一站式 AI 短剧生成平台，从剧本到成片自动化生产。
+- 摘要：Huobao Drama 用大模型解析剧本并提取角色、场景与分镜，再结合文生图与文生视频模型生成镜头并合成整集。提供 Nuxt 前端、Hono 后端、Electron 桌面端与内置 Mastra 智能体及可编辑 Skills。支持角色管理、批量视频任务、FFmpeg 合成导出与统一资产库。
+- 标签：`短剧` `文生视频` `全栈` `桌面端`
+- 来源：GitHub Star
+
+### [ClawFeed](https://github.com/kevinho/clawfeed)
+- 发现：2026-03-17
+- 一句话：从 Twitter、RSS 等源生成结构化摘要的 AI 新闻简报与 Web 仪表盘。
+- 摘要：ClawFeed 将大量信息源整理为四小时、每日、每周与每月等频率的结构化摘要，支持 Twitter、RSS、Hacker News、Reddit 等来源与 Source Packs 分享。提供标记、深度分析、智能筛选、RSS 输出与多用户 Google 登录。可独立 Docker 部署，也可作为 OpenClaw 或 Zylos 技能由智能体定时生成简报。
+- 标签：`新闻聚合` `摘要` `仪表盘` `OpenClaw`
+- 来源：GitHub Star
+
+### [Jellyfish](https://github.com/Forget-C/Jellyfish)
+- 发现：2026-03-17
+- 一句话：面向 AI 生成短剧的端到端制作工作台。
+- 摘要：Jellyfish 从剧本文本到分镜准备、一致性管理、镜头生成与导出串联完整流程。角色、场景、道具与服装集中管理以降低跨镜头漂移，文生图与文生视频等长任务走统一异步任务系统。还提供模型管理、提示模板、文件与 OpenAPI 协作等可扩展基础设施。
+- 标签：`短剧` `分镜` `一致性` `工作台`
+- 来源：GitHub Star
+
+### [TorchCode](https://github.com/duoan/TorchCode)
+- 发现：2026-03-16
+- 一句话：基于 Jupyter 的 PyTorch 面试刷题平台，支持自动判题与即时反馈。
+- 摘要：TorchCode 提供约 41 道常见 PyTorch 面试题，要求在笔记本中从零实现算子与 Transformer 等结构。内置自动评判、梯度校验、计时、提示与参考解，并跟踪解题进度。可自托管本地运行，也可在 Hugging Face Spaces 或 Colab 中使用。
+- 标签：`PyTorch` `面试` `Jupyter` `自动判题`
+- 来源：GitHub Star
+
+### [delphitools](https://github.com/1612elphi/delphitools)
+- 发现：2026-03-08
+- 一句话：在浏览器本地运行的八十多款数字创意小工具合集。
+- 摘要：delphitools 用 Ember.js 与 Crayon CSS 实现，工具模块化且持续扩充，涵盖音视频、计算、配色、开发与图像等类别。无需登录与付费墙，可完全离线使用；也可克隆仓库用 Bun 启动本地 Vite 开发服务器。另提供 Rust CLI 与 iOS 版本链接。
+- 标签：`浏览器工具` `本地优先` `开源` `创意`
+- 来源：GitHub Star
+
+### [AI News Aggregator](https://github.com/SuYxh/ai-news-aggregator)
+- 发现：2026-03-07
+- 一句话：聚合多平台与 RSS 源并筛选 AI 相关资讯的 Web 应用。
+- 摘要：项目从十余个聚合平台、七十余 RSS 与五十余个微信公众号等源抓取内容，并用关键词过滤 AI 与科技相关条目。GitHub Actions 每两小时更新数据，前端支持搜索、筛选、双语标题、收藏、阅读历史与暗色模式。输出结构化 JSON 便于二次开发。
+- 标签：`AI资讯` `RSS` `聚合` `React`
+- 来源：GitHub Star
+
+
+## 2026-02
+
+### [OpenClaw + n8n Stack](https://github.com/caprihan/openclaw-n8n-stack)
+- 发现：2026-02-22
+- 一句话：预配置的 Docker 栈，组合 OpenClaw 智能体网关与 n8n 工作流自动化。
+- 摘要：该仓库用 docker-compose 同时运行 OpenClaw 与 n8n，使智能体可通过 webhook 触发可视化工作流并连接外部集成。README 对比两者能力并给出邮件分拣、内容流水线、社媒监控等组合用例。需自备 Anthropic 等 API 密钥，并附带 workflows 目录示例可导入 n8n。
+- 标签：`Docker` `OpenClaw` `n8n` `自托管`
+- 来源：GitHub Star
+
+### [LobsterAI](https://github.com/netease-youdao/LobsterAI)
+- 发现：2026-02-19
+- 一句话：网易有道开源的桌面级办公智能体，可在本机文件与终端上执行真实工作。
+- 摘要：LobsterAI 基于 OpenClaw 运行时，在桌面应用内保留会话、权限、工件与 IM 绑定，Cowork 层负责产品化体验。支持长任务流式进度、多智能体配置、专家套件与二十八项内置技能，涵盖文档、表格、浏览器自动化与多渠道远程指令。提供 Electron 跨平台客户端下载。
+- 标签：`桌面智能体` `办公` `OpenClaw` `Electron`
+- 来源：GitHub Star
+
+### [微信公众号文章批量下载工具](https://github.com/qiye45/wechatDownload)
+- 发现：2026-02-16
+- 一句话：批量下载微信公众号文章与评论、合集的多格式桌面工具。
+- 摘要：工具在 Windows 与 macOS 上运行，无需安装证书，可将历史消息保存为 html、mhtml、md、pdf、docx 或 csv，并下载文内图片、视频与音频。通过复制文章链接获取公众号 id 与密钥后即可批量抓取。4.4 起支持 MCP 与 Skill 调用以拉取文章、合集与导出数据。
+- 标签：`微信` `下载` `公众号` `MCP`
+- 来源：GitHub Star
+
+### [SurfSense](https://github.com/MODSetter/SurfSense)
+- 发现：2026-02-10
+- 一句话：可离线、注重隐私的开源桌面应用，作为 NotebookLM 的替代，在本地处理文档并生成多种成品。
+- 摘要：SurfSense 是免费开源的桌面应用，可导入已有文档，进行带引用来源的问答，并把同一批材料生成简报、幻灯片、报告、学习指南或播客等内容。索引与推理都在本机完成，由用户选择模型，应用不上传文档且无需注册账号。提供 Windows、macOS 与 Linux 安装包下载。
+- 标签：`NotebookLM` `桌面应用` `RAG` `隐私` `自托管`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [Kiro Account Manager](https://github.com/hj01857655/kiro-account-manager)

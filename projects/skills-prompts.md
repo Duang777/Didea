@@ -2,6 +2,61 @@
 
 可复用的技能、提示词和仓库规则。
 
+## 2026-03
+
+### [EdgeOne Pages Skills](https://github.com/edgeone-pages/edgeone-pages-skills)
+- 发现：2026-03-25
+- 一句话：在 EdgeOne Pages 上开发与部署项目的官方 Agent Skills。
+- 摘要：这是 EdgeOne Pages 的官方技能包，安装后编码智能体在相关任务时会自动选用对应技能。包含 edgeone-pages-deploy，用于一键部署前端或全栈项目并返回预览链接；以及 edgeone-pages-dev，指导 Edge Functions、云函数与中间件等全栈能力开发。可通过 npx skills add 安装。
+- 标签：`EdgeOne` `部署` `全栈` `skills`
+- 来源：GitHub Star
+
+### [Seedance Prompt Skill for Claude Code](https://github.com/songguoxs/seedance-prompt-skill)
+- 发现：2026-03-24
+- 一句话：为字节 Seedance 2.0 视频平台生成结构化中文提示词的 Claude Code 技能。
+- 摘要：该技能把 Claude 变成面向 Seedance 2.0 即梦平台的视频提示词工程师，根据自然语言创意输出可直接粘贴的结构化中文提示。覆盖纯文生视频、一致性控制、镜头运动复刻、分镜时间戳、多模态 @ 引用等十种核心能力与多种场景策略。
+- 标签：`Seedance` `视频生成` `提示词` `Claude Code`
+- 来源：GitHub Star
+
+### [News Aggregator Skill](https://github.com/cclank/news-aggregator-skill)
+- 发现：2026-03-10
+- 一句话：为智能体聚合多源科技金融新闻并生成深度中文简报的技能。
+- 摘要：该技能覆盖四十余个 RSS 与站点源，可用 OPML 扩展订阅，并针对 OpenClaw 等原生 Agent 平台设计。支持零配置抓取、Playwright 深度正文获取，以及综合、财经、科技与 AI 等场景化早报模板。还提供交互菜单口令，便于用序号选择任务。
+- 标签：`新闻聚合` `RSS` `OpenClaw` `深度阅读`
+- 来源：GitHub Star
+
+### [Impeccable](https://github.com/pbakaus/impeccable)
+- 发现：2026-03-09
+- 一句话：帮助 AI 编码智能体做好前端设计的技能、命令与确定性检测规则。
+- 摘要：Impeccable 在 frontend-design 思路之上提供统一安装流与二十四个设计相关命令，如 init、craft、audit、critique 等。init 会写入 PRODUCT.md 记录产品事实，后续命令在此基础上迭代界面。CLI 与浏览器扩展可运行六十条无需大模型的确定性规则，另有面向体验的 LLM 评审检查。
+- 标签：`前端设计` `skills` `a11y` `审计`
+- 来源：GitHub Star
+
+### [xiaohongshu-ops](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill)
+- 发现：2026-03-09
+- 一句话：搭配 OpenClaw 运营小红书账号的分析、选题、创作与发布技能。
+- 摘要：技能基于浏览器 CDP 自动化，首次扫码登录后可复用会话。支持首页推荐流分析、账号与选题灵感、知识库沉淀 markdown，以及自动发布、回复评论、下载笔记与爆款复刻等流程。通过 OpenClaw、Codex 一句话安装或 clawhub install xiaohongshu-ops 部署。
+- 标签：`小红书` `OpenClaw` `运营` `浏览器自动化`
+- 来源：GitHub Star
+
+### [Auto-Redbook-Skills](https://github.com/comeonzhj/Auto-Redbook-Skills)
+- 发现：2026-03-07
+- 一句话：自动撰写小红书笔记、渲染多主题卡片并可选发布的 Skills。
+- 摘要：技能包重构后提供八套主题皮肤与 separator、auto-fit、auto-split、dynamic 等分页模式，统一卡片结构并匹配封面与正文样式。可通过 Claude Code 插件、Agent 拉取仓库或放入各客户端 skills 目录安装，并用 Python 或 Node 脚本 render_xhs.py 渲染图片。使用前 README 提醒阅读小红书官方 AI 托管治理公告。
+- 标签：`小红书` `卡片渲染` `skills` `Playwright`
+- 来源：GitHub Star
+
+
+## 2026-02
+
+### [Skill From Masters](https://github.com/GBSOSS/skill-from-masters)
+- 发现：2026-02-03
+- 一句话：在编写新技能前，先检索并融入领域专家方法论的可复用 Agent 技能。
+- 摘要：该技能帮助你在生成任何新技能之前，从本地方法论库与网络来源发现框架、原则与最佳实践。流程包括查找标杆产出示例、归纳常见反模式，并在多源之间交叉验证共识与分歧。选定方法论后抽取可执行原则，再交给技能创建流程生成最终技能，适用于 Claude Code、Codex 等平台。
+- 标签：`技能` `方法论` `Claude Code` `最佳实践` `领域专家`
+- 来源：GitHub Star
+
+
 ## 2026-01
 
 ### [Skill Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
